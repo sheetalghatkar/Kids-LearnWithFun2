@@ -137,8 +137,8 @@ class HomeViewController: UIViewController {
             setPictureVC.imageNameArray = CommanArray.birdNameArray
         }
         else if tapGestureRecognizer.view?.tag == 4 {
-            setPictureVC.imageArray = CommanArray.flowerImageArray
-            setPictureVC.imageNameArray = CommanArray.flowerNameArray
+            setPictureVC.imageArray = CommanArray.schoolImageArray
+            setPictureVC.imageNameArray = CommanArray.schoolNameArray
         }
         self.navigationController?.pushViewController(setPictureVC, animated: true)
     }

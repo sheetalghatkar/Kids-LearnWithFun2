@@ -355,92 +355,92 @@ class TestViewController: UIViewController {
         }
         else if tapGestureRecognizer.view?.tag == 4 {
             let solveTestArray = [[
-                    CommanArray.flowerNameArray[2]+"-"+"0",
-                    CommanArray.flowerNameArray[10]+"-"+"0",
-                    CommanArray.flowerNameArray[0]+"-"+"1",
-                    CommanArray.flowerNameArray[13]+"-"+"0"
+                    CommanArray.schoolNameArray[2]+"-"+"0",
+                    CommanArray.schoolNameArray[10]+"-"+"0",
+                    CommanArray.schoolNameArray[0]+"-"+"1",
+                    CommanArray.schoolNameArray[13]+"-"+"0"
                 ],
                [
-                       CommanArray.flowerNameArray[11]+"-"+"0",
-                       CommanArray.flowerNameArray[1]+"-"+"1",
-                       CommanArray.flowerNameArray[12]+"-"+"0",
-                       CommanArray.flowerNameArray[9]+"-"+"0"
+                       CommanArray.schoolNameArray[11]+"-"+"0",
+                       CommanArray.schoolNameArray[1]+"-"+"1",
+                       CommanArray.schoolNameArray[12]+"-"+"0",
+                       CommanArray.schoolNameArray[9]+"-"+"0"
                    ],
                  [
-                       CommanArray.flowerNameArray[2]+"-"+"1",
-                       CommanArray.flowerNameArray[0]+"-"+"0",
-                       CommanArray.flowerNameArray[7]+"-"+"0",
-                       CommanArray.flowerNameArray[10]+"-"+"0"
+                       CommanArray.schoolNameArray[2]+"-"+"1",
+                       CommanArray.schoolNameArray[0]+"-"+"0",
+                       CommanArray.schoolNameArray[7]+"-"+"0",
+                       CommanArray.schoolNameArray[10]+"-"+"0"
                    ],
                  [
-                       CommanArray.flowerNameArray[13]+"-"+"0",
-                       CommanArray.flowerNameArray[6]+"-"+"0",
-                       CommanArray.flowerNameArray[5]+"-"+"0",
-                       CommanArray.flowerNameArray[3]+"-"+"1"
+                       CommanArray.schoolNameArray[13]+"-"+"0",
+                       CommanArray.schoolNameArray[6]+"-"+"0",
+                       CommanArray.schoolNameArray[5]+"-"+"0",
+                       CommanArray.schoolNameArray[3]+"-"+"1"
                    ],
                 [
-                       CommanArray.flowerNameArray[8]+"-"+"0",
-                       CommanArray.flowerNameArray[4]+"-"+"1",
-                       CommanArray.flowerNameArray[7]+"-"+"0",
-                       CommanArray.flowerNameArray[2]+"-"+"0"
+                       CommanArray.schoolNameArray[8]+"-"+"0",
+                       CommanArray.schoolNameArray[4]+"-"+"1",
+                       CommanArray.schoolNameArray[7]+"-"+"0",
+                       CommanArray.schoolNameArray[2]+"-"+"0"
                    ],
                 [
-                       CommanArray.flowerNameArray[3]+"-"+"0",
-                       CommanArray.flowerNameArray[1]+"-"+"0",
-                       CommanArray.flowerNameArray[5]+"-"+"1",
-                       CommanArray.flowerNameArray[11]+"-"+"0"
+                       CommanArray.schoolNameArray[3]+"-"+"0",
+                       CommanArray.schoolNameArray[1]+"-"+"0",
+                       CommanArray.schoolNameArray[5]+"-"+"1",
+                       CommanArray.schoolNameArray[11]+"-"+"0"
                    ],
                 [
-                       CommanArray.flowerNameArray[0]+"-"+"0",
-                       CommanArray.flowerNameArray[6]+"-"+"1",
-                       CommanArray.flowerNameArray[12]+"-"+"0",
-                       CommanArray.flowerNameArray[10]+"-"+"0"
+                       CommanArray.schoolNameArray[0]+"-"+"0",
+                       CommanArray.schoolNameArray[6]+"-"+"1",
+                       CommanArray.schoolNameArray[12]+"-"+"0",
+                       CommanArray.schoolNameArray[10]+"-"+"0"
                    ],
                  [
-                       CommanArray.flowerNameArray[11]+"-"+"0",
-                       CommanArray.flowerNameArray[4]+"-"+"0",
-                       CommanArray.flowerNameArray[7]+"-"+"1",
-                       CommanArray.flowerNameArray[9]+"-"+"0"
+                       CommanArray.schoolNameArray[11]+"-"+"0",
+                       CommanArray.schoolNameArray[4]+"-"+"0",
+                       CommanArray.schoolNameArray[7]+"-"+"1",
+                       CommanArray.schoolNameArray[9]+"-"+"0"
                    ],
                 [
-                       CommanArray.flowerNameArray[3]+"-"+"0",
-                       CommanArray.flowerNameArray[6]+"-"+"0",
-                       CommanArray.flowerNameArray[5]+"-"+"0",
-                       CommanArray.flowerNameArray[8]+"-"+"1"
+                       CommanArray.schoolNameArray[3]+"-"+"0",
+                       CommanArray.schoolNameArray[6]+"-"+"0",
+                       CommanArray.schoolNameArray[5]+"-"+"0",
+                       CommanArray.schoolNameArray[8]+"-"+"1"
                    ],
                  [
-                       CommanArray.flowerNameArray[12]+"-"+"0",
-                       CommanArray.flowerNameArray[9]+"-"+"1",
-                       CommanArray.flowerNameArray[13]+"-"+"0",
-                       CommanArray.flowerNameArray[2]+"-"+"0"
+                       CommanArray.schoolNameArray[12]+"-"+"0",
+                       CommanArray.schoolNameArray[9]+"-"+"1",
+                       CommanArray.schoolNameArray[13]+"-"+"0",
+                       CommanArray.schoolNameArray[2]+"-"+"0"
                    ],
                  [
-                       CommanArray.flowerNameArray[6]+"-"+"0",
-                       CommanArray.flowerNameArray[10]+"-"+"1",
-                       CommanArray.flowerNameArray[4]+"-"+"0",
-                       CommanArray.flowerNameArray[1]+"-"+"0"
+                       CommanArray.schoolNameArray[6]+"-"+"0",
+                       CommanArray.schoolNameArray[10]+"-"+"1",
+                       CommanArray.schoolNameArray[4]+"-"+"0",
+                       CommanArray.schoolNameArray[1]+"-"+"0"
                    ],
                  [
-                       CommanArray.flowerNameArray[11]+"-"+"1",
-                       CommanArray.flowerNameArray[5]+"-"+"0",
-                       CommanArray.flowerNameArray[0]+"-"+"0",
-                       CommanArray.flowerNameArray[8]+"-"+"0"
+                       CommanArray.schoolNameArray[11]+"-"+"1",
+                       CommanArray.schoolNameArray[5]+"-"+"0",
+                       CommanArray.schoolNameArray[0]+"-"+"0",
+                       CommanArray.schoolNameArray[8]+"-"+"0"
                    ],
                 [
-                       CommanArray.flowerNameArray[1]+"-"+"0",
-                       CommanArray.flowerNameArray[8]+"-"+"0",
-                       CommanArray.flowerNameArray[12]+"-"+"1",
-                       CommanArray.flowerNameArray[7]+"-"+"0"
+                       CommanArray.schoolNameArray[1]+"-"+"0",
+                       CommanArray.schoolNameArray[8]+"-"+"0",
+                       CommanArray.schoolNameArray[12]+"-"+"1",
+                       CommanArray.schoolNameArray[7]+"-"+"0"
                    ],
                  [
-                       CommanArray.flowerNameArray[3]+"-"+"0",
-                       CommanArray.flowerNameArray[13]+"-"+"1",
-                       CommanArray.flowerNameArray[4]+"-"+"0",
-                       CommanArray.flowerNameArray[9]+"-"+"0"
+                       CommanArray.schoolNameArray[3]+"-"+"0",
+                       CommanArray.schoolNameArray[13]+"-"+"1",
+                       CommanArray.schoolNameArray[4]+"-"+"0",
+                       CommanArray.schoolNameArray[9]+"-"+"0"
                    ]]
             
             setTestSolveVC.showOptionsArray = solveTestArray
-            setTestSolveVC.getImageNameArray = CommanArray.flowerNameArray
+            setTestSolveVC.getImageNameArray = CommanArray.schoolNameArray
         }
         self.navigationController?.pushViewController(setTestSolveVC, animated: true)
     }

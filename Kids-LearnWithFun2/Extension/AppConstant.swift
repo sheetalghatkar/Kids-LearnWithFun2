@@ -74,23 +74,23 @@ class CommanArray {
     static var birdNameArray: [String] = ["Pigeon",
         "Owl","Kingfisher","Peacock","Sparrow","Crow","Chicken","Ostrich","Cuckoo","Hummingbird","Penguin","Nightingale","Goldfinch"]
     //------------------------------------------------------------------------
-    static var flowerImageArray: [UIImage] = [
-        UIImage(named: "Lotus.png")!,
-        UIImage(named: "Rose.png")!,
-        UIImage(named: "Lilly.png")!,
-        UIImage(named: "Jasmine.png")!,
-        UIImage(named: "Hibiscus.png")!,
-        UIImage(named: "Crossandra.png")!,
-        UIImage(named: "Tulip.png")!,
-        UIImage(named: "Orchid.png")!,
-        UIImage(named: "Sunflower.png")!,
-        UIImage(named: "Dahlia.png")!,
-        UIImage(named: "Daisy.png")!,
-        UIImage(named: "Bluebell.png")!,
-        UIImage(named: "Catharanthus.png")!,
-        UIImage(named: "Magnolia.png")!
+    static var schoolImageArray: [UIImage] = [
+        UIImage(named: "Classroom.png")!,
+        UIImage(named: "Library.png")!,
+        UIImage(named: "Playground.png")!,
+        UIImage(named: "White Board.png")!,
+        UIImage(named: "Bench.png")!,
+        UIImage(named: "Electric Bell.png")!,
+        UIImage(named: "School Bag.png")!,
+        UIImage(named: "School Uniform.png")!,
+        UIImage(named: "Book.png")!,
+        UIImage(named: "Notebook.png")!,
+        UIImage(named: "Computer.png")!,
+        UIImage(named: "Map.png")!,
+        UIImage(named: "Pen.png")!,
+        UIImage(named: "Pencil.png")!
     ]
-    static var flowerNameArray: [String] = ["Lotus","Rose","Lilly","Jasmine","Hibiscus","Crossandra","Tulip","Orchid","Sunflower","Dahlia","Daisy","Bluebell","Catharanthus","Magnolia"]
+    static var schoolNameArray: [String] = ["Classroom","Library","Playground","White Board","Bench","Electric Bell","School Bag","School Uniform","Book","Notebook", "Computer","Map","Pen","Pencil"]
     //------------------------------------------------------------------------
     static var status_Sign_Array = [
         UIImage(named: "Wrong-Sign.png")!,

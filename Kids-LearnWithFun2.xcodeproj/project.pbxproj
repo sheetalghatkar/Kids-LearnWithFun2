@@ -33,6 +33,20 @@
 		7017AA1024BB410100C46A97 /* Mat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017A9F724BB410000C46A97 /* Mat.mp3 */; };
 		7017AA1124BB410100C46A97 /* Broom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017A9F824BB410100C46A97 /* Broom.mp3 */; };
 		7017AA1224BB410100C46A97 /* Window.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017A9F924BB410100C46A97 /* Window.mp3 */; };
+		7017AA2224BB928200C46A97 /* Pencil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1624BB928000C46A97 /* Pencil.mp3 */; };
+		7017AA2324BB928200C46A97 /* Playground.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1724BB928000C46A97 /* Playground.mp3 */; };
+		7017AA2424BB928200C46A97 /* White Board.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1824BB928000C46A97 /* White Board.mp3 */; };
+		7017AA2524BB928200C46A97 /* School Bag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1924BB928000C46A97 /* School Bag.mp3 */; };
+		7017AA2624BB928200C46A97 /* Computer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1A24BB928100C46A97 /* Computer.mp3 */; };
+		7017AA2724BB928200C46A97 /* Classroom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1B24BB928100C46A97 /* Classroom.mp3 */; };
+		7017AA2824BB928200C46A97 /* Book.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1C24BB928100C46A97 /* Book.mp3 */; };
+		7017AA2924BB928200C46A97 /* Library.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1D24BB928100C46A97 /* Library.mp3 */; };
+		7017AA2A24BB928200C46A97 /* Map.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1E24BB928100C46A97 /* Map.mp3 */; };
+		7017AA2B24BB928200C46A97 /* Notebook.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA1F24BB928100C46A97 /* Notebook.mp3 */; };
+		7017AA2C24BB928200C46A97 /* Electric Bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA2024BB928100C46A97 /* Electric Bell.mp3 */; };
+		7017AA2D24BB928200C46A97 /* Pen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA2124BB928200C46A97 /* Pen.mp3 */; };
+		7017AA2F24BB92E800C46A97 /* Bench.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA2E24BB92E800C46A97 /* Bench.mp3 */; };
+		7017AA3124BB98F500C46A97 /* School Uniform.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017AA3024BB98F500C46A97 /* School Uniform.mp3 */; };
 		701EF78124A294C5006C0A36 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701EF78024A294C5006C0A36 /* UIExtension.swift */; };
 		70270FDB24A369A900EB8DAB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70270FDA24A369A900EB8DAB /* TestViewController.swift */; };
 		70277DD224A4B59100072D57 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70277DD124A4B59100072D57 /* UILabelExtension.swift */; };
@@ -128,6 +142,20 @@
 		7017A9F724BB410000C46A97 /* Mat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mat.mp3; sourceTree = "<group>"; };
 		7017A9F824BB410100C46A97 /* Broom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Broom.mp3; sourceTree = "<group>"; };
 		7017A9F924BB410100C46A97 /* Window.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Window.mp3; sourceTree = "<group>"; };
+		7017AA1624BB928000C46A97 /* Pencil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pencil.mp3; sourceTree = "<group>"; };
+		7017AA1724BB928000C46A97 /* Playground.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Playground.mp3; sourceTree = "<group>"; };
+		7017AA1824BB928000C46A97 /* White Board.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "White Board.mp3"; sourceTree = "<group>"; };
+		7017AA1924BB928000C46A97 /* School Bag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "School Bag.mp3"; sourceTree = "<group>"; };
+		7017AA1A24BB928100C46A97 /* Computer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Computer.mp3; sourceTree = "<group>"; };
+		7017AA1B24BB928100C46A97 /* Classroom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Classroom.mp3; sourceTree = "<group>"; };
+		7017AA1C24BB928100C46A97 /* Book.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Book.mp3; sourceTree = "<group>"; };
+		7017AA1D24BB928100C46A97 /* Library.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Library.mp3; sourceTree = "<group>"; };
+		7017AA1E24BB928100C46A97 /* Map.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Map.mp3; sourceTree = "<group>"; };
+		7017AA1F24BB928100C46A97 /* Notebook.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Notebook.mp3; sourceTree = "<group>"; };
+		7017AA2024BB928100C46A97 /* Electric Bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Electric Bell.mp3"; sourceTree = "<group>"; };
+		7017AA2124BB928200C46A97 /* Pen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pen.mp3; sourceTree = "<group>"; };
+		7017AA2E24BB92E800C46A97 /* Bench.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bench.mp3; sourceTree = "<group>"; };
+		7017AA3024BB98F500C46A97 /* School Uniform.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "School Uniform.mp3"; sourceTree = "<group>"; };
 		701EF78024A294C5006C0A36 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		70270FDA24A369A900EB8DAB /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		70277DD124A4B59100072D57 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
@@ -226,7 +254,7 @@
 		700D416C249E980A00AA3D1C /* SoundFile */ = {
 			isa = PBXGroup;
 			children = (
-				7017AA1324BB451700C46A97 /* ClassroomSound */,
+				7017AA1324BB451700C46A97 /* SchoolSound */,
 				70F9023B24AF88A400A3AA12 /* No.mp3 */,
 				70F9024324AF88B900A3AA12 /* WellDone.mp3 */,
 				70F9024524AFAF5C00A3AA12 /* Wrong.mp3 */,
@@ -278,27 +306,41 @@
 			path = HouseHoldThings_Name;
 			sourceTree = "<group>";
 		};
-		7017AA1324BB451700C46A97 /* ClassroomSound */ = {
+		7017AA1324BB451700C46A97 /* SchoolSound */ = {
 			isa = PBXGroup;
 			children = (
-				7017AA1524BB453400C46A97 /* Classroom_Name */,
-				7017AA1424BB452600C46A97 /* Classroom_Question */,
+				7017AA1524BB453400C46A97 /* School_Name */,
+				7017AA1424BB452600C46A97 /* School_Question */,
 			);
-			path = ClassroomSound;
+			path = SchoolSound;
 			sourceTree = "<group>";
 		};
-		7017AA1424BB452600C46A97 /* Classroom_Question */ = {
+		7017AA1424BB452600C46A97 /* School_Question */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Classroom_Question;
+			path = School_Question;
 			sourceTree = "<group>";
 		};
-		7017AA1524BB453400C46A97 /* Classroom_Name */ = {
+		7017AA1524BB453400C46A97 /* School_Name */ = {
 			isa = PBXGroup;
 			children = (
+				7017AA1C24BB928100C46A97 /* Book.mp3 */,
+				7017AA1B24BB928100C46A97 /* Classroom.mp3 */,
+				7017AA1A24BB928100C46A97 /* Computer.mp3 */,
+				7017AA2024BB928100C46A97 /* Electric Bell.mp3 */,
+				7017AA3024BB98F500C46A97 /* School Uniform.mp3 */,
+				7017AA1D24BB928100C46A97 /* Library.mp3 */,
+				7017AA1E24BB928100C46A97 /* Map.mp3 */,
+				7017AA1F24BB928100C46A97 /* Notebook.mp3 */,
+				7017AA2124BB928200C46A97 /* Pen.mp3 */,
+				7017AA1624BB928000C46A97 /* Pencil.mp3 */,
+				7017AA2E24BB92E800C46A97 /* Bench.mp3 */,
+				7017AA1724BB928000C46A97 /* Playground.mp3 */,
+				7017AA1924BB928000C46A97 /* School Bag.mp3 */,
+				7017AA1824BB928000C46A97 /* White Board.mp3 */,
 			);
-			path = Classroom_Name;
+			path = School_Name;
 			sourceTree = "<group>";
 		};
 		701D4D4524B1DA6D00E642A6 /* HouseHoldThings_Question */ = {
@@ -554,7 +596,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7017AA2524BB928200C46A97 /* School Bag.mp3 in Resources */,
 				7068EFD524AB5DCE00B448C3 /* TestSolveCollectionCell.xib in Resources */,
+				7017AA2224BB928200C46A97 /* Pencil.mp3 in Resources */,
+				7017AA2A24BB928200C46A97 /* Map.mp3 in Resources */,
 				707ECA2E249CE6250024D06C /* TigerGif.gif in Resources */,
 				7017A9FD24BB410100C46A97 /* Dustbin.mp3 in Resources */,
 				7017AA0824BB410100C46A97 /* Chair.mp3 in Resources */,
@@ -568,6 +613,7 @@
 				70AF537924A0CCCF00AD4794 /* Main.storyboard in Resources */,
 				70631FF42497F11B00DAE930 /* PictureCollectionCell.xib in Resources */,
 				707ECA26249CDAD80024D06C /* BgMusic.mp3 in Resources */,
+				7017AA2C24BB928200C46A97 /* Electric Bell.mp3 in Resources */,
 				7017AA0B24BB410100C46A97 /* Swing.mp3 in Resources */,
 				7017AA0C24BB410100C46A97 /* Mirror.mp3 in Resources */,
 				7017AA0124BB410100C46A97 /* Bathroom.mp3 in Resources */,
@@ -575,29 +621,39 @@
 				70F9023D24AF88A500A3AA12 /* No.mp3 in Resources */,
 				707ECA28249CDFB80024D06C /* mixaund-happy-day.mp3 in Resources */,
 				7017AA0624BB410100C46A97 /* Gate.mp3 in Resources */,
+				7017AA2624BB928200C46A97 /* Computer.mp3 in Resources */,
 				707ECA32249CE9A50024D06C /* HorseGif.gif in Resources */,
 				7017A9FE24BB410100C46A97 /* Stool.mp3 in Resources */,
 				7017AA0024BB410100C46A97 /* Fan.mp3 in Resources */,
 				707ECA34249CF45F0024D06C /* bird1Gif.gif in Resources */,
+				7017AA2724BB928200C46A97 /* Classroom.mp3 in Resources */,
+				7017AA2824BB928200C46A97 /* Book.mp3 in Resources */,
 				7017AA1224BB410100C46A97 /* Window.mp3 in Resources */,
 				7017AA0224BB410100C46A97 /* Bed.mp3 in Resources */,
 				7095C2D3249AA2E400C1E220 /* garden.gif in Resources */,
+				7017AA3124BB98F500C46A97 /* School Uniform.mp3 in Resources */,
 				707ECA36249CF4E10024D06C /* bird2Gif.gif in Resources */,
 				707ECA30249CE78E0024D06C /* ElephantGif.gif in Resources */,
+				7017AA2924BB928200C46A97 /* Library.mp3 in Resources */,
 				7017A9FB24BB410100C46A97 /* Building.mp3 in Resources */,
 				7017AA1124BB410100C46A97 /* Broom.mp3 in Resources */,
 				7017A9FA24BB410100C46A97 /* Ladder.mp3 in Resources */,
 				7017A9FF24BB410100C46A97 /* Door.mp3 in Resources */,
 				707ECA24249CD9A70024D06C /* darkwds1.wav in Resources */,
 				70FF090F24962DB5002861AE /* Assets.xcassets in Resources */,
+				7017AA2324BB928200C46A97 /* Playground.mp3 in Resources */,
+				7017AA2F24BB92E800C46A97 /* Bench.mp3 in Resources */,
+				7017AA2424BB928200C46A97 /* White Board.mp3 in Resources */,
 				70F9024224AF88AE00A3AA12 /* Excellent.mp3 in Resources */,
 				70F9024424AF88B900A3AA12 /* WellDone.mp3 in Resources */,
+				7017AA2D24BB928200C46A97 /* Pen.mp3 in Resources */,
 				7017AA0724BB410100C46A97 /* Staircase.mp3 in Resources */,
 				70FF09402496B43E002861AE /* Animated-bubbles.gif in Resources */,
 				7017AA1024BB410100C46A97 /* Mat.mp3 in Resources */,
 				7017AA0E24BB410100C46A97 /* Table.mp3 in Resources */,
 				7017AA0524BB410100C46A97 /* Wardrobe.mp3 in Resources */,
 				7017A9FC24BB410100C46A97 /* Room.mp3 in Resources */,
+				7017AA2B24BB928200C46A97 /* Notebook.mp3 in Resources */,
 				7017AA0F24BB410100C46A97 /* Bunglow.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
