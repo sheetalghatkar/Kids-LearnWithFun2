@@ -125,8 +125,8 @@ class HomeViewController: UIViewController {
     {
         let setPictureVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ImagesCollectionViewController") as! ImagesCollectionViewController
         if tapGestureRecognizer.view?.tag == 1 {
-            setPictureVC.imageArray = CommanArray.wildAnimalImageArray
-            setPictureVC.imageNameArray = CommanArray.wildAnimalNameArray
+            setPictureVC.imageArray = CommanArray.houseHoldThingsImageArray
+            setPictureVC.imageNameArray = CommanArray.houseHoldThingsNameArray
         }
         else if tapGestureRecognizer.view?.tag == 2 {
             setPictureVC.imageArray = CommanArray.domesticAnimalImageArray

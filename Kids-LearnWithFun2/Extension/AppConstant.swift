@@ -10,26 +10,35 @@ import Foundation
 import UIKit
 
 class CommanArray {
-    static var wildAnimalImageArray: [UIImage] = [
-        UIImage(named: "Tiger.png")!,
-        UIImage(named: "Lion.png")!,
-        UIImage(named: "Elephant.png")!,
-        UIImage(named: "Cheetah.png")!,
-        UIImage(named: "Rhino.png")!,
-        UIImage(named: "Bear.png")!,
-        UIImage(named: "Deer.png")!,
-        UIImage(named: "Zebra.png")!,
-        UIImage(named: "Giraffe.png")!,
-        UIImage(named: "Chimpanzee.png")!,
-        UIImage(named: "Fox.png")!,
-        UIImage(named: "Wolf.png")!,
-        UIImage(named: "Panda.png")!,
-        UIImage(named: "Hippopotamus.png")!,
-        UIImage(named: "Kangaroo.png")!,
-        UIImage(named: "Racoon.png")!
+    static var houseHoldThingsImageArray: [UIImage] = [
+        UIImage(named: "Building.png")!,
+        UIImage(named: "Bunglow.png")!,
+        UIImage(named: "Room.png")!,
+        UIImage(named: "Door.png")!,
+        UIImage(named: "Gate.png")!,
+        UIImage(named: "Kitchen.png")!,
+        UIImage(named: "Bathroom.png")!,
+        UIImage(named: "Staircase.png")!,
+        UIImage(named: "Corridor.png")!,
+        UIImage(named: "Window.png")!,
+        UIImage(named: "Bed.png")!,
+        UIImage(named: "Sofa.png")!,
+        UIImage(named: "Curtain.png")!,
+        UIImage(named: "Table.png")!,
+        UIImage(named: "Stool.png")!,
+        UIImage(named: "Chair.png")!,
+        UIImage(named: "Wardrobe.png")!,
+        UIImage(named: "Swing.png")!,
+        UIImage(named: "Fan.png")!,
+        UIImage(named: "Mat.png")!,
+        UIImage(named: "Ladder.png")!,
+        UIImage(named: "Mirror.png")!,
+        UIImage(named: "Broom.png")!,
+        UIImage(named: "Dustbin.png")!,
+        UIImage(named: "Telephone.png")!,
     ]
-    static var wildAnimalNameArray: [String] = ["Tiger","Lion",
-        "Elephant","Cheetah","Rhino","Bear","Deer","Zebra","Giraffe","Chimpanzee","Fox","Wolf","Panda","Hippopotamus","Kangaroo","Racoon"]
+    static var houseHoldThingsNameArray: [String] = ["Building","Bunglow",
+        "Room","Door","Gate","Kitchen","Bathroom","Staircase","Corridor","Window","Bed","Sofa","Curtain","Table","Stool","Chair","Wardrobe","Swing","Fan","Mat","Ladder","Mirror","Broom","Dustbin","Telephone"]
     //------------------------------------------------------------------------
     static var domesticAnimalImageArray: [UIImage] = [
         UIImage(named: "Horse.png")!,

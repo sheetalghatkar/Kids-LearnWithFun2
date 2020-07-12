@@ -225,7 +225,7 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
     }
     
     func playSound(getSound : String) {
-        let path = Bundle.main.path(forResource: getSound, ofType : "mp3")!
+      /*  let path = Bundle.main.path(forResource: getSound, ofType : "mp3")!
         let url = URL(fileURLWithPath : path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
@@ -234,7 +234,7 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
             }
         } catch {
             print ("There is an issue with this code!")
-        }
+        }*/
     }
     private func createAndLoadInterstitial() -> GADInterstitial? {
         interstitial = GADInterstitial(adUnitID: "ca-app-pub-8501671653071605/2568258533")

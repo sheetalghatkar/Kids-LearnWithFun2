@@ -44,103 +44,158 @@ class TestViewController: UIViewController {
         let setTestSolveVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TestSolveViewController") as! TestSolveViewController
         if tapGestureRecognizer.view?.tag == 1 {
             let solveTestArray = [[
-                      CommanArray.wildAnimalNameArray[2]+"-"+"0",
-                      CommanArray.wildAnimalNameArray[10]+"-"+"0",
-                      CommanArray.wildAnimalNameArray[0]+"-"+"1",
-                      CommanArray.wildAnimalNameArray[7]+"-"+"0"
+                      CommanArray.houseHoldThingsNameArray[16]+"-"+"0",
+                      CommanArray.houseHoldThingsNameArray[10]+"-"+"0",
+                      CommanArray.houseHoldThingsNameArray[0]+"-"+"1",
+                      CommanArray.houseHoldThingsNameArray[7]+"-"+"0"
                   ],
                   [
-                       CommanArray.wildAnimalNameArray[3]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[1]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[5]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[14]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[3]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[1]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[18]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[14]+"-"+"0"
                   ],
                   [
-                       CommanArray.wildAnimalNameArray[2]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[0]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[7]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[10]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[2]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[0]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[7]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[10]+"-"+"0"
                   ],
                   [
-                       CommanArray.wildAnimalNameArray[9]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[1]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[15]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[3]+"-"+"1"
+                       CommanArray.houseHoldThingsNameArray[12]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[17]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[15]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[3]+"-"+"1"
                   ],
                   [
-                       CommanArray.wildAnimalNameArray[8]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[4]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[7]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[14]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[8]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[4]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[7]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[14]+"-"+"0"
                   ],
                   [
-                       CommanArray.wildAnimalNameArray[3]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[1]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[5]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[6]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[16]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[1]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[5]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[19]+"-"+"0"
                   ],
                   [
-                       CommanArray.wildAnimalNameArray[0]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[6]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[13]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[10]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[24]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[6]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[13]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[10]+"-"+"0"
                   ],
                   [
-                       CommanArray.wildAnimalNameArray[11]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[4]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[7]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[9]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[23]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[4]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[7]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[21]+"-"+"0"
                    ],
                    [
-                       CommanArray.wildAnimalNameArray[3]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[14]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[5]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[8]+"-"+"1"
+                       CommanArray.houseHoldThingsNameArray[3]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[14]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[5]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[8]+"-"+"1"
                    ],
                    [
-                       CommanArray.wildAnimalNameArray[0]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[9]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[7]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[13]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[17]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[9]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[7]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[13]+"-"+"0"
                    ],
                    [
-                       CommanArray.wildAnimalNameArray[3]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[10]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[11]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[6]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[20]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[10]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[11]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[21]+"-"+"0"
                    ],
                    [
-                       CommanArray.wildAnimalNameArray[11]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[4]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[0]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[10]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[11]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[18]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[0]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[22]+"-"+"0"
                    ],
                    [
-                       CommanArray.wildAnimalNameArray[1]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[8]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[12]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[7]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[1]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[20]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[12]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[19]+"-"+"0"
                    ],
                    [
-                       CommanArray.wildAnimalNameArray[2]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[13]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[5]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[4]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[2]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[13]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[5]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[4]+"-"+"0"
                    ],
                    [
-                       CommanArray.wildAnimalNameArray[14]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[8]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[3]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[7]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[14]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[23]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[3]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[7]+"-"+"0"
                    ],
                    [
-                       CommanArray.wildAnimalNameArray[0]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[2]+"-"+"0",
-                       CommanArray.wildAnimalNameArray[15]+"-"+"1",
-                       CommanArray.wildAnimalNameArray[9]+"-"+"0"
-                   ]]
+                       CommanArray.houseHoldThingsNameArray[0]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[2]+"-"+"0",
+                       CommanArray.houseHoldThingsNameArray[15]+"-"+"1",
+                       CommanArray.houseHoldThingsNameArray[9]+"-"+"0"
+                   ],
+                   [
+                        CommanArray.houseHoldThingsNameArray[16]+"-"+"1",
+                        CommanArray.houseHoldThingsNameArray[2]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[6]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[21]+"-"+"0"
+                   ],
+                   [
+                        CommanArray.houseHoldThingsNameArray[23]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[8]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[5]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[17]+"-"+"1"
+                    ],
+                    [
+                        CommanArray.houseHoldThingsNameArray[13]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[18]+"-"+"1",
+                        CommanArray.houseHoldThingsNameArray[22]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[7]+"-"+"0"
+                    ],
+                    [
+                        CommanArray.houseHoldThingsNameArray[19]+"-"+"1",
+                        CommanArray.houseHoldThingsNameArray[1]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[11]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[24]+"-"+"0"
+                    ],
+                    [
+                        CommanArray.houseHoldThingsNameArray[3]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[12]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[20]+"-"+"1",
+                        CommanArray.houseHoldThingsNameArray[9]+"-"+"0"
+                    ],
+                    [
+                        CommanArray.houseHoldThingsNameArray[10]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[19]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[0]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[21]+"-"+"1"
+                    ],
+                    [
+                        CommanArray.houseHoldThingsNameArray[3]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[22]+"-"+"1",
+                        CommanArray.houseHoldThingsNameArray[8]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[17]+"-"+"0"
+                    ],
+                    [
+                        CommanArray.houseHoldThingsNameArray[20]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[6]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[23]+"-"+"1",
+                        CommanArray.houseHoldThingsNameArray[18]+"-"+"0"
+                    ],
+                    [
+                        CommanArray.houseHoldThingsNameArray[24]+"-"+"1",
+                        CommanArray.houseHoldThingsNameArray[0]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[4]+"-"+"0",
+                        CommanArray.houseHoldThingsNameArray[16]+"-"+"0"
+                    ]
+            ]
             setTestSolveVC.showOptionsArray = solveTestArray
-            setTestSolveVC.getImageNameArray = CommanArray.wildAnimalNameArray
+            setTestSolveVC.getImageNameArray = CommanArray.houseHoldThingsNameArray
         }
         else if tapGestureRecognizer.view?.tag == 2 {
             let solveTestArray = [
