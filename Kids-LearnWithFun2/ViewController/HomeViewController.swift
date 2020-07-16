@@ -50,6 +50,7 @@ class HomeViewController: UIViewController {
         let wildGif1 = UIImage.gifImageWithName("TigerGif")
         let wildGif2 = UIImage.gifImageWithName("ElephantGif")
         let wildGif3 = UIImage.gifImageWithName("HorseGif")
+        let bgGif1 = UIImage.gifImageWithName("BlackTheme")
     //    let testGif = UIImage.gifImageWithName("Test")
 
         self.imgVwBird1Bottom.image  = birdGif1
@@ -57,7 +58,7 @@ class HomeViewController: UIViewController {
         self.imgVwWild1Bottom.image  = wildGif1
         self.imgVwWild2Bottom.image  = wildGif2
         self.imgVwWild3Bottom.image  = wildGif3
-       // self.imgVwTest.image  = testGif
+        self.bgScreen.image  = bgGif1
 
         let tapGestureRecognWildAnimal = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         imgVwWildAnimal.addGestureRecognizer(tapGestureRecognWildAnimal)
@@ -129,8 +130,8 @@ class HomeViewController: UIViewController {
             setPictureVC.imageNameArray = CommanArray.houseHoldThingsNameArray
         }
         else if tapGestureRecognizer.view?.tag == 2 {
-            setPictureVC.imageArray = CommanArray.domesticAnimalImageArray
-            setPictureVC.imageNameArray = CommanArray.domesticAnimalNameArray
+            setPictureVC.imageArray = CommanArray.kitchenUtensilsImageArray
+            setPictureVC.imageNameArray = CommanArray.kitchenUtensilsNameArray
         }
         else if tapGestureRecognizer.view?.tag == 3 {
             setPictureVC.imageArray = CommanArray.birdImageArray
@@ -149,14 +150,14 @@ class HomeViewController: UIViewController {
     }
     
     func playBackgroundMusic() {
-        let path = Bundle.main.path(forResource: "mixaund-happy-day", ofType : "mp3")!
-        let url = URL(fileURLWithPath : path)
-        do {
-            player = try AVAudioPlayer(contentsOf: url)
-            player.play()
-        } catch {
-            print ("There is an issue with this code!")
-        }
+//        let path = Bundle.main.path(forResource: "mixaund-happy-day", ofType : "mp3")!
+//        let url = URL(fileURLWithPath : path)
+//        do {
+//            player = try AVAudioPlayer(contentsOf: url)
+//            player.play()
+//        } catch {
+//            print ("There is an issue with this code!")
+//        }
     }
 }
 

@@ -200,74 +200,74 @@ class TestViewController: UIViewController {
         else if tapGestureRecognizer.view?.tag == 2 {
             let solveTestArray = [
                   [
-                     CommanArray.domesticAnimalNameArray[2]+"-"+"0",
-                     CommanArray.domesticAnimalNameArray[9]+"-"+"0",
-                     CommanArray.domesticAnimalNameArray[0]+"-"+"1",
-                     CommanArray.domesticAnimalNameArray[7]+"-"+"0"
+                     CommanArray.kitchenUtensilsNameArray[2]+"-"+"0",
+                     CommanArray.kitchenUtensilsNameArray[9]+"-"+"0",
+                     CommanArray.kitchenUtensilsNameArray[0]+"-"+"1",
+                     CommanArray.kitchenUtensilsNameArray[7]+"-"+"0"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[3]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[1]+"-"+"1",
-                      CommanArray.domesticAnimalNameArray[5]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[4]+"-"+"0"
+                      CommanArray.kitchenUtensilsNameArray[3]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[1]+"-"+"1",
+                      CommanArray.kitchenUtensilsNameArray[5]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[4]+"-"+"0"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[2]+"-"+"1",
-                      CommanArray.domesticAnimalNameArray[8]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[7]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[10]+"-"+"0"
+                      CommanArray.kitchenUtensilsNameArray[2]+"-"+"1",
+                      CommanArray.kitchenUtensilsNameArray[8]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[7]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[10]+"-"+"0"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[9]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[1]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[5]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[3]+"-"+"1"
+                      CommanArray.kitchenUtensilsNameArray[9]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[1]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[5]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[3]+"-"+"1"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[8]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[4]+"-"+"1",
-                      CommanArray.domesticAnimalNameArray[7]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[0]+"-"+"0"
+                      CommanArray.kitchenUtensilsNameArray[8]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[4]+"-"+"1",
+                      CommanArray.kitchenUtensilsNameArray[7]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[0]+"-"+"0"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[3]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[1]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[5]+"-"+"1",
-                      CommanArray.domesticAnimalNameArray[6]+"-"+"0"
+                      CommanArray.kitchenUtensilsNameArray[3]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[1]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[5]+"-"+"1",
+                      CommanArray.kitchenUtensilsNameArray[6]+"-"+"0"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[0]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[6]+"-"+"1",
-                      CommanArray.domesticAnimalNameArray[2]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[10]+"-"+"0"
+                      CommanArray.kitchenUtensilsNameArray[0]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[6]+"-"+"1",
+                      CommanArray.kitchenUtensilsNameArray[2]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[10]+"-"+"0"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[1]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[4]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[7]+"-"+"1",
-                      CommanArray.domesticAnimalNameArray[9]+"-"+"0"
+                      CommanArray.kitchenUtensilsNameArray[1]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[4]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[7]+"-"+"1",
+                      CommanArray.kitchenUtensilsNameArray[9]+"-"+"0"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[6]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[10]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[5]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[8]+"-"+"1"
+                      CommanArray.kitchenUtensilsNameArray[6]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[10]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[5]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[8]+"-"+"1"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[0]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[9]+"-"+"1",
-                      CommanArray.domesticAnimalNameArray[2]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[3]+"-"+"0"
+                      CommanArray.kitchenUtensilsNameArray[0]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[9]+"-"+"1",
+                      CommanArray.kitchenUtensilsNameArray[2]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[3]+"-"+"0"
                   ],
                   [
-                      CommanArray.domesticAnimalNameArray[4]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[10]+"-"+"1",
-                      CommanArray.domesticAnimalNameArray[1]+"-"+"0",
-                      CommanArray.domesticAnimalNameArray[6]+"-"+"0"
+                      CommanArray.kitchenUtensilsNameArray[4]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[10]+"-"+"1",
+                      CommanArray.kitchenUtensilsNameArray[1]+"-"+"0",
+                      CommanArray.kitchenUtensilsNameArray[6]+"-"+"0"
                   ]
             ]
             setTestSolveVC.showOptionsArray = solveTestArray
-            setTestSolveVC.getImageNameArray = CommanArray.domesticAnimalNameArray
+            setTestSolveVC.getImageNameArray = CommanArray.kitchenUtensilsNameArray
         }
         else if tapGestureRecognizer.view?.tag == 3 {
             let solveTestArray = [
@@ -446,8 +446,8 @@ class TestViewController: UIViewController {
     }
     // MARK: - User defined Functions
         @IBAction func funcGoToTestHome(_ sender: Any) {
-            interstitial = createAndLoadInterstitial()
-    //        navigationController?.popViewController(animated: true)
+          //  interstitial = createAndLoadInterstitial()
+        navigationController?.popViewController(animated: true)
         }
 
     private func createAndLoadInterstitial() -> GADInterstitial? {

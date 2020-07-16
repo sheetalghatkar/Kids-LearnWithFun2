@@ -11,8 +11,7 @@ import UIKit
 
 class CommanArray {
     static var houseHoldThingsImageArray: [UIImage] = [
-        UIImage(named: "Building.png")!,
-        UIImage(named: "Bunglow.png")!,
+        UIImage(named: "House.png")!,
         UIImage(named: "Room.png")!,
         UIImage(named: "Door.png")!,
         UIImage(named: "Gate.png")!,
@@ -30,6 +29,7 @@ class CommanArray {
         UIImage(named: "Wardrobe.png")!,
         UIImage(named: "Swing.png")!,
         UIImage(named: "Fan.png")!,
+        UIImage(named: "Air Conditioner.png")!,
         UIImage(named: "Mat.png")!,
         UIImage(named: "Ladder.png")!,
         UIImage(named: "Mirror.png")!,
@@ -37,24 +37,33 @@ class CommanArray {
         UIImage(named: "Dustbin.png")!,
         UIImage(named: "Telephone.png")!,
     ]
-    static var houseHoldThingsNameArray: [String] = ["Building","Bunglow",
-        "Room","Door","Gate","Kitchen","Bathroom","Staircase","Corridor","Window","Bed","Sofa","Curtain","Table","Stool","Chair","Wardrobe","Swing","Fan","Mat","Ladder","Mirror","Broom","Dustbin","Telephone"]
+    static var houseHoldThingsNameArray: [String] = ["House",
+        "Room","Door","Gate","Kitchen","Bathroom","Staircase","Corridor","Window","Bed","Sofa","Curtain","Table","Stool","Chair","Wardrobe","Swing","Fan","Air Conditioner","Mat","Ladder","Mirror","Broom","Dustbin","Telephone"]
     //------------------------------------------------------------------------
-    static var domesticAnimalImageArray: [UIImage] = [
-        UIImage(named: "Horse.png")!,
-        UIImage(named: "Cow.png")!,
-        UIImage(named: "Buffalo.png")!,
-        UIImage(named: "Donkey.png")!,
-        UIImage(named: "Goat.png")!,
-        UIImage(named: "Sheep.png")!,
-        UIImage(named: "Camel.png")!,
-        UIImage(named: "Rabbit.png")!,
-        UIImage(named: "Pig.png")!,
-        UIImage(named: "Cat.png")!,
-        UIImage(named: "Dog.png")!
+    static var kitchenUtensilsImageArray: [UIImage] = [
+        UIImage(named: "Pan.png")!,
+        UIImage(named: "Pitcher.png")!,
+        UIImage(named: "Pressure Cooker.png")!,
+        UIImage(named: "Plate.png")!,
+        UIImage(named: "Glass.png")!,
+        UIImage(named: "Cauldron.png")!,
+        UIImage(named: "Lid.png")!,
+        UIImage(named: "Cup.png")!,
+        UIImage(named: "Saucer.png")!,
+        UIImage(named: "Teapot.png")!,
+        UIImage(named: "Spoon.png")!,
+        UIImage(named: "Fork.png")!,
+        UIImage(named: "Sieve.png")!,
+        UIImage(named: "Strainer.png")!,
+        UIImage(named: "Rolling Pad.png")!,
+        UIImage(named: "Rolling Pin.png")!,
+        UIImage(named: "Skimmer.png")!,
+        UIImage(named: "Ladle.png")!,
+        UIImage(named: "Grater.png")!,
+        UIImage(named: "Bowl.png")!
     ]
-    static var domesticAnimalNameArray: [String] = ["Horse","Cow",
-        "Buffalo","Donkey","Goat","Sheep","Camel","Rabbit","Pig","Cat","Dog"]
+    static var kitchenUtensilsNameArray: [String] = ["Pan","Pitcher",
+                                                     "Pressure Cooker","Plate","Glass","Cauldron","Lid","Cup","Saucer","Teapot","Spoon","Fork","Sieve","Strainer","Rolling Pad","Rolling Pin","Skimmer","Ladle","Grater","Bowl"]
     //------------------------------------------------------------------------
     static var birdImageArray: [UIImage] = [
         UIImage(named: "Pigeon.png")!,

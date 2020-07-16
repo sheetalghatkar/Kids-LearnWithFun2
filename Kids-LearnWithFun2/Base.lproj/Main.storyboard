@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nature" translatesAutoresizingMaskIntoConstraints="NO" id="tbI-JC-8m4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tbI-JC-8m4">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -37,7 +37,7 @@
                                             <constraint firstAttribute="height" constant="1" id="cfS-IR-wKc"/>
                                         </constraints>
                                     </view>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WildAnimalIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gjN-n9-wRV" userLabel="ImgViewWildAnimal" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HouseholdHomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gjN-n9-wRV" userLabel="ImgViewWildAnimal" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
                                         <rect key="frame" x="41.5" y="10" width="120" height="120"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -46,16 +46,16 @@
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                                 <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Household Things" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8O-IM-5ND" customClass="UILabelExtension" customModule="Kids_LearnWithFun2" customModuleProvider="target">
-                                        <rect key="frame" x="26.5" y="135" width="150" height="86"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8O-IM-5ND" customClass="UILabelExtension" customModule="Kids_LearnWithFun2" customModuleProvider="target">
+                                        <rect key="frame" x="26.5" y="135" width="150" height="43.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="150" id="BSj-Ya-mMF"/>
                                         </constraints>
@@ -83,7 +83,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Utensils" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdb-61-ofa" customClass="UILabelExtension" customModule="Kids_LearnWithFun2" customModuleProvider="target">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdb-61-ofa" customClass="UILabelExtension" customModule="Kids_LearnWithFun2" customModuleProvider="target">
                                         <rect key="frame" x="222.5" y="135" width="120" height="43.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="120" id="LZ6-tp-hYs"/>
@@ -97,7 +97,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BirdIcon" translatesAutoresizingMaskIntoConstraints="NO" id="cJK-ds-x0V" userLabel="ImgViewBird" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
-                                        <rect key="frame" x="41.5" y="241" width="120" height="120"/>
+                                        <rect key="frame" x="41.5" y="198.5" width="120" height="120"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="cJK-ds-x0V" secondAttribute="height" multiplier="1:1" id="wcE-zZ-CgK"/>
@@ -112,24 +112,24 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FlowerIcon" translatesAutoresizingMaskIntoConstraints="NO" id="reh-wu-V8d" userLabel="ImgViewFlower" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
-                                        <rect key="frame" x="222.5" y="241" width="120" height="120"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SchoolHomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="reh-wu-V8d" userLabel="ImgViewFlower" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
+                                        <rect key="frame" x="222.5" y="198.5" width="120" height="120"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="reh-wu-V8d" secondAttribute="height" multiplier="1:1" id="a2b-93-lqF"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="YES"/>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                                 <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Implements" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="An0-re-XTy" userLabel="Birds" customClass="UILabelExtension" customModule="Kids_LearnWithFun2" customModuleProvider="target">
-                                        <rect key="frame" x="21.5" y="366" width="160.5" height="30"/>
+                                        <rect key="frame" x="21.5" y="323.5" width="160.5" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="9qe-Zo-sek"/>
                                         </constraints>
@@ -142,7 +142,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKu-8t-8yf" customClass="UILabelExtension" customModule="Kids_LearnWithFun2" customModuleProvider="target">
-                                        <rect key="frame" x="236.5" y="366" width="92.5" height="30"/>
+                                        <rect key="frame" x="236.5" y="323.5" width="92.5" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="bzV-HR-bzQ"/>
                                         </constraints>
@@ -178,7 +178,7 @@
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Test" translatesAutoresizingMaskIntoConstraints="NO" id="E2H-lW-8J3" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
-                                        <rect key="frame" x="117" y="416" width="150" height="150"/>
+                                        <rect key="frame" x="117" y="373.5" width="150" height="150"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="E2H-lW-8J3" secondAttribute="height" multiplier="1:1" id="OkR-B2-rfU"/>
@@ -191,7 +191,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jq-2D-84O" userLabel="Test" customClass="UILabelExtension" customModule="Kids_LearnWithFun2" customModuleProvider="target">
-                                        <rect key="frame" x="92" y="571" width="200" height="30"/>
+                                        <rect key="frame" x="92" y="528.5" width="200" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="DGZ-Bp-q6J"/>
                                             <constraint firstAttribute="height" constant="30" id="pzl-Ib-W7W"/>
@@ -915,15 +915,15 @@
         <image name="Cartoon-Dog" width="241.5" height="300"/>
         <image name="Cartoon-Flower" width="239.5" height="260.5"/>
         <image name="Cartoon_Tiger" width="220.5" height="283"/>
-        <image name="FlowerIcon" width="133.5" height="132"/>
         <image name="Forward" width="256" height="256"/>
         <image name="Home_Back" width="512" height="512"/>
+        <image name="HouseholdHomeIcon" width="255.5" height="244"/>
         <image name="Lock" width="75" height="75"/>
         <image name="Nature" width="228" height="228"/>
         <image name="PetAnimal" width="300" height="285.5"/>
         <image name="Question" width="235.5" height="256"/>
+        <image name="SchoolHomeIcon" width="460" height="408"/>
         <image name="Sound-On" width="50" height="50"/>
         <image name="Test" width="232" height="269"/>
-        <image name="WildAnimalIcon" width="290" height="300"/>
     </resources>
 </document>

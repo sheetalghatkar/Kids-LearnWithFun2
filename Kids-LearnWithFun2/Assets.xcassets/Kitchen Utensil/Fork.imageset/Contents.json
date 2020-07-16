@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "Fork.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "WildAnimal.png",
       "scale" : "2x"
     },
     {

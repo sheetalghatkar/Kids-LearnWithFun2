@@ -234,7 +234,7 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
             }
         } catch {
             print ("There is an issue with this code!")
-        }
+        } 
     }
     private func createAndLoadInterstitial() -> GADInterstitial? {
         interstitial = GADInterstitial(adUnitID: "ca-app-pub-8501671653071605/2568258533")
