@@ -272,86 +272,86 @@ class TestViewController: UIViewController {
         else if tapGestureRecognizer.view?.tag == 3 {
             let solveTestArray = [
                 [
-                   CommanArray.birdNameArray[2]+"-"+"0",
-                   CommanArray.birdNameArray[10]+"-"+"0",
-                   CommanArray.birdNameArray[0]+"-"+"1",
-                   CommanArray.birdNameArray[11]+"-"+"0"
+                   CommanArray.gardeningNameArray[2]+"-"+"0",
+                   CommanArray.gardeningNameArray[10]+"-"+"0",
+                   CommanArray.gardeningNameArray[0]+"-"+"1",
+                   CommanArray.gardeningNameArray[11]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[8]+"-"+"0",
-                   CommanArray.birdNameArray[1]+"-"+"1",
-                   CommanArray.birdNameArray[5]+"-"+"0",
-                   CommanArray.birdNameArray[9]+"-"+"0"
+                   CommanArray.gardeningNameArray[8]+"-"+"0",
+                   CommanArray.gardeningNameArray[1]+"-"+"1",
+                   CommanArray.gardeningNameArray[5]+"-"+"0",
+                   CommanArray.gardeningNameArray[9]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[2]+"-"+"1",
-                   CommanArray.birdNameArray[12]+"-"+"0",
-                   CommanArray.birdNameArray[7]+"-"+"0",
-                   CommanArray.birdNameArray[10]+"-"+"0"
+                   CommanArray.gardeningNameArray[2]+"-"+"1",
+                   CommanArray.gardeningNameArray[12]+"-"+"0",
+                   CommanArray.gardeningNameArray[7]+"-"+"0",
+                   CommanArray.gardeningNameArray[10]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[9]+"-"+"0",
-                   CommanArray.birdNameArray[6]+"-"+"0",
-                   CommanArray.birdNameArray[5]+"-"+"0",
-                   CommanArray.birdNameArray[3]+"-"+"1"
+                   CommanArray.gardeningNameArray[9]+"-"+"0",
+                   CommanArray.gardeningNameArray[6]+"-"+"0",
+                   CommanArray.gardeningNameArray[5]+"-"+"0",
+                   CommanArray.gardeningNameArray[3]+"-"+"1"
                 ],
                 [
-                   CommanArray.birdNameArray[8]+"-"+"0",
-                   CommanArray.birdNameArray[4]+"-"+"1",
-                   CommanArray.birdNameArray[7]+"-"+"0",
-                   CommanArray.birdNameArray[11]+"-"+"0"
+                   CommanArray.gardeningNameArray[8]+"-"+"0",
+                   CommanArray.gardeningNameArray[4]+"-"+"1",
+                   CommanArray.gardeningNameArray[7]+"-"+"0",
+                   CommanArray.gardeningNameArray[11]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[3]+"-"+"0",
-                   CommanArray.birdNameArray[12]+"-"+"0",
-                   CommanArray.birdNameArray[5]+"-"+"1",
-                   CommanArray.birdNameArray[6]+"-"+"0"
+                   CommanArray.gardeningNameArray[3]+"-"+"0",
+                   CommanArray.gardeningNameArray[12]+"-"+"0",
+                   CommanArray.gardeningNameArray[5]+"-"+"1",
+                   CommanArray.gardeningNameArray[6]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[0]+"-"+"0",
-                   CommanArray.birdNameArray[6]+"-"+"1",
-                   CommanArray.birdNameArray[1]+"-"+"0",
-                   CommanArray.birdNameArray[2]+"-"+"0"
+                   CommanArray.gardeningNameArray[0]+"-"+"0",
+                   CommanArray.gardeningNameArray[6]+"-"+"1",
+                   CommanArray.gardeningNameArray[1]+"-"+"0",
+                   CommanArray.gardeningNameArray[2]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[11]+"-"+"0",
-                   CommanArray.birdNameArray[4]+"-"+"0",
-                   CommanArray.birdNameArray[7]+"-"+"1",
-                   CommanArray.birdNameArray[9]+"-"+"0"
+                   CommanArray.gardeningNameArray[11]+"-"+"0",
+                   CommanArray.gardeningNameArray[4]+"-"+"0",
+                   CommanArray.gardeningNameArray[7]+"-"+"1",
+                   CommanArray.gardeningNameArray[9]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[3]+"-"+"0",
-                   CommanArray.birdNameArray[1]+"-"+"0",
-                   CommanArray.birdNameArray[5]+"-"+"0",
-                   CommanArray.birdNameArray[8]+"-"+"1"
+                   CommanArray.gardeningNameArray[3]+"-"+"0",
+                   CommanArray.gardeningNameArray[1]+"-"+"0",
+                   CommanArray.gardeningNameArray[5]+"-"+"0",
+                   CommanArray.gardeningNameArray[8]+"-"+"1"
                 ],
                 [
-                   CommanArray.birdNameArray[0]+"-"+"0",
-                   CommanArray.birdNameArray[9]+"-"+"1",
-                   CommanArray.birdNameArray[4]+"-"+"0",
-                   CommanArray.birdNameArray[12]+"-"+"0"
+                   CommanArray.gardeningNameArray[0]+"-"+"0",
+                   CommanArray.gardeningNameArray[9]+"-"+"1",
+                   CommanArray.gardeningNameArray[4]+"-"+"0",
+                   CommanArray.gardeningNameArray[12]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[3]+"-"+"0",
-                   CommanArray.birdNameArray[10]+"-"+"1",
-                   CommanArray.birdNameArray[2]+"-"+"0",
-                   CommanArray.birdNameArray[6]+"-"+"0"
+                   CommanArray.gardeningNameArray[3]+"-"+"0",
+                   CommanArray.gardeningNameArray[10]+"-"+"1",
+                   CommanArray.gardeningNameArray[2]+"-"+"0",
+                   CommanArray.gardeningNameArray[6]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[11]+"-"+"1",
-                   CommanArray.birdNameArray[4]+"-"+"0",
-                   CommanArray.birdNameArray[0]+"-"+"0",
-                   CommanArray.birdNameArray[10]+"-"+"0"
+                   CommanArray.gardeningNameArray[11]+"-"+"1",
+                   CommanArray.gardeningNameArray[4]+"-"+"0",
+                   CommanArray.gardeningNameArray[0]+"-"+"0",
+                   CommanArray.gardeningNameArray[10]+"-"+"0"
                 ],
                 [
-                   CommanArray.birdNameArray[1]+"-"+"0",
-                   CommanArray.birdNameArray[8]+"-"+"0",
-                   CommanArray.birdNameArray[12]+"-"+"1",
-                   CommanArray.birdNameArray[7]+"-"+"0"
+                   CommanArray.gardeningNameArray[1]+"-"+"0",
+                   CommanArray.gardeningNameArray[8]+"-"+"0",
+                   CommanArray.gardeningNameArray[12]+"-"+"1",
+                   CommanArray.gardeningNameArray[7]+"-"+"0"
                 ]
             ]
             setTestSolveVC.showOptionsArray = solveTestArray
-            setTestSolveVC.getImageNameArray = CommanArray.birdNameArray
+            setTestSolveVC.getImageNameArray = CommanArray.gardeningNameArray
         }
         else if tapGestureRecognizer.view?.tag == 4 {
             let solveTestArray = [[

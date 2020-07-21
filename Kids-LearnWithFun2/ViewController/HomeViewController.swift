@@ -134,8 +134,8 @@ class HomeViewController: UIViewController {
             setPictureVC.imageNameArray = CommanArray.kitchenUtensilsNameArray
         }
         else if tapGestureRecognizer.view?.tag == 3 {
-            setPictureVC.imageArray = CommanArray.birdImageArray
-            setPictureVC.imageNameArray = CommanArray.birdNameArray
+            setPictureVC.imageArray = CommanArray.gardeningImageArray
+            setPictureVC.imageNameArray = CommanArray.gardeningNameArray
         }
         else if tapGestureRecognizer.view?.tag == 4 {
             setPictureVC.imageArray = CommanArray.schoolImageArray
