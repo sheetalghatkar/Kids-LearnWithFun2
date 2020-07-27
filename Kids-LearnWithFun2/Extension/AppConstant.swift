@@ -11,7 +11,6 @@ import UIKit
 
 class CommanArray {
     static var houseHoldThingsImageArray: [UIImage] = [
-        UIImage(named: "House.png")!,
         UIImage(named: "Room.png")!,
         UIImage(named: "Door.png")!,
         UIImage(named: "Gate.png")!,
@@ -28,6 +27,7 @@ class CommanArray {
         UIImage(named: "Chair.png")!,
         UIImage(named: "Wardrobe.png")!,
         UIImage(named: "Swing.png")!,
+        UIImage(named: "Air Cooler.png")!,
         UIImage(named: "Fan.png")!,
         UIImage(named: "Air Conditioner.png")!,
         UIImage(named: "Door Mat.png")!,
@@ -35,10 +35,9 @@ class CommanArray {
         UIImage(named: "Mirror.png")!,
         UIImage(named: "Broom.png")!,
         UIImage(named: "Dustbin.png")!,
-        UIImage(named: "Telephone.png")!,
+        UIImage(named: "Telephone.png")!
     ]
-    static var houseHoldThingsNameArray: [String] = ["House",
-        "Room","Door","Gate","Kitchen","Bathroom","Staircase","Corridor","Window","Bed","Sofa","Curtain","Table","Stool","Chair","Wardrobe","Swing","Fan","Air Conditioner","Door Mat","Ladder","Mirror","Broom","Dustbin","Telephone"]
+    static var houseHoldThingsNameArray: [String] = ["Room","Door","Gate","Kitchen","Bathroom","Staircase","Corridor","Window","Bed","Sofa","Curtain","Table","Stool","Chair","Wardrobe","Swing","Air Cooler","Fan","Air Conditioner","Door Mat","Ladder","Mirror","Broom","Dustbin","Telephone"]
     //------------------------------------------------------------------------
     static var kitchenUtensilsImageArray: [UIImage] = [
         UIImage(named: "Pan.png")!,

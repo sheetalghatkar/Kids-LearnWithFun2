@@ -53,7 +53,7 @@ class TestViewController: UIViewController {
                        CommanArray.houseHoldThingsNameArray[3]+"-"+"0",
                        CommanArray.houseHoldThingsNameArray[1]+"-"+"1",
                        CommanArray.houseHoldThingsNameArray[18]+"-"+"0",
-                       CommanArray.houseHoldThingsNameArray[14]+"-"+"0"
+                       CommanArray.houseHoldThingsNameArray[16]+"-"+"0"
                   ],
                   [
                        CommanArray.houseHoldThingsNameArray[2]+"-"+"1",
@@ -191,7 +191,7 @@ class TestViewController: UIViewController {
                         CommanArray.houseHoldThingsNameArray[24]+"-"+"1",
                         CommanArray.houseHoldThingsNameArray[0]+"-"+"0",
                         CommanArray.houseHoldThingsNameArray[4]+"-"+"0",
-                        CommanArray.houseHoldThingsNameArray[16]+"-"+"0"
+                        CommanArray.houseHoldThingsNameArray[14]+"-"+"0"
                     ]
             ]
             setTestSolveVC.showOptionsArray = solveTestArray

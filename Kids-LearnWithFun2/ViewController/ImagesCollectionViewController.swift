@@ -19,10 +19,15 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
     @IBOutlet weak var lblCard: UILabel!
     @IBOutlet weak var viewCollectionContainer: UIView!
     @IBOutlet weak var btnSound: UIButton!
+    @IBOutlet weak var imgViewBgHouse: UIImageView!
+    @IBOutlet weak var imgViewBgKitchen: UIImageView!
+    @IBOutlet weak var imgViewBgGarden: UIImageView!
+    @IBOutlet weak var imgViewBgSchool: UIImageView!
 
+    
     var player = AVAudioPlayer()
     var bannerView: GADBannerView!
-
+    var getTabNumber = 0
     var imageArray : [UIImage] = []
     var imageNameArray : [String] = []
     var interstitial: GADInterstitial?
@@ -65,6 +70,16 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
         addBannerViewToView(bannerView)
         bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.rootViewController = self
+        if getTabNumber == 0 {
+            self.imgViewBgKitchen.image  = UIImage.gifImageWithName("House")
+        } else if getTabNumber == 1 {
+            self.imgViewBgKitchen.image  = UIImage.gifImageWithName("Kitchen")
+        } else if getTabNumber == 2 {
+            self.imgViewBgGarden.image  = UIImage.gifImageWithName("Garden")
+        } else if getTabNumber == 3 {
+            self.imgViewBgKitchen.image  = UIImage.gifImageWithName("SchoolGif")
+        }
+
        // bannerView.load(GADRequest())
     }
     func addBannerViewToView(_ bannerView: GADBannerView) {

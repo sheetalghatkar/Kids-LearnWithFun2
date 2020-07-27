@@ -17,6 +17,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var imgVwBird: UIImageView!
     @IBOutlet weak var imgVwFlower: UIImageView!
     @IBOutlet weak var imgVwTest: UIImageView!
+    @IBOutlet weak var imgViewBg: UIImageView!
 
 
     @IBOutlet weak var imgVwBird1Bottom: UIImageView!
@@ -45,20 +46,9 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let birdGif1 = UIImage.gifImageWithName("bird1Gif")
-        let birdGif2 = UIImage.gifImageWithName("bird2Gif")
-        let wildGif1 = UIImage.gifImageWithName("TigerGif")
-        let wildGif2 = UIImage.gifImageWithName("ElephantGif")
-        let wildGif3 = UIImage.gifImageWithName("HorseGif")
-        let bgGif1 = UIImage.gifImageWithName("BlackTheme")
-    //    let testGif = UIImage.gifImageWithName("Test")
-
-        self.imgVwBird1Bottom.image  = birdGif1
-        self.imgVwBird2Bottom.image  = birdGif2
-        self.imgVwWild1Bottom.image  = wildGif1
-        self.imgVwWild2Bottom.image  = wildGif2
-        self.imgVwWild3Bottom.image  = wildGif3
-        self.bgScreen.image  = bgGif1
+       // let wildGif1 = UIImage.gifImageWithName("Bubble")
+//        self.imgVwWild1Bottom.image  = wildGif1
+        
 
         let tapGestureRecognWildAnimal = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         imgVwWildAnimal.addGestureRecognizer(tapGestureRecognWildAnimal)
@@ -91,9 +81,6 @@ class HomeViewController: UIViewController {
 //        Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: #selector(self.alarmAlertActivate), userInfo: nil, repeats: true)
         
         
-      //  if ScreenSize.SCREEN_MAX_LENGTH < 812.0 {
-            self.imgVwWild3Bottom.isHidden = true
-        //}
     }
     @objc func alarmAlertActivate(){
         UIView.animate(withDuration: 0.7) {
@@ -128,18 +115,22 @@ class HomeViewController: UIViewController {
         if tapGestureRecognizer.view?.tag == 1 {
             setPictureVC.imageArray = CommanArray.houseHoldThingsImageArray
             setPictureVC.imageNameArray = CommanArray.houseHoldThingsNameArray
+            setPictureVC.getTabNumber = 0
         }
         else if tapGestureRecognizer.view?.tag == 2 {
             setPictureVC.imageArray = CommanArray.kitchenUtensilsImageArray
             setPictureVC.imageNameArray = CommanArray.kitchenUtensilsNameArray
+            setPictureVC.getTabNumber = 1
         }
         else if tapGestureRecognizer.view?.tag == 3 {
             setPictureVC.imageArray = CommanArray.gardeningImageArray
             setPictureVC.imageNameArray = CommanArray.gardeningNameArray
+            setPictureVC.getTabNumber = 2
         }
         else if tapGestureRecognizer.view?.tag == 4 {
             setPictureVC.imageArray = CommanArray.schoolImageArray
             setPictureVC.imageNameArray = CommanArray.schoolNameArray
+            setPictureVC.getTabNumber = 3
         }
         self.navigationController?.pushViewController(setPictureVC, animated: true)
     }
@@ -150,14 +141,14 @@ class HomeViewController: UIViewController {
     }
     
     func playBackgroundMusic() {
-//        let path = Bundle.main.path(forResource: "mixaund-happy-day", ofType : "mp3")!
-//        let url = URL(fileURLWithPath : path)
-//        do {
-//            player = try AVAudioPlayer(contentsOf: url)
-//            player.play()
-//        } catch {
-//            print ("There is an issue with this code!")
-//        }
+        let path = Bundle.main.path(forResource: "BackgroundMusic", ofType : "mp3")!
+        let url = URL(fileURLWithPath : path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.play()
+        } catch {
+            print ("There is an issue with this code!")
+        }
     }
 }
 

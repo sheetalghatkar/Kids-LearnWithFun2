@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6A3755FD59B0BEF441537828 /* Pods_Kids_LearnWithFun2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3120AB6A4BE183F8E56FF7 /* Pods_Kids_LearnWithFun2Tests.framework */; };
+		70013AD124CDAE8800CE1AFD /* Kitchen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD024CDAE8800CE1AFD /* Kitchen.gif */; };
+		70013AD324CDAFDC00CE1AFD /* House.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD224CDAFDC00CE1AFD /* House.gif */; };
+		70013AD724CDB97600CE1AFD /* SchoolGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD624CDB97600CE1AFD /* SchoolGif.gif */; };
+		70013AD924CDE4AC00CE1AFD /* Teapot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD824CDE4AC00CE1AFD /* Teapot.mp3 */; };
+		70013ADB24CDE61900CE1AFD /* Bubble.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013ADA24CDE61900CE1AFD /* Bubble.gif */; };
+		700CDCC424CB27E5004C8615 /* Garden.gif in Resources */ = {isa = PBXBuildFile; fileRef = 700CDCC324CB27E5004C8615 /* Garden.gif */; };
+		700CDCCC24CB5CE5004C8615 /* Door Mat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 700CDCCB24CB5CE5004C8615 /* Door Mat.mp3 */; };
+		700CDCCE24CB5D3B004C8615 /* Cooler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 700CDCCD24CB5D3B004C8615 /* Cooler.mp3 */; };
+		700CDCD024CB5E88004C8615 /* Air Cooler_Question.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 700CDCCF24CB5E88004C8615 /* Air Cooler_Question.mp3 */; };
+		700CDCD224CB5E90004C8615 /* Air Cooler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 700CDCD124CB5E90004C8615 /* Air Cooler.mp3 */; };
 		7017A9FA24BB410100C46A97 /* Ladder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017A9E124BB40FD00C46A97 /* Ladder.mp3 */; };
 		7017A9FB24BB410100C46A97 /* Building.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017A9E224BB40FD00C46A97 /* Building.mp3 */; };
 		7017A9FC24BB410100C46A97 /* Room.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7017A9E324BB40FD00C46A97 /* Room.mp3 */; };
@@ -49,6 +59,7 @@
 		701EF78124A294C5006C0A36 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701EF78024A294C5006C0A36 /* UIExtension.swift */; };
 		70270FDB24A369A900EB8DAB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70270FDA24A369A900EB8DAB /* TestViewController.swift */; };
 		70277DD224A4B59100072D57 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70277DD124A4B59100072D57 /* UILabelExtension.swift */; };
+		7027932A24CCAED700A863FB /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7027932924CCAED700A863FB /* BackgroundMusic.mp3 */; };
 		70329EC924C608E300E00095 /* Watering Can.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70329EC824C608E300E00095 /* Watering Can.mp3 */; };
 		70631FEB249776AB00DAE930 /* ImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70631FEA249776AB00DAE930 /* ImagesCollectionViewController.swift */; };
 		70631FED2497AA3000DAE930 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70631FEC2497AA3000DAE930 /* UIButtonExtension.swift */; };
@@ -58,15 +69,6 @@
 		7068EFD424AB5DCE00B448C3 /* TestSolveCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7068EFD224AB5DCE00B448C3 /* TestSolveCollectionCell.swift */; };
 		7068EFD524AB5DCE00B448C3 /* TestSolveCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7068EFD324AB5DCE00B448C3 /* TestSolveCollectionCell.xib */; };
 		707ECA22249CB3E10024D06C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707ECA21249CB3E10024D06C /* UIViewExtension.swift */; };
-		707ECA24249CD9A70024D06C /* darkwds1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 707ECA23249CD9A70024D06C /* darkwds1.wav */; };
-		707ECA26249CDAD80024D06C /* BgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 707ECA25249CDAD80024D06C /* BgMusic.mp3 */; };
-		707ECA28249CDFB80024D06C /* mixaund-happy-day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 707ECA27249CDFB80024D06C /* mixaund-happy-day.mp3 */; };
-		707ECA2E249CE6250024D06C /* TigerGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 707ECA2D249CE6240024D06C /* TigerGif.gif */; };
-		707ECA30249CE78E0024D06C /* ElephantGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 707ECA2F249CE78E0024D06C /* ElephantGif.gif */; };
-		707ECA32249CE9A50024D06C /* HorseGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 707ECA31249CE9A40024D06C /* HorseGif.gif */; };
-		707ECA34249CF45F0024D06C /* bird1Gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 707ECA33249CF45F0024D06C /* bird1Gif.gif */; };
-		707ECA36249CF4E10024D06C /* bird2Gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 707ECA35249CF4E10024D06C /* bird2Gif.gif */; };
-		7095C2D3249AA2E400C1E220 /* garden.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7095C2D2249AA2E400C1E220 /* garden.gif */; };
 		709D3379249B712B002B1114 /* UiCollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D3378249B712B002B1114 /* UiCollectionViewExtension.swift */; };
 		70AF537924A0CCCF00AD4794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70FF090B24962D9B002861AE /* Main.storyboard */; };
 		70E3B42224C4536F0053B679 /* Axe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E3B41E24C4536F0053B679 /* Axe.mp3 */; };
@@ -92,7 +94,6 @@
 		70E5E8C624BDE358002B2032 /* Sieve.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8B224BDE356002B2032 /* Sieve.mp3 */; };
 		70E5E8C724BDE358002B2032 /* Cup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8B324BDE357002B2032 /* Cup.mp3 */; };
 		70E5E8C824BDE358002B2032 /* Spoon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8B424BDE357002B2032 /* Spoon.mp3 */; };
-		70E5E8C924BDE358002B2032 /* Teapot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8B524BDE357002B2032 /* Teapot.mp3 */; };
 		70E5E8CA24BDE358002B2032 /* Plate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8B624BDE357002B2032 /* Plate.mp3 */; };
 		70E5E8CB24BDE358002B2032 /* Ladle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8B724BDE357002B2032 /* Ladle.mp3 */; };
 		70E5E8CC24BDE358002B2032 /* Fork.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8B824BDE357002B2032 /* Fork.mp3 */; };
@@ -101,7 +102,6 @@
 		70E5E8CF24BDE358002B2032 /* Lid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8BB24BDE358002B2032 /* Lid.mp3 */; };
 		70E5E8D024BDE358002B2032 /* Pressure Cooker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8BC24BDE358002B2032 /* Pressure Cooker.mp3 */; };
 		70E5E8D124BDE358002B2032 /* Bowl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8BD24BDE358002B2032 /* Bowl.mp3 */; };
-		70E5E8D524C03503002B2032 /* BlackTheme.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8D424C03503002B2032 /* BlackTheme.gif */; };
 		70E5E8D824C0CD22002B2032 /* House.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8D624C0CD22002B2032 /* House.mp3 */; };
 		70E5E8D924C0CD22002B2032 /* Air Conditioner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E5E8D724C0CD22002B2032 /* Air Conditioner.mp3 */; };
 		70EC9B0424C6F2D7009F8B8E /* Gardening Boots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70EC9B0324C6F2D7009F8B8E /* Gardening Boots.mp3 */; };
@@ -193,7 +193,6 @@
 		70FF092824962DB5002861AE /* Kids_LearnWithFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FF092724962DB5002861AE /* Kids_LearnWithFunUITests.swift */; };
 		70FF093724965879002861AE /* GIFSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FF093624965879002861AE /* GIFSwift.swift */; };
 		70FF093C24966856002861AE /* UIImageviewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FF093B24966856002861AE /* UIImageviewExtension.swift */; };
-		70FF09402496B43E002861AE /* Animated-bubbles.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70FF093F2496B43D002861AE /* Animated-bubbles.gif */; };
 		8EA33D0B731784E8D4AEDFF5 /* Pods_Kids_LearnWithFun2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD21D4CE675874AA4BCD0DD /* Pods_Kids_LearnWithFun2.framework */; };
 		D202DE8A416EBE76847AF5A5 /* Pods_Kids_LearnWithFun2_Kids_LearnWithFun2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DACAFB63D76FD57DFDBB4A8 /* Pods_Kids_LearnWithFun2_Kids_LearnWithFun2UITests.framework */; };
 /* End PBXBuildFile section */
@@ -226,6 +225,16 @@
 		5221C20743489DDA28B464F5 /* Pods-Kids-LearnWithFun2-Kids-LearnWithFun2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kids-LearnWithFun2-Kids-LearnWithFun2UITests.release.xcconfig"; path = "Target Support Files/Pods-Kids-LearnWithFun2-Kids-LearnWithFun2UITests/Pods-Kids-LearnWithFun2-Kids-LearnWithFun2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		56AB9351157D2055122A3784 /* Pods-Kids-LearnWithFun2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kids-LearnWithFun2Tests.debug.xcconfig"; path = "Target Support Files/Pods-Kids-LearnWithFun2Tests/Pods-Kids-LearnWithFun2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		695C26B3FA5688C6B7FC4895 /* Pods-Kids-LearnWithFun2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kids-LearnWithFun2Tests.release.xcconfig"; path = "Target Support Files/Pods-Kids-LearnWithFun2Tests/Pods-Kids-LearnWithFun2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70013AD024CDAE8800CE1AFD /* Kitchen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Kitchen.gif; sourceTree = "<group>"; };
+		70013AD224CDAFDC00CE1AFD /* House.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = House.gif; sourceTree = "<group>"; };
+		70013AD624CDB97600CE1AFD /* SchoolGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SchoolGif.gif; sourceTree = "<group>"; };
+		70013AD824CDE4AC00CE1AFD /* Teapot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Teapot.mp3; path = ../../../../../../../Downloads/Teapot.mp3; sourceTree = "<group>"; };
+		70013ADA24CDE61900CE1AFD /* Bubble.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Bubble.gif; sourceTree = "<group>"; };
+		700CDCC324CB27E5004C8615 /* Garden.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Garden.gif; sourceTree = "<group>"; };
+		700CDCCB24CB5CE5004C8615 /* Door Mat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Door Mat.mp3"; sourceTree = "<group>"; };
+		700CDCCD24CB5D3B004C8615 /* Cooler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cooler.mp3; sourceTree = "<group>"; };
+		700CDCCF24CB5E88004C8615 /* Air Cooler_Question.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Air Cooler_Question.mp3"; sourceTree = "<group>"; };
+		700CDCD124CB5E90004C8615 /* Air Cooler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Air Cooler.mp3"; sourceTree = "<group>"; };
 		7017A9E124BB40FD00C46A97 /* Ladder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ladder.mp3; sourceTree = "<group>"; };
 		7017A9E224BB40FD00C46A97 /* Building.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Building.mp3; sourceTree = "<group>"; };
 		7017A9E324BB40FD00C46A97 /* Room.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Room.mp3; sourceTree = "<group>"; };
@@ -267,6 +276,7 @@
 		701EF78024A294C5006C0A36 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		70270FDA24A369A900EB8DAB /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		70277DD124A4B59100072D57 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		7027932924CCAED700A863FB /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundMusic.mp3; sourceTree = "<group>"; };
 		70329EC824C608E300E00095 /* Watering Can.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Watering Can.mp3"; sourceTree = "<group>"; };
 		70631FEA249776AB00DAE930 /* ImagesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewController.swift; sourceTree = "<group>"; };
 		70631FEC2497AA3000DAE930 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
@@ -276,15 +286,6 @@
 		7068EFD224AB5DCE00B448C3 /* TestSolveCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSolveCollectionCell.swift; sourceTree = "<group>"; };
 		7068EFD324AB5DCE00B448C3 /* TestSolveCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestSolveCollectionCell.xib; sourceTree = "<group>"; };
 		707ECA21249CB3E10024D06C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		707ECA23249CD9A70024D06C /* darkwds1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = darkwds1.wav; sourceTree = "<group>"; };
-		707ECA25249CDAD80024D06C /* BgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BgMusic.mp3; sourceTree = "<group>"; };
-		707ECA27249CDFB80024D06C /* mixaund-happy-day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mixaund-happy-day.mp3"; sourceTree = "<group>"; };
-		707ECA2D249CE6240024D06C /* TigerGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TigerGif.gif; sourceTree = "<group>"; };
-		707ECA2F249CE78E0024D06C /* ElephantGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ElephantGif.gif; sourceTree = "<group>"; };
-		707ECA31249CE9A40024D06C /* HorseGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HorseGif.gif; sourceTree = "<group>"; };
-		707ECA33249CF45F0024D06C /* bird1Gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bird1Gif.gif; sourceTree = "<group>"; };
-		707ECA35249CF4E10024D06C /* bird2Gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bird2Gif.gif; sourceTree = "<group>"; };
-		7095C2D2249AA2E400C1E220 /* garden.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = garden.gif; sourceTree = "<group>"; };
 		709D3378249B712B002B1114 /* UiCollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiCollectionViewExtension.swift; sourceTree = "<group>"; };
 		70E3B41E24C4536F0053B679 /* Axe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Axe.mp3; sourceTree = "<group>"; };
 		70E3B41F24C4536F0053B679 /* Cultivator.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cultivator.mp3; sourceTree = "<group>"; };
@@ -309,7 +310,6 @@
 		70E5E8B224BDE356002B2032 /* Sieve.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sieve.mp3; sourceTree = "<group>"; };
 		70E5E8B324BDE357002B2032 /* Cup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cup.mp3; sourceTree = "<group>"; };
 		70E5E8B424BDE357002B2032 /* Spoon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Spoon.mp3; sourceTree = "<group>"; };
-		70E5E8B524BDE357002B2032 /* Teapot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Teapot.mp3; sourceTree = "<group>"; };
 		70E5E8B624BDE357002B2032 /* Plate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Plate.mp3; sourceTree = "<group>"; };
 		70E5E8B724BDE357002B2032 /* Ladle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ladle.mp3; sourceTree = "<group>"; };
 		70E5E8B824BDE357002B2032 /* Fork.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fork.mp3; sourceTree = "<group>"; };
@@ -318,7 +318,6 @@
 		70E5E8BB24BDE358002B2032 /* Lid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lid.mp3; sourceTree = "<group>"; };
 		70E5E8BC24BDE358002B2032 /* Pressure Cooker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pressure Cooker.mp3"; sourceTree = "<group>"; };
 		70E5E8BD24BDE358002B2032 /* Bowl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bowl.mp3; sourceTree = "<group>"; };
-		70E5E8D424C03503002B2032 /* BlackTheme.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BlackTheme.gif; sourceTree = "<group>"; };
 		70E5E8D624C0CD22002B2032 /* House.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = House.mp3; sourceTree = "<group>"; };
 		70E5E8D724C0CD22002B2032 /* Air Conditioner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Air Conditioner.mp3"; sourceTree = "<group>"; };
 		70EC9B0324C6F2D7009F8B8E /* Gardening Boots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gardening Boots.mp3"; sourceTree = "<group>"; };
@@ -417,7 +416,6 @@
 		70FF092924962DB5002861AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70FF093624965879002861AE /* GIFSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFSwift.swift; sourceTree = "<group>"; };
 		70FF093B24966856002861AE /* UIImageviewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageviewExtension.swift; sourceTree = "<group>"; };
-		70FF093F2496B43D002861AE /* Animated-bubbles.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Animated-bubbles.gif"; sourceTree = "<group>"; };
 		8977875AE3E6E097D3D020EC /* Pods-Kids-LearnWithFun1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kids-LearnWithFun1Tests.debug.xcconfig"; path = "Target Support Files/Pods-Kids-LearnWithFun1Tests/Pods-Kids-LearnWithFun1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D3BEF9F8B28EAF75AE67232 /* Pods-Kids-LearnWithFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kids-LearnWithFun.release.xcconfig"; path = "Target Support Files/Pods-Kids-LearnWithFun/Pods-Kids-LearnWithFun.release.xcconfig"; sourceTree = "<group>"; };
 		9EA9145E6BC924594E5B9FB6 /* Pods-Kids-LearnWithFun1-Kids-LearnWithFun1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kids-LearnWithFun1-Kids-LearnWithFun1UITests.release.xcconfig"; path = "Target Support Files/Pods-Kids-LearnWithFun1-Kids-LearnWithFun1UITests/Pods-Kids-LearnWithFun1-Kids-LearnWithFun1UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -512,7 +510,9 @@
 				7017A9E124BB40FD00C46A97 /* Ladder.mp3 */,
 				70E5E8D724C0CD22002B2032 /* Air Conditioner.mp3 */,
 				70E5E8D624C0CD22002B2032 /* House.mp3 */,
+				700CDCCD24CB5D3B004C8615 /* Cooler.mp3 */,
 				7017A9F724BB410000C46A97 /* Mat.mp3 */,
+				700CDCCB24CB5CE5004C8615 /* Door Mat.mp3 */,
 				7017A9F324BB410000C46A97 /* Mirror.mp3 */,
 				7017A9E324BB40FD00C46A97 /* Room.mp3 */,
 				7017A9EA24BB40FE00C46A97 /* Sofa.mp3 */,
@@ -520,6 +520,7 @@
 				7017A9E524BB40FE00C46A97 /* Stool.mp3 */,
 				7017A9F224BB410000C46A97 /* Swing.mp3 */,
 				7017A9F524BB410000C46A97 /* Table.mp3 */,
+				700CDCD124CB5E90004C8615 /* Air Cooler.mp3 */,
 				7017A9F124BB40FF00C46A97 /* Telephone.mp3 */,
 				7017A9EC24BB40FF00C46A97 /* Wardrobe.mp3 */,
 				7017A9F924BB410100C46A97 /* Window.mp3 */,
@@ -582,6 +583,7 @@
 			isa = PBXGroup;
 			children = (
 				70EC9B6C24C72082009F8B8E /* Air Conditioner_Question.mp3 */,
+				700CDCCF24CB5E88004C8615 /* Air Cooler_Question.mp3 */,
 				70EC9B7B24C72085009F8B8E /* Bathroom_Question.mp3 */,
 				70EC9B7524C72084009F8B8E /* Bed_Question.mp3 */,
 				70EC9B7024C72083009F8B8E /* Broom_Question.mp3 */,
@@ -669,11 +671,11 @@
 				70E5E8B924BDE357002B2032 /* Rolling Pad.mp3 */,
 				70E5E8AC24BDE356002B2032 /* Rolling Pin.mp3 */,
 				70E5E8AA24BDE355002B2032 /* Saucer.mp3 */,
+				70013AD824CDE4AC00CE1AFD /* Teapot.mp3 */,
 				70E5E8B224BDE356002B2032 /* Sieve.mp3 */,
 				70E5E8AB24BDE355002B2032 /* Skimmer.mp3 */,
 				70E5E8B424BDE357002B2032 /* Spoon.mp3 */,
 				70E5E8AD24BDE356002B2032 /* Strainer.mp3 */,
-				70E5E8B524BDE357002B2032 /* Teapot.mp3 */,
 			);
 			path = KitchenUtensils_Name;
 			sourceTree = "<group>";
@@ -807,17 +809,12 @@
 		70FF09352496450E002861AE /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				707ECA23249CD9A70024D06C /* darkwds1.wav */,
-				707ECA31249CE9A40024D06C /* HorseGif.gif */,
-				707ECA2D249CE6240024D06C /* TigerGif.gif */,
-				707ECA33249CF45F0024D06C /* bird1Gif.gif */,
-				70E5E8D424C03503002B2032 /* BlackTheme.gif */,
-				707ECA27249CDFB80024D06C /* mixaund-happy-day.mp3 */,
-				707ECA2F249CE78E0024D06C /* ElephantGif.gif */,
-				707ECA25249CDAD80024D06C /* BgMusic.mp3 */,
-				70FF093F2496B43D002861AE /* Animated-bubbles.gif */,
-				707ECA35249CF4E10024D06C /* bird2Gif.gif */,
-				7095C2D2249AA2E400C1E220 /* garden.gif */,
+				7027932924CCAED700A863FB /* BackgroundMusic.mp3 */,
+				70013ADA24CDE61900CE1AFD /* Bubble.gif */,
+				70013AD024CDAE8800CE1AFD /* Kitchen.gif */,
+				70013AD224CDAFDC00CE1AFD /* House.gif */,
+				70013AD624CDB97600CE1AFD /* SchoolGif.gif */,
+				700CDCC324CB27E5004C8615 /* Garden.gif */,
 				70FF093624965879002861AE /* GIFSwift.swift */,
 			);
 			path = "Third Party";
@@ -971,6 +968,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700CDCCC24CB5CE5004C8615 /* Door Mat.mp3 in Resources */,
 				70EC9B8824C72086009F8B8E /* Gate_Question.mp3 in Resources */,
 				70EC9BA224C758E5009F8B8E /* Watering Can_Question.mp3 in Resources */,
 				70E3B42824C453CE0053B679 /* Spade.mp3 in Resources */,
@@ -978,12 +976,12 @@
 				70E3B42D24C4556A0053B679 /* Hedge Shears.mp3 in Resources */,
 				70EC9B9424C72086009F8B8E /* Room_Question.mp3 in Resources */,
 				7017AA2524BB928200C46A97 /* School Bag.mp3 in Resources */,
+				70013ADB24CDE61900CE1AFD /* Bubble.gif in Resources */,
 				70EC9B3B24C719C7009F8B8E /* Ladle_Question.mp3 in Resources */,
 				70EC9B5C24C71C01009F8B8E /* Pencil_Question.mp3 in Resources */,
 				70EC9B0824C6F503009F8B8E /* Axe_Question.mp3 in Resources */,
 				70EC9B6024C71C01009F8B8E /* Notebook_Question.mp3 in Resources */,
 				7068EFD524AB5DCE00B448C3 /* TestSolveCollectionCell.xib in Resources */,
-				70E5E8D524C03503002B2032 /* BlackTheme.gif in Resources */,
 				70E5E8CF24BDE358002B2032 /* Lid.mp3 in Resources */,
 				7017AA2224BB928200C46A97 /* Pencil.mp3 in Resources */,
 				70EC9B1A24C71612009F8B8E /* Gardening Boots_Question.mp3 in Resources */,
@@ -1001,7 +999,6 @@
 				70E5E8CE24BDE358002B2032 /* Pitcher.mp3 in Resources */,
 				70EC9B8E24C72086009F8B8E /* Staircase_Question.mp3 in Resources */,
 				70EC9B8224C72086009F8B8E /* Corridor_Question.mp3 in Resources */,
-				707ECA2E249CE6250024D06C /* TigerGif.gif in Resources */,
 				7017A9FD24BB410100C46A97 /* Dustbin.mp3 in Resources */,
 				7017AA0824BB410100C46A97 /* Chair.mp3 in Resources */,
 				7017AA0924BB410100C46A97 /* Kitchen.mp3 in Resources */,
@@ -1012,16 +1009,17 @@
 				7017AA0324BB410100C46A97 /* Sofa.mp3 in Resources */,
 				70E3B42924C453CE0053B679 /* Trowel.mp3 in Resources */,
 				70F9024624AFAF5C00A3AA12 /* Wrong.mp3 in Resources */,
+				70013AD324CDAFDC00CE1AFD /* House.gif in Resources */,
 				7017AA0424BB410100C46A97 /* Curtain.mp3 in Resources */,
 				70F9024124AF88AE00A3AA12 /* GreatJob.mp3 in Resources */,
 				70EC9B8B24C72086009F8B8E /* Kitchen_Question.mp3 in Resources */,
+				700CDCD224CB5E90004C8615 /* Air Cooler.mp3 in Resources */,
 				70AF537924A0CCCF00AD4794 /* Main.storyboard in Resources */,
 				70EC9B3924C719C7009F8B8E /* Grater_Question.mp3 in Resources */,
 				70EC9B1424C7158F009F8B8E /* Wheelbarrow_Question.mp3 in Resources */,
 				70EC9B8F24C72086009F8B8E /* Bed_Question.mp3 in Resources */,
 				70E5E8C024BDE358002B2032 /* Rolling Pin.mp3 in Resources */,
 				70631FF42497F11B00DAE930 /* PictureCollectionCell.xib in Resources */,
-				707ECA26249CDAD80024D06C /* BgMusic.mp3 in Resources */,
 				7017AA2C24BB928200C46A97 /* Electric Bell.mp3 in Resources */,
 				70E5E8C424BDE358002B2032 /* Glass.mp3 in Resources */,
 				7017AA0B24BB410100C46A97 /* Swing.mp3 in Resources */,
@@ -1035,7 +1033,7 @@
 				70EC9B9324C72086009F8B8E /* Door_Question.mp3 in Resources */,
 				70EC9B4024C719C7009F8B8E /* Fork_Question.mp3 in Resources */,
 				70F9023D24AF88A500A3AA12 /* No.mp3 in Resources */,
-				707ECA28249CDFB80024D06C /* mixaund-happy-day.mp3 in Resources */,
+				70013AD124CDAE8800CE1AFD /* Kitchen.gif in Resources */,
 				70EC9B4124C719C7009F8B8E /* Skimmer_Question.mp3 in Resources */,
 				70E5E8C824BDE358002B2032 /* Spoon.mp3 in Resources */,
 				7017AA0624BB410100C46A97 /* Gate.mp3 in Resources */,
@@ -1044,7 +1042,6 @@
 				70EC9B8124C72086009F8B8E /* House_Question.mp3 in Resources */,
 				70EC9B3F24C719C7009F8B8E /* Glass_Question.mp3 in Resources */,
 				70EC9B4324C719C7009F8B8E /* Strainer_Question.mp3 in Resources */,
-				707ECA32249CE9A50024D06C /* HorseGif.gif in Resources */,
 				70E5E8BF24BDE358002B2032 /* Skimmer.mp3 in Resources */,
 				70E3B42F24C4556A0053B679 /* Prunning Saw.mp3 in Resources */,
 				70EC9B1624C715B8009F8B8E /* Rake_Question.mp3 in Resources */,
@@ -1059,13 +1056,14 @@
 				7017A9FE24BB410100C46A97 /* Stool.mp3 in Resources */,
 				7017AA0024BB410100C46A97 /* Fan.mp3 in Resources */,
 				70EC9B3824C719C7009F8B8E /* Sieve_Question.mp3 in Resources */,
-				707ECA34249CF45F0024D06C /* bird1Gif.gif in Resources */,
 				70EC9B3A24C719C7009F8B8E /* Rolling Pad_Question.mp3 in Resources */,
+				700CDCD024CB5E88004C8615 /* Air Cooler_Question.mp3 in Resources */,
 				7017AA2724BB928200C46A97 /* Classroom.mp3 in Resources */,
 				70EC9B5D24C71C01009F8B8E /* Bench_Question.mp3 in Resources */,
 				70EC9B8424C72086009F8B8E /* Stool_Question.mp3 in Resources */,
 				70EC9B3724C719C7009F8B8E /* Saucer_Question.mp3 in Resources */,
 				7017AA2824BB928200C46A97 /* Book.mp3 in Resources */,
+				7027932A24CCAED700A863FB /* BackgroundMusic.mp3 in Resources */,
 				70EC9B1024C714B6009F8B8E /* Hose_Question.mp3 in Resources */,
 				70EC9B9624C72086009F8B8E /* Telephone_Question.mp3 in Resources */,
 				70EC9B1224C71571009F8B8E /* Prunning Saw_Question.mp3 in Resources */,
@@ -1073,20 +1071,17 @@
 				70EC9B4624C719C7009F8B8E /* Pitcher_Question.mp3 in Resources */,
 				70E5E8C224BDE358002B2032 /* Pan.mp3 in Resources */,
 				70E3B42524C4536F0053B679 /* Shovel.mp3 in Resources */,
+				700CDCC424CB27E5004C8615 /* Garden.gif in Resources */,
 				7017AA0224BB410100C46A97 /* Bed.mp3 in Resources */,
 				70E3B42324C4536F0053B679 /* Cultivator.mp3 in Resources */,
-				7095C2D3249AA2E400C1E220 /* garden.gif in Resources */,
 				7017AA3124BB98F500C46A97 /* School Uniform.mp3 in Resources */,
 				70EC9B8624C72086009F8B8E /* Air Conditioner_Question.mp3 in Resources */,
 				70329EC924C608E300E00095 /* Watering Can.mp3 in Resources */,
 				70EC9B9C24C75231009F8B8E /* Door Mat_Question.mp3 in Resources */,
-				707ECA36249CF4E10024D06C /* bird2Gif.gif in Resources */,
-				70E5E8C924BDE358002B2032 /* Teapot.mp3 in Resources */,
 				70EC9B5A24C71C01009F8B8E /* Playground_Question.mp3 in Resources */,
 				70EC9B5924C71C01009F8B8E /* School Bag_Question.mp3 in Resources */,
 				70E3B43224C456380053B679 /* Garden Gloves.mp3 in Resources */,
 				70E5E8C124BDE358002B2032 /* Strainer.mp3 in Resources */,
-				707ECA30249CE78E0024D06C /* ElephantGif.gif in Resources */,
 				70E3B42424C4536F0053B679 /* Hand Fork.mp3 in Resources */,
 				70EC9B9124C72086009F8B8E /* Swing_Question.mp3 in Resources */,
 				7017AA2924BB928200C46A97 /* Library.mp3 in Resources */,
@@ -1101,7 +1096,6 @@
 				7017A9FF24BB410100C46A97 /* Door.mp3 in Resources */,
 				70EC9B6424C71C01009F8B8E /* Pen_Question.mp3 in Resources */,
 				70EC9B4724C719C7009F8B8E /* Rolling Pin_Question.mp3 in Resources */,
-				707ECA24249CD9A70024D06C /* darkwds1.wav in Resources */,
 				70EC9B6324C71C01009F8B8E /* Library_Question.mp3 in Resources */,
 				70E5E8D824C0CD22002B2032 /* House.mp3 in Resources */,
 				70FF090F24962DB5002861AE /* Assets.xcassets in Resources */,
@@ -1112,6 +1106,7 @@
 				7017AA2424BB928200C46A97 /* White Board.mp3 in Resources */,
 				70E3B43324C456380053B679 /* Wheelbarrow.mp3 in Resources */,
 				70F9024224AF88AE00A3AA12 /* Excellent.mp3 in Resources */,
+				70013AD924CDE4AC00CE1AFD /* Teapot.mp3 in Resources */,
 				70EC9B8924C72086009F8B8E /* Window_Question.mp3 in Resources */,
 				70E5E8CC24BDE358002B2032 /* Fork.mp3 in Resources */,
 				70F9024424AF88B900A3AA12 /* WellDone.mp3 in Resources */,
@@ -1119,7 +1114,6 @@
 				70EC9B4524C719C7009F8B8E /* Pan_Question.mp3 in Resources */,
 				70E5E8C324BDE358002B2032 /* Cauldron.mp3 in Resources */,
 				7017AA0724BB410100C46A97 /* Staircase.mp3 in Resources */,
-				70FF09402496B43E002861AE /* Animated-bubbles.gif in Resources */,
 				70E5E8D024BDE358002B2032 /* Pressure Cooker.mp3 in Resources */,
 				70EC9B8724C72086009F8B8E /* Sofa_Question.mp3 in Resources */,
 				70EC9B8524C72086009F8B8E /* Chair_Question.mp3 in Resources */,
@@ -1139,6 +1133,8 @@
 				70EC9B0424C6F2D7009F8B8E /* Gardening Boots.mp3 in Resources */,
 				7017A9FC24BB410100C46A97 /* Room.mp3 in Resources */,
 				7017AA2B24BB928200C46A97 /* Notebook.mp3 in Resources */,
+				70013AD724CDB97600CE1AFD /* SchoolGif.gif in Resources */,
+				700CDCCE24CB5D3B004C8615 /* Cooler.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
