@@ -482,8 +482,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nature" translatesAutoresizingMaskIntoConstraints="NO" id="SJF-BJ-cLf">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgHome" translatesAutoresizingMaskIntoConstraints="NO" id="SJF-BJ-cLf">
+                                <rect key="frame" x="-21" y="646" width="456" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="b22-7h-OB9"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWo-J7-g90" userLabel="BtnHome">
                                 <rect key="frame" x="20" y="54" width="40" height="40"/>
@@ -583,23 +586,22 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.0039215686269999999" green="0.70588235290000001" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="t4u-4d-A2T" firstAttribute="trailing" secondItem="5GS-wC-DeR" secondAttribute="trailing" id="1Ig-Um-yrj"/>
-                            <constraint firstItem="t4u-4d-A2T" firstAttribute="trailing" secondItem="SJF-BJ-cLf" secondAttribute="trailing" id="45l-5a-ufe"/>
                             <constraint firstItem="5GS-wC-DeR" firstAttribute="leading" secondItem="t4u-4d-A2T" secondAttribute="leading" id="7HP-ma-UsB"/>
                             <constraint firstItem="Dy7-R1-aVo" firstAttribute="centerY" secondItem="vWo-J7-g90" secondAttribute="centerY" id="7MA-Rx-Hhu"/>
                             <constraint firstItem="t4u-4d-A2T" firstAttribute="trailing" secondItem="uBz-sN-VoN" secondAttribute="trailing" constant="20" id="F99-VS-RmZ"/>
-                            <constraint firstItem="SJF-BJ-cLf" firstAttribute="top" secondItem="kra-sA-SsD" secondAttribute="top" id="Iy0-zu-XeQ"/>
                             <constraint firstItem="5GS-wC-DeR" firstAttribute="top" secondItem="vWo-J7-g90" secondAttribute="bottom" constant="20" id="JjY-Pa-CnY"/>
-                            <constraint firstItem="SJF-BJ-cLf" firstAttribute="leading" secondItem="t4u-4d-A2T" secondAttribute="leading" id="Sd4-1N-CEp"/>
-                            <constraint firstAttribute="bottom" secondItem="SJF-BJ-cLf" secondAttribute="bottom" id="YBB-SS-xMy"/>
+                            <constraint firstItem="SJF-BJ-cLf" firstAttribute="width" secondItem="kra-sA-SsD" secondAttribute="width" multiplier="1.10145" id="VMi-n1-wsv"/>
+                            <constraint firstItem="SJF-BJ-cLf" firstAttribute="centerX" secondItem="kra-sA-SsD" secondAttribute="centerX" id="aw7-8s-p1S"/>
                             <constraint firstItem="tS7-5V-hFM" firstAttribute="leading" secondItem="t4u-4d-A2T" secondAttribute="leading" constant="20" id="bCs-ec-k3y"/>
                             <constraint firstItem="vVn-jN-vjJ" firstAttribute="top" secondItem="t4u-4d-A2T" secondAttribute="top" constant="10" id="csc-Ou-SQj"/>
                             <constraint firstItem="Dy7-R1-aVo" firstAttribute="leading" secondItem="vWo-J7-g90" secondAttribute="trailing" constant="10" id="fDI-Nn-2bk"/>
                             <constraint firstItem="t4u-4d-A2T" firstAttribute="trailing" secondItem="vVn-jN-vjJ" secondAttribute="trailing" constant="20" id="fPx-Nt-NQ8"/>
                             <constraint firstItem="vWo-J7-g90" firstAttribute="leading" secondItem="t4u-4d-A2T" secondAttribute="leading" constant="20" id="gmO-nV-sm2"/>
                             <constraint firstItem="uBz-sN-VoN" firstAttribute="top" secondItem="tS7-5V-hFM" secondAttribute="top" id="lE6-kJ-LBb"/>
+                            <constraint firstAttribute="bottom" secondItem="SJF-BJ-cLf" secondAttribute="bottom" id="seW-Os-GFc"/>
                             <constraint firstItem="uBz-sN-VoN" firstAttribute="width" secondItem="uBz-sN-VoN" secondAttribute="height" multiplier="1:1" id="uD8-cd-5iW"/>
                             <constraint firstItem="tS7-5V-hFM" firstAttribute="top" secondItem="5GS-wC-DeR" secondAttribute="bottom" constant="20" id="uOF-11-jWR"/>
                             <constraint firstItem="vWo-J7-g90" firstAttribute="top" secondItem="vVn-jN-vjJ" secondAttribute="top" id="wel-Qs-m1P"/>
@@ -664,7 +666,7 @@
                                             <constraint firstAttribute="height" constant="1" id="mhr-0W-L3R"/>
                                         </constraints>
                                     </view>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SmileyHouse" translatesAutoresizingMaskIntoConstraints="NO" id="gNh-Yt-CGX" userLabel="ImgViewWildAnimal" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HouseIcon_Test" translatesAutoresizingMaskIntoConstraints="NO" id="gNh-Yt-CGX" userLabel="ImgViewWildAnimal" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
                                         <rect key="frame" x="41.5" y="10" width="120" height="120"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -720,7 +722,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isShowShadow" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </label>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gardening_Test" translatesAutoresizingMaskIntoConstraints="NO" id="aWX-21-wnP" userLabel="ImgViewBird" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GradeningIcon_Test" translatesAutoresizingMaskIntoConstraints="NO" id="aWX-21-wnP" userLabel="ImgViewBird" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
                                         <rect key="frame" x="41.5" y="213.5" width="120" height="120"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -735,7 +737,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="School_Test" translatesAutoresizingMaskIntoConstraints="NO" id="Y7v-yi-LeU" userLabel="ImgViewFlower" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SchoolIcon_Test" translatesAutoresizingMaskIntoConstraints="NO" id="Y7v-yi-LeU" userLabel="ImgViewFlower" customClass="RoundImageView" customModule="Kids_LearnWithFun2" customModuleProvider="target">
                                         <rect key="frame" x="222.5" y="213.5" width="120" height="120"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -935,18 +937,17 @@
         <image name="BackButton" width="32" height="32"/>
         <image name="Backward" width="256" height="256"/>
         <image name="Forward" width="256" height="256"/>
-        <image name="Gardening_Test" width="728" height="1136"/>
+        <image name="GradeningIcon_Test" width="840" height="859"/>
         <image name="Home_Back" width="512" height="512"/>
-        <image name="HouseholdHomeIcon" width="860" height="899"/>
-        <image name="ImplementHomeIcon" width="488" height="488"/>
+        <image name="HouseIcon_Test" width="500" height="500"/>
+        <image name="HouseholdHomeIcon" width="290" height="200"/>
+        <image name="ImplementHomeIcon" width="443" height="563"/>
         <image name="KitchenHomeIcon" width="350" height="350"/>
         <image name="Kitchen_Test" width="2765" height="2720"/>
         <image name="Lock" width="75" height="75"/>
-        <image name="Nature" width="228" height="228"/>
         <image name="Question" width="235.5" height="256"/>
         <image name="SchoolHomeIcon" width="860" height="900"/>
-        <image name="School_Test" width="488" height="511"/>
-        <image name="SmileyHouse" width="500" height="500"/>
+        <image name="SchoolIcon_Test" width="226" height="265"/>
         <image name="Sound-On" width="50" height="50"/>
         <image name="Test" width="232" height="269"/>
         <image name="bgHome" width="780" height="437"/>
