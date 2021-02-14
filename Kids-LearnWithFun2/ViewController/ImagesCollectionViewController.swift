@@ -23,6 +23,8 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
     @IBOutlet weak var imgViewBgKitchen: UIImageView!
     @IBOutlet weak var imgViewBgGarden: UIImageView!
     @IBOutlet weak var imgViewBgSchool: UIImageView!
+    @IBOutlet weak var imgViewLoader: UIImageView!
+    @IBOutlet weak var viewTransperent: UIView!
 
     
     var player = AVAudioPlayer()
@@ -37,6 +39,12 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let loaderGif = UIImage.gifImageWithName("Loading")
+        imgViewLoader.image = loaderGif
+        imgViewLoader.backgroundColor = UIColor.white
+        imgViewLoader.layer.borderWidth = 1
+        imgViewLoader.layer.borderColor = UIColor.red.cgColor
+
         btnForward.layer.cornerRadius = 25.0
         btnBackward.layer.cornerRadius = 25.0
         btnBackward.isHidden = true
@@ -67,8 +75,12 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
         playSound(getSound : self.imageNameArray[0])
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
+        GADMobileAds.sharedInstance().requestConfiguration.tag(forChildDirectedTreatment: true)
+        GADMobileAds.sharedInstance().requestConfiguration.tagForUnderAge(ofConsent: true)
+        GADMobileAds.sharedInstance().requestConfiguration.maxAdContentRating =
+            GADMaxAdContentRating.general
         addBannerViewToView(bannerView)
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = CommanArray.Banner_AdUnitId
         bannerView.rootViewController = self
         if getTabNumber == 0 {
             self.imgViewBgKitchen.image  = UIImage.gifImageWithName("House")
@@ -79,8 +91,9 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
         } else if getTabNumber == 3 {
             self.imgViewBgKitchen.image  = UIImage.gifImageWithName("SchoolGif")
         }
-
-       // bannerView.load(GADRequest())
+        if Reachability.isConnectedToNetwork() {
+            bannerView.load(GADRequest())
+        }
     }
     func addBannerViewToView(_ bannerView: GADBannerView) {
       bannerView.translatesAutoresizingMaskIntoConstraints = false
@@ -162,10 +175,31 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
     }
     
     @IBAction func funcGoToHome(_ sender: Any) {
-       // interstitial = createAndLoadInterstitial()
-        navigationController?.popViewController(animated: true)
+        self.viewTransperent.isHidden = false
+        self.imgViewLoader.isHidden = false
+        if Reachability.isConnectedToNetwork() {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 7.0, execute: {
+                if !(self.imgViewLoader.isHidden) {
+                    self.funcHideLoader()
+                    self.navigationController?.popViewController(animated: true)
+                }
+            })
+            interstitial = createAndLoadInterstitial()
+        }else {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 5.0, execute: {
+                self.funcHideLoader()
+                let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
+                    self.navigationController?.popViewController(animated: true)
+                }))
+                self.present(alert, animated: true, completion: nil)
+            })
+        }
     }
-    
+    func funcHideLoader() {
+        self.viewTransperent.isHidden = true
+        self.imgViewLoader.isHidden = true
+    }
     @IBAction func funcForwardBtnClick(_ sender: Any)
     {
         let visibleItems: NSArray = self.collectionViewCard.indexPathsForVisibleItems as NSArray
@@ -228,9 +262,11 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
             self.lblCard.text = self.imageNameArray[closestCellIndex]
             if closestCellIndex == self.imageArray.count - 1 {
                 self.btnForward.isHidden = true
+                self.btnBackward.isHidden = false
             }
             else if closestCellIndex == 0 {
                 self.btnBackward.isHidden = true
+                self.btnForward.isHidden = false
             } else {
                 self.btnForward.isHidden = false
                 self.btnBackward.isHidden = false
@@ -252,7 +288,7 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
         } 
     }
     private func createAndLoadInterstitial() -> GADInterstitial? {
-        interstitial = GADInterstitial(adUnitID: "ca-app-pub-8501671653071605/2568258533")
+        interstitial = GADInterstitial(adUnitID: CommanArray.Interstitial_AdUnitId)
 
         guard let interstitial = interstitial else {
             return nil
@@ -260,7 +296,7 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
 
         let request = GADRequest()
         // Remove the following line before you upload the app
-        request.testDevices = ["E16216BC-AA11-4924-A93F-5011846DFFA4"]
+//        request.testDevices = ["E16216BC-AA11-4924-A93F-5011846DFFA4"]
         interstitial.load(request)
         interstitial.delegate = self
 
@@ -303,12 +339,14 @@ extension ImagesCollectionViewController: GADBannerViewDelegate {
 extension ImagesCollectionViewController: GADInterstitialDelegate {
     func interstitialDidReceiveAd(_ ad: GADInterstitial) {
         print("Interstitial loaded successfully")
+        self.funcHideLoader()
         ad.present(fromRootViewController: self)
         navigationController?.popViewController(animated: true)
     }
 
     func interstitialDidFail(toPresentScreen ad: GADInterstitial) {
         print("Fail to receive interstitial")
+        self.funcHideLoader()
         navigationController?.popViewController(animated: true)
     }
     func interstitialDidDismissScreen(_ ad: GADInterstitial) {

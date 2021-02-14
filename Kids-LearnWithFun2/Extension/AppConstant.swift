@@ -49,7 +49,7 @@ class CommanArray {
         UIImage(named: "Lid.png")!,
         UIImage(named: "Cup.png")!,
         UIImage(named: "Saucer.png")!,
-        UIImage(named: "Teapot.png")!,
+       // UIImage(named: "Teapot.png")!,
         UIImage(named: "Spoon.png")!,
         UIImage(named: "Fork.png")!,
         UIImage(named: "Sieve.png")!,
@@ -61,8 +61,9 @@ class CommanArray {
         UIImage(named: "Grater.png")!,
         UIImage(named: "Bowl.png")!
     ]
+    //"Teapot"
     static var kitchenUtensilsNameArray: [String] = ["Pan","Pitcher",
-                                                     "Pressure Cooker","Plate","Glass","Cauldron","Lid","Cup","Saucer","Teapot","Spoon","Fork","Sieve","Strainer","Rolling Pad","Rolling Pin","Skimmer","Ladle","Grater","Bowl"]
+                                                     "Pressure Cooker","Plate","Glass","Cauldron","Lid","Cup","Saucer","Spoon","Fork","Sieve","Strainer","Rolling Pad","Rolling Pin","Skimmer","Ladle","Grater","Bowl"]
     //------------------------------------------------------------------------
     static var gardeningImageArray: [UIImage] = [
         UIImage(named: "Axe.png")!,
@@ -104,4 +105,36 @@ class CommanArray {
         UIImage(named: "Wrong-Sign.png")!,
         UIImage(named: "Right-Sign.png")!
     ]
+    static var Banner_AdUnitId = "ca-app-pub-7546454767986772/2971046998"
+    static var Interstitial_AdUnitId = "ca-app-pub-7546454767986772/7578066918"
+    static var Ad_App_ID = "ca-app-pub-7546454767986772~6951380954"
 }
+/**
+ * Check if internet connection is available
+ */
+class Reachability {
+    class func isConnectedToNetwork() -> Bool {
+        var status:Bool = false
+        let url = NSURL(string: "http://google.com")
+        let request = NSMutableURLRequest(url: url! as URL)
+        request.httpMethod = "HEAD"
+        request.cachePolicy = NSURLRequest.CachePolicy.reloadIgnoringLocalAndRemoteCacheData
+        request.timeoutInterval = 10.0
+        var response1:URLResponse?
+        
+        let semaphore: DispatchSemaphore = DispatchSemaphore(value: 0)
+        let task = URLSession.shared.dataTask(with: request as URLRequest) { (data, response, error) in
+            response1 = response
+            semaphore.signal()
+        }
+        task.resume()
+        semaphore.wait()
+        if let httpResponse = response1 as? HTTPURLResponse {
+            if httpResponse.statusCode == 200 {
+                status = true
+            }
+        }
+        return status
+      }
+}
+

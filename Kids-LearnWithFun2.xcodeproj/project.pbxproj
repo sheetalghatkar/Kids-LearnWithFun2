@@ -17,6 +17,7 @@
 		4F1DAE9625D82AB5000852D6 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8C25D82AB5000852D6 /* UserMessagingPlatform.xcframework */; };
 		4F1DAE9725D82AB5000852D6 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8D25D82AB5000852D6 /* GoogleMobileAds.xcframework */; };
 		4F1DAE9825D82AB5000852D6 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8E25D82AB5000852D6 /* GoogleUtilities.xcframework */; };
+		4F8E9F0E25D9702100859A2F /* Loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E9F0D25D9702100859A2F /* Loading.gif */; };
 		70013AD124CDAE8800CE1AFD /* Kitchen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD024CDAE8800CE1AFD /* Kitchen.gif */; };
 		70013AD324CDAFDC00CE1AFD /* House.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD224CDAFDC00CE1AFD /* House.gif */; };
 		70013AD724CDB97600CE1AFD /* SchoolGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD624CDB97600CE1AFD /* SchoolGif.gif */; };
@@ -230,6 +231,7 @@
 		4F1DAE8C25D82AB5000852D6 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		4F1DAE8D25D82AB5000852D6 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		4F1DAE8E25D82AB5000852D6 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		4F8E9F0D25D9702100859A2F /* Loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading.gif; sourceTree = "<group>"; };
 		70013AD024CDAE8800CE1AFD /* Kitchen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Kitchen.gif; sourceTree = "<group>"; };
 		70013AD224CDAFDC00CE1AFD /* House.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = House.gif; sourceTree = "<group>"; };
 		70013AD624CDB97600CE1AFD /* SchoolGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SchoolGif.gif; sourceTree = "<group>"; };
@@ -403,7 +405,7 @@
 		70F9024024AF88AE00A3AA12 /* Excellent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Excellent.mp3; sourceTree = "<group>"; };
 		70F9024324AF88B900A3AA12 /* WellDone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WellDone.mp3; sourceTree = "<group>"; };
 		70F9024524AFAF5C00A3AA12 /* Wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wrong.mp3; sourceTree = "<group>"; };
-		70FF090224962D9B002861AE /* Kids-LearnWithFun2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids-LearnWithFun2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FF090224962D9B002861AE /* Learn House Objects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn House Objects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FF090524962D9B002861AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70FF090724962D9B002861AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		70FF090924962D9B002861AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -763,14 +765,13 @@
 				70FF091B24962DB5002861AE /* Kids-LearnWithFunTests */,
 				70FF092624962DB5002861AE /* Kids-LearnWithFunUITests */,
 				70FF090324962D9B002861AE /* Products */,
-				DF1EE3988B9B9140F9599561 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		70FF090324962D9B002861AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70FF090224962D9B002861AE /* Kids-LearnWithFun2.app */,
+				70FF090224962D9B002861AE /* Learn House Objects.app */,
 				70FF091824962DB5002861AE /* Kids-LearnWithFun1Tests.xctest */,
 				70FF092324962DB5002861AE /* Kids-LearnWithFun1UITests.xctest */,
 			);
@@ -816,6 +817,7 @@
 		70FF09352496450E002861AE /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				4F8E9F0D25D9702100859A2F /* Loading.gif */,
 				4F1DAE8325D82AB5000852D6 /* GoogleMobileAdsSdkiOS-7.69.0 */,
 				7027932924CCAED700A863FB /* BackgroundMusic.mp3 */,
 				70013ADA24CDE61900CE1AFD /* Bubble.gif */,
@@ -842,19 +844,12 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		DF1EE3988B9B9140F9599561 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70FF090124962D9B002861AE /* Kids-LearnWithFun2 */ = {
+		70FF090124962D9B002861AE /* Learn House Objects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70FF092C24962DB5002861AE /* Build configuration list for PBXNativeTarget "Kids-LearnWithFun2" */;
+			buildConfigurationList = 70FF092C24962DB5002861AE /* Build configuration list for PBXNativeTarget "Learn House Objects" */;
 			buildPhases = (
 				70FF08FE24962D9B002861AE /* Sources */,
 				70FF08FF24962D9B002861AE /* Frameworks */,
@@ -864,9 +859,9 @@
 			);
 			dependencies = (
 			);
-			name = "Kids-LearnWithFun2";
+			name = "Learn House Objects";
 			productName = "Kids-LearnWithFun";
-			productReference = 70FF090224962D9B002861AE /* Kids-LearnWithFun2.app */;
+			productReference = 70FF090224962D9B002861AE /* Learn House Objects.app */;
 			productType = "com.apple.product-type.application";
 		};
 		70FF091724962DB5002861AE /* Kids-LearnWithFun2Tests */ = {
@@ -941,7 +936,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70FF090124962D9B002861AE /* Kids-LearnWithFun2 */,
+				70FF090124962D9B002861AE /* Learn House Objects */,
 				70FF091724962DB5002861AE /* Kids-LearnWithFun2Tests */,
 				70FF092224962DB5002861AE /* Kids-LearnWithFun2UITests */,
 			);
@@ -990,6 +985,7 @@
 				7017AA0D24BB410100C46A97 /* Corridor.mp3 in Resources */,
 				70FF091224962DB5002861AE /* LaunchScreen.storyboard in Resources */,
 				70EC9B9E24C7567B009F8B8E /* Hedge Shears_Question.mp3 in Resources */,
+				4F8E9F0E25D9702100859A2F /* Loading.gif in Resources */,
 				70EC9B5F24C71C01009F8B8E /* Map_Question.mp3 in Resources */,
 				7017AA0324BB410100C46A97 /* Sofa.mp3 in Resources */,
 				70E3B42924C453CE0053B679 /* Trowel.mp3 in Resources */,
@@ -1186,12 +1182,12 @@
 /* Begin PBXTargetDependency section */
 		70FF091A24962DB5002861AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70FF090124962D9B002861AE /* Kids-LearnWithFun2 */;
+			target = 70FF090124962D9B002861AE /* Learn House Objects */;
 			targetProxy = 70FF091924962DB5002861AE /* PBXContainerItemProxy */;
 		};
 		70FF092524962DB5002861AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70FF090124962D9B002861AE /* Kids-LearnWithFun2 */;
+			target = 70FF090124962D9B002861AE /* Learn House Objects */;
 			targetProxy = 70FF092424962DB5002861AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1334,9 +1330,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = M9C32R6P4U;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Kids-LearnWithFun2/Third\\ Party/GoogleMobileAdsSdkiOS-7.69.0",
@@ -1350,9 +1348,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobiapps360.LearnHouseObjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "LearnHouseObjects Development Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "LearnHouseObjects Distribution Profile";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1360,9 +1358,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = M9C32R6P4U;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Kids-LearnWithFun2/Third\\ Party/GoogleMobileAdsSdkiOS-7.69.0",
@@ -1376,9 +1376,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobiapps360.LearnHouseObjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "LearnHouseObjects Development Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "LearnHouseObjects Distribution Profile";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1474,7 +1474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70FF092C24962DB5002861AE /* Build configuration list for PBXNativeTarget "Kids-LearnWithFun2" */ = {
+		70FF092C24962DB5002861AE /* Build configuration list for PBXNativeTarget "Learn House Objects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70FF092D24962DB5002861AE /* Debug */,

@@ -27,8 +27,10 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var imgVwWild3Bottom: UIImageView!
 
     var player = AVAudioPlayer()
-    var bannerView: GADBannerView!
+//    var bannerView: GADBannerView!
     var appDelegate = UIApplication.shared.delegate as! AppDelegate
+    let defaults = UserDefaults.standard
+    @IBOutlet weak var btnSound: UIButton!
 
     //------------------------------------------------------------------------
 
@@ -73,41 +75,35 @@ class HomeViewController: UIViewController {
         imgVwTest.addGestureRecognizer(tapGestureRecognTest)
 
         
-        bannerView = GADBannerView(adSize: kGADAdSizeFullBanner)
+      /*  bannerView = GADBannerView(adSize: kGADAdSizeFullBanner)
         addBannerViewToView(bannerView)
         bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        bannerView.rootViewController = self
+        bannerView.rootViewController = self*/
        // bannerView.load(GADRequest())
 //        Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: #selector(self.alarmAlertActivate), userInfo: nil, repeats: true)
         
-        
+        if defaults.bool(forKey:"PauseHomeSound") {
+            btnSound.setBackgroundImage(UIImage(named: "Sound-Off_home.png"), for: .normal)
+        } else {
+            btnSound.setBackgroundImage(UIImage(named: "Sound-On_home.png"), for: .normal)
+        }
+    }
+    @IBAction func funcSound_ON_OFF(_ sender: Any) {
+        if defaults.bool(forKey:"PauseHomeSound") {
+            defaults.set(false, forKey: "PauseHomeSound")
+            btnSound.setBackgroundImage(UIImage(named: "Sound-On_home.png"), for: .normal)
+            player.play()
+        } else {
+            defaults.set(true, forKey: "PauseHomeSound")
+            btnSound.setBackgroundImage(UIImage(named: "Sound-Off_home.png"), for: .normal)
+            player.stop()
+        }
     }
     @objc func alarmAlertActivate(){
         UIView.animate(withDuration: 0.7) {
             self.imgVwTest.alpha = self.imgVwTest.alpha == 1.0 ? 0.0 : 1.0
         }
     }
-
-    func addBannerViewToView(_ bannerView: GADBannerView) {
-      bannerView.translatesAutoresizingMaskIntoConstraints = false
-      view.addSubview(bannerView)
-      view.addConstraints(
-        [NSLayoutConstraint(item: bannerView,
-                            attribute: .bottom,
-                            relatedBy: .equal,
-                            toItem: bottomLayoutGuide,
-                            attribute: .top,
-                            multiplier: 1,
-                            constant: 0),
-         NSLayoutConstraint(item: bannerView,
-                            attribute: .centerX,
-                            relatedBy: .equal,
-                            toItem: view,
-                            attribute: .centerX,
-                            multiplier: 1,
-                            constant: 0)
-        ])
-     }
 
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
     {
@@ -145,11 +141,19 @@ class HomeViewController: UIViewController {
         let url = URL(fileURLWithPath : path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
-            player.play()
+            if defaults.bool(forKey:"PauseHomeSound") {
+                btnSound.setBackgroundImage(UIImage(named: "Sound-Off_home.png"), for: .normal)
+                player.stop()
+            } else {
+                btnSound.setBackgroundImage(UIImage(named: "Sound-On_home.png"), for: .normal)
+                player.play()
+            }
+
         } catch {
             print ("There is an issue with this code!")
         }
     }
+
 }
 
 extension HomeViewController: GADBannerViewDelegate {
