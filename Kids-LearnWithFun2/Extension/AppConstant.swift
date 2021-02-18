@@ -105,9 +105,30 @@ class CommanArray {
         UIImage(named: "Wrong-Sign.png")!,
         UIImage(named: "Right-Sign.png")!
     ]
-    static var Banner_AdUnitId = "ca-app-pub-7546454767986772/2971046998"
-    static var Interstitial_AdUnitId = "ca-app-pub-7546454767986772/7578066918"
-    static var Ad_App_ID = "ca-app-pub-7546454767986772~6951380954"
+    
+    static var imgCancelSubscription = UIImage(named: "PaymentDetail.png")!
+    static var imgCancelSubscription1 = UIImage(named: "PaymentDetail-1.png")!
+
+    //------------------------------------------------------------------------
+    //Related to review and rating
+    static let app_AppStoreLink = URL(string: "https://apps.apple.com/app/id1553674656")
+
+    
+    //Colors
+    static var settingBgColor = UIColor(red: (255/255), green: (103/255), blue: (0/255), alpha: 1.0)
+    
+    //Related to Ads Production
+//    static var Banner_AdUnitId = "ca-app-pub-7546454767986772/2971046998"
+//    static var Interstitial_AdUnitId = "ca-app-pub-7546454767986772/7578066918"
+//    static var Ad_App_ID = "ca-app-pub-7546454767986772~6951380954"
+    
+    
+    
+    //Related to Ads Sandbox/Test
+     static var Banner_AdUnitId = "ca-app-pub-3940256099942544/2934735716"
+     static var Interstitial_AdUnitId = "ca-app-pub-3940256099942544/4411468910"
+     static var Ad_App_ID = "ca-app-pub-3940256099942544~1458002511"
+
 }
 /**
  * Check if internet connection is available
@@ -138,3 +159,9 @@ class Reachability {
       }
 }
 
+extension UIDevice {
+    var hasNotch: Bool {
+        let bottom = UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
+        return bottom > 0
+    }
+}

@@ -296,7 +296,6 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
 
         let request = GADRequest()
         // Remove the following line before you upload the app
-//        request.testDevices = ["E16216BC-AA11-4924-A93F-5011846DFFA4"]
         interstitial.load(request)
         interstitial.delegate = self
 

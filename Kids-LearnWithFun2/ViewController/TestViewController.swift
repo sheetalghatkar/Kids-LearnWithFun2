@@ -15,6 +15,8 @@ class TestViewController: UIViewController {
     @IBOutlet weak var imgVwTest2: UIImageView!
     @IBOutlet weak var imgVwTest3: UIImageView!
     @IBOutlet weak var imgVwTest4: UIImageView!
+    @IBOutlet weak var imgVwQuestion: UIImageView!
+
     var interstitial: GADInterstitial?
     var appDelegate = UIApplication.shared.delegate as! AppDelegate
 
@@ -37,6 +39,10 @@ class TestViewController: UIViewController {
         let tapGestureRecognImgVwTest4 = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         imgVwTest4.addGestureRecognizer(tapGestureRecognImgVwTest4)
         imgVwTest4.tag = 4
+        
+        if UIScreen.main.bounds.size.height < 700.0 {
+            imgVwQuestion.isHidden = true
+        }
 
     }
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)

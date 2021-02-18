@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0296AB25DE3B5C00B8A0FC /* House-Home.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F0296AA25DE3B5C00B8A0FC /* House-Home.gif */; };
+		4F0296B825DE52CC00B8A0FC /* animated-clipart-house.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F0296B725DE52CC00B8A0FC /* animated-clipart-house.gif */; };
 		4F1DAE8F25D82AB5000852D6 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8425D82AB5000852D6 /* nanopb.xcframework */; };
 		4F1DAE9025D82AB5000852D6 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8525D82AB5000852D6 /* GoogleAppMeasurement.framework */; };
 		4F1DAE9125D82AB5000852D6 /* Promises-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4F1DAE8725D82AB5000852D6 /* Promises-LICENSE */; };
@@ -18,6 +20,15 @@
 		4F1DAE9725D82AB5000852D6 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8D25D82AB5000852D6 /* GoogleMobileAds.xcframework */; };
 		4F1DAE9825D82AB5000852D6 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8E25D82AB5000852D6 /* GoogleUtilities.xcframework */; };
 		4F8E9F0E25D9702100859A2F /* Loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E9F0D25D9702100859A2F /* Loading.gif */; };
+		4FCD53EE25DCE9E20086FEA3 /* Yellow-Bubble.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD53ED25DCE9E20086FEA3 /* Yellow-Bubble.gif */; };
+		4FCD53F925DD36D00086FEA3 /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD53F325DD36D00086FEA3 /* FloatyWindow.swift */; };
+		4FCD53FA25DD36D00086FEA3 /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD53F425DD36D00086FEA3 /* FloatyItem.swift */; };
+		4FCD53FB25DD36D00086FEA3 /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD53F525DD36D00086FEA3 /* FloatyManager.swift */; };
+		4FCD53FC25DD36D00086FEA3 /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD53F625DD36D00086FEA3 /* Floaty.swift */; };
+		4FCD53FD25DD36D00086FEA3 /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD53F725DD36D00086FEA3 /* FloatyViewController.swift */; };
+		4FCD53FE25DD36D00086FEA3 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD53F825DD36D00086FEA3 /* FloatyDelegate.swift */; };
+		4FCD540525DD50CB0086FEA3 /* PaymentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD540325DD50CB0086FEA3 /* PaymentDetailViewController.swift */; };
+		4FCD540625DD50CB0086FEA3 /* PaymentDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD540425DD50CB0086FEA3 /* PaymentDetailViewController.xib */; };
 		70013AD124CDAE8800CE1AFD /* Kitchen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD024CDAE8800CE1AFD /* Kitchen.gif */; };
 		70013AD324CDAFDC00CE1AFD /* House.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD224CDAFDC00CE1AFD /* House.gif */; };
 		70013AD724CDB97600CE1AFD /* SchoolGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70013AD624CDB97600CE1AFD /* SchoolGif.gif */; };
@@ -221,6 +232,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0296AA25DE3B5C00B8A0FC /* House-Home.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "House-Home.gif"; sourceTree = "<group>"; };
+		4F0296B725DE52CC00B8A0FC /* animated-clipart-house.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-clipart-house.gif"; sourceTree = "<group>"; };
 		4F1DAE8425D82AB5000852D6 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
 		4F1DAE8525D82AB5000852D6 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
 		4F1DAE8725D82AB5000852D6 /* Promises-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Promises-LICENSE"; sourceTree = "<group>"; };
@@ -232,6 +245,15 @@
 		4F1DAE8D25D82AB5000852D6 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		4F1DAE8E25D82AB5000852D6 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
 		4F8E9F0D25D9702100859A2F /* Loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading.gif; sourceTree = "<group>"; };
+		4FCD53ED25DCE9E20086FEA3 /* Yellow-Bubble.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Yellow-Bubble.gif"; sourceTree = "<group>"; };
+		4FCD53F325DD36D00086FEA3 /* FloatyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyWindow.swift; sourceTree = "<group>"; };
+		4FCD53F425DD36D00086FEA3 /* FloatyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyItem.swift; sourceTree = "<group>"; };
+		4FCD53F525DD36D00086FEA3 /* FloatyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyManager.swift; sourceTree = "<group>"; };
+		4FCD53F625DD36D00086FEA3 /* Floaty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floaty.swift; sourceTree = "<group>"; };
+		4FCD53F725DD36D00086FEA3 /* FloatyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyViewController.swift; sourceTree = "<group>"; };
+		4FCD53F825DD36D00086FEA3 /* FloatyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyDelegate.swift; sourceTree = "<group>"; };
+		4FCD540325DD50CB0086FEA3 /* PaymentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewController.swift; sourceTree = "<group>"; };
+		4FCD540425DD50CB0086FEA3 /* PaymentDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentDetailViewController.xib; sourceTree = "<group>"; };
 		70013AD024CDAE8800CE1AFD /* Kitchen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Kitchen.gif; sourceTree = "<group>"; };
 		70013AD224CDAFDC00CE1AFD /* House.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = House.gif; sourceTree = "<group>"; };
 		70013AD624CDB97600CE1AFD /* SchoolGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SchoolGif.gif; sourceTree = "<group>"; };
@@ -477,6 +499,28 @@
 				4F1DAE8A25D82AB5000852D6 /* GoogleUtilities-LICENSE */,
 			);
 			path = Licenses;
+			sourceTree = "<group>";
+		};
+		4FCD53F225DD36A80086FEA3 /* Floaty */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD53F625DD36D00086FEA3 /* Floaty.swift */,
+				4FCD53F825DD36D00086FEA3 /* FloatyDelegate.swift */,
+				4FCD53F425DD36D00086FEA3 /* FloatyItem.swift */,
+				4FCD53F525DD36D00086FEA3 /* FloatyManager.swift */,
+				4FCD53F725DD36D00086FEA3 /* FloatyViewController.swift */,
+				4FCD53F325DD36D00086FEA3 /* FloatyWindow.swift */,
+			);
+			path = Floaty;
+			sourceTree = "<group>";
+		};
+		4FCD540225DD50BB0086FEA3 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD540325DD50CB0086FEA3 /* PaymentDetailViewController.swift */,
+				4FCD540425DD50CB0086FEA3 /* PaymentDetailViewController.xib */,
+			);
+			path = Payment;
 			sourceTree = "<group>";
 		};
 		700D416C249E980A00AA3D1C /* SoundFile */ = {
@@ -781,6 +825,7 @@
 		70FF090424962D9B002861AE /* Kids-LearnWithFun2 */ = {
 			isa = PBXGroup;
 			children = (
+				4FCD540225DD50BB0086FEA3 /* Payment */,
 				70270FD924A34F0300EB8DAB /* ViewController */,
 				700D416C249E980A00AA3D1C /* SoundFile */,
 				70631FEE2497ED5100DAE930 /* CollectionCell */,
@@ -817,12 +862,16 @@
 		70FF09352496450E002861AE /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				4FCD53F225DD36A80086FEA3 /* Floaty */,
 				4F8E9F0D25D9702100859A2F /* Loading.gif */,
 				4F1DAE8325D82AB5000852D6 /* GoogleMobileAdsSdkiOS-7.69.0 */,
 				7027932924CCAED700A863FB /* BackgroundMusic.mp3 */,
 				70013ADA24CDE61900CE1AFD /* Bubble.gif */,
+				4F0296AA25DE3B5C00B8A0FC /* House-Home.gif */,
+				4F0296B725DE52CC00B8A0FC /* animated-clipart-house.gif */,
 				70013AD024CDAE8800CE1AFD /* Kitchen.gif */,
 				70013AD224CDAFDC00CE1AFD /* House.gif */,
+				4FCD53ED25DCE9E20086FEA3 /* Yellow-Bubble.gif */,
 				70013AD624CDB97600CE1AFD /* SchoolGif.gif */,
 				700CDCC324CB27E5004C8615 /* Gardening.gif */,
 				70FF093624965879002861AE /* GIFSwift.swift */,
@@ -1000,6 +1049,7 @@
 				70EC9B3924C719C7009F8B8E /* Grater_Question.mp3 in Resources */,
 				70EC9B1424C7158F009F8B8E /* Wheelbarrow_Question.mp3 in Resources */,
 				70EC9B8F24C72086009F8B8E /* Bed_Question.mp3 in Resources */,
+				4FCD53EE25DCE9E20086FEA3 /* Yellow-Bubble.gif in Resources */,
 				70E5E8C024BDE358002B2032 /* Rolling Pin.mp3 in Resources */,
 				70631FF42497F11B00DAE930 /* PictureCollectionCell.xib in Resources */,
 				7017AA2C24BB928200C46A97 /* Electric Bell.mp3 in Resources */,
@@ -1035,6 +1085,7 @@
 				70EC9B6224C71C01009F8B8E /* Electric Bell_Question.mp3 in Resources */,
 				70EC9B3524C719C7009F8B8E /* Plate_Question.mp3 in Resources */,
 				70EC9B9024C72086009F8B8E /* Mirror_Question.mp3 in Resources */,
+				4FCD540625DD50CB0086FEA3 /* PaymentDetailViewController.xib in Resources */,
 				70EC9B7F24C72086009F8B8E /* Curtain_Question.mp3 in Resources */,
 				70E5E8C624BDE358002B2032 /* Sieve.mp3 in Resources */,
 				7017A9FE24BB410100C46A97 /* Stool.mp3 in Resources */,
@@ -1046,6 +1097,7 @@
 				70EC9B5D24C71C01009F8B8E /* Bench_Question.mp3 in Resources */,
 				70EC9B8424C72086009F8B8E /* Stool_Question.mp3 in Resources */,
 				70EC9B3724C719C7009F8B8E /* Saucer_Question.mp3 in Resources */,
+				4F0296AB25DE3B5C00B8A0FC /* House-Home.gif in Resources */,
 				7017AA2824BB928200C46A97 /* Book.mp3 in Resources */,
 				7027932A24CCAED700A863FB /* BackgroundMusic.mp3 in Resources */,
 				70EC9B1024C714B6009F8B8E /* Hose_Question.mp3 in Resources */,
@@ -1111,6 +1163,7 @@
 				70EC9B8A24C72086009F8B8E /* Broom_Question.mp3 in Resources */,
 				70EC9B0C24C7143E009F8B8E /* Cultivator_Question.mp3 in Resources */,
 				70EC9B5824C71C01009F8B8E /* Computer_Question.mp3 in Resources */,
+				4F0296B825DE52CC00B8A0FC /* animated-clipart-house.gif in Resources */,
 				70EC9B9224C72086009F8B8E /* Building_Question.mp3 in Resources */,
 				70E3B42E24C4556A0053B679 /* Hose.mp3 in Resources */,
 				70EC9B0424C6F2D7009F8B8E /* Gardening Boots.mp3 in Resources */,
@@ -1146,18 +1199,25 @@
 				70FF093724965879002861AE /* GIFSwift.swift in Sources */,
 				70FF093C24966856002861AE /* UIImageviewExtension.swift in Sources */,
 				70FF090A24962D9B002861AE /* HomeViewController.swift in Sources */,
+				4FCD53F925DD36D00086FEA3 /* FloatyWindow.swift in Sources */,
 				70FF090624962D9B002861AE /* AppDelegate.swift in Sources */,
+				4FCD53FC25DD36D00086FEA3 /* Floaty.swift in Sources */,
+				4FCD540525DD50CB0086FEA3 /* PaymentDetailViewController.swift in Sources */,
 				70631FED2497AA3000DAE930 /* UIButtonExtension.swift in Sources */,
 				7068EFCF24AB4C6900B448C3 /* AppConstant.swift in Sources */,
 				70E468A524A8D0E2008C8FFB /* TestSolveViewController.swift in Sources */,
 				709D3379249B712B002B1114 /* UiCollectionViewExtension.swift in Sources */,
 				70631FEB249776AB00DAE930 /* ImagesCollectionViewController.swift in Sources */,
 				70631FF32497F11B00DAE930 /* PictureCollectionCell.swift in Sources */,
+				4FCD53FB25DD36D00086FEA3 /* FloatyManager.swift in Sources */,
 				701EF78124A294C5006C0A36 /* UIExtension.swift in Sources */,
+				4FCD53FE25DD36D00086FEA3 /* FloatyDelegate.swift in Sources */,
 				70270FDB24A369A900EB8DAB /* TestViewController.swift in Sources */,
 				7068EFD424AB5DCE00B448C3 /* TestSolveCollectionCell.swift in Sources */,
 				70FF090824962D9B002861AE /* SceneDelegate.swift in Sources */,
 				70277DD224A4B59100072D57 /* UILabelExtension.swift in Sources */,
+				4FCD53FA25DD36D00086FEA3 /* FloatyItem.swift in Sources */,
+				4FCD53FD25DD36D00086FEA3 /* FloatyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1330,7 +1390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = M9C32R6P4U;
@@ -1348,7 +1408,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobiapps360.LearnHouseObjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "LearnHouseObjects Distribution Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "LearnHouseObjects Development Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1358,7 +1418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = M9C32R6P4U;
@@ -1376,7 +1436,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobiapps360.LearnHouseObjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "LearnHouseObjects Distribution Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "LearnHouseObjects Development Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
