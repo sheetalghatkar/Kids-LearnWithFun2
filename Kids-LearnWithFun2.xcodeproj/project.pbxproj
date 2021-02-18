@@ -19,6 +19,27 @@
 		4F1DAE9625D82AB5000852D6 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8C25D82AB5000852D6 /* UserMessagingPlatform.xcframework */; };
 		4F1DAE9725D82AB5000852D6 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8D25D82AB5000852D6 /* GoogleMobileAds.xcframework */; };
 		4F1DAE9825D82AB5000852D6 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8E25D82AB5000852D6 /* GoogleUtilities.xcframework */; };
+		4F77C0A125DE83C800D2E1CC /* SubscriptionDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F77C09F25DE83C800D2E1CC /* SubscriptionDetailsController.xib */; };
+		4F77C0A225DE83C800D2E1CC /* SubscriptionDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0A025DE83C800D2E1CC /* SubscriptionDetailsController.swift */; };
+		4F77C0A825DE83D200D2E1CC /* PaymentCostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0A625DE83D200D2E1CC /* PaymentCostController.swift */; };
+		4F77C0A925DE83D200D2E1CC /* PaymentCostController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F77C0A725DE83D200D2E1CC /* PaymentCostController.xib */; };
+		4F77C0AF25DE83DB00D2E1CC /* CustomLiceneModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0AD25DE83DB00D2E1CC /* CustomLiceneModelController.swift */; };
+		4F77C0B025DE83DB00D2E1CC /* CustomLiceneModelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F77C0AE25DE83DB00D2E1CC /* CustomLiceneModelController.xib */; };
+		4F77C0C425DE85C400D2E1CC /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0B525DE85C400D2E1CC /* SKProduct+LocalizedPrice.swift */; };
+		4F77C0C525DE85C400D2E1CC /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0B625DE85C400D2E1CC /* InAppProductQueryRequest.swift */; };
+		4F77C0C625DE85C400D2E1CC /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0B725DE85C400D2E1CC /* InAppReceiptRefreshRequest.swift */; };
+		4F77C0C725DE85C400D2E1CC /* SwiftyStoreKit+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0B825DE85C400D2E1CC /* SwiftyStoreKit+Types.swift */; };
+		4F77C0C825DE85C400D2E1CC /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0B925DE85C400D2E1CC /* InAppReceipt.swift */; };
+		4F77C0C925DE85C400D2E1CC /* SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0BA25DE85C400D2E1CC /* SwiftyStoreKit.swift */; };
+		4F77C0CA25DE85C400D2E1CC /* ProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0BB25DE85C400D2E1CC /* ProductsInfoController.swift */; };
+		4F77C0CB25DE85C400D2E1CC /* CompleteTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0BC25DE85C400D2E1CC /* CompleteTransactionsController.swift */; };
+		4F77C0CC25DE85C400D2E1CC /* PaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0BD25DE85C400D2E1CC /* PaymentsController.swift */; };
+		4F77C0CD25DE85C400D2E1CC /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0BE25DE85C400D2E1CC /* OS.swift */; };
+		4F77C0CE25DE85C400D2E1CC /* RestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0BF25DE85C400D2E1CC /* RestorePurchasesController.swift */; };
+		4F77C0CF25DE85C400D2E1CC /* PaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0C025DE85C400D2E1CC /* PaymentQueueController.swift */; };
+		4F77C0D025DE85C400D2E1CC /* InAppReceiptVerificator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0C125DE85C400D2E1CC /* InAppReceiptVerificator.swift */; };
+		4F77C0D125DE85C400D2E1CC /* SKProductDiscount+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0C225DE85C400D2E1CC /* SKProductDiscount+LocalizedPrice.swift */; };
+		4F77C0D225DE85C400D2E1CC /* AppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0C325DE85C400D2E1CC /* AppleReceiptValidator.swift */; };
 		4F8E9F0E25D9702100859A2F /* Loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E9F0D25D9702100859A2F /* Loading.gif */; };
 		4FCD53EE25DCE9E20086FEA3 /* Yellow-Bubble.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD53ED25DCE9E20086FEA3 /* Yellow-Bubble.gif */; };
 		4FCD53F925DD36D00086FEA3 /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD53F325DD36D00086FEA3 /* FloatyWindow.swift */; };
@@ -244,6 +265,27 @@
 		4F1DAE8C25D82AB5000852D6 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		4F1DAE8D25D82AB5000852D6 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		4F1DAE8E25D82AB5000852D6 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		4F77C09F25DE83C800D2E1CC /* SubscriptionDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubscriptionDetailsController.xib; sourceTree = "<group>"; };
+		4F77C0A025DE83C800D2E1CC /* SubscriptionDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionDetailsController.swift; sourceTree = "<group>"; };
+		4F77C0A625DE83D200D2E1CC /* PaymentCostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentCostController.swift; path = "../../../../Game 1/Kids-LearnWithFun1/Kids-LearnWithFun1/PaymentDetail/PaymentCostController.swift"; sourceTree = "<group>"; };
+		4F77C0A725DE83D200D2E1CC /* PaymentCostController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentCostController.xib; sourceTree = "<group>"; };
+		4F77C0AD25DE83DB00D2E1CC /* CustomLiceneModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLiceneModelController.swift; sourceTree = "<group>"; };
+		4F77C0AE25DE83DB00D2E1CC /* CustomLiceneModelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomLiceneModelController.xib; sourceTree = "<group>"; };
+		4F77C0B525DE85C400D2E1CC /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
+		4F77C0B625DE85C400D2E1CC /* InAppProductQueryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppProductQueryRequest.swift; sourceTree = "<group>"; };
+		4F77C0B725DE85C400D2E1CC /* InAppReceiptRefreshRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppReceiptRefreshRequest.swift; sourceTree = "<group>"; };
+		4F77C0B825DE85C400D2E1CC /* SwiftyStoreKit+Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyStoreKit+Types.swift"; sourceTree = "<group>"; };
+		4F77C0B925DE85C400D2E1CC /* InAppReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppReceipt.swift; sourceTree = "<group>"; };
+		4F77C0BA25DE85C400D2E1CC /* SwiftyStoreKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyStoreKit.swift; sourceTree = "<group>"; };
+		4F77C0BB25DE85C400D2E1CC /* ProductsInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsInfoController.swift; sourceTree = "<group>"; };
+		4F77C0BC25DE85C400D2E1CC /* CompleteTransactionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTransactionsController.swift; sourceTree = "<group>"; };
+		4F77C0BD25DE85C400D2E1CC /* PaymentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsController.swift; sourceTree = "<group>"; };
+		4F77C0BE25DE85C400D2E1CC /* OS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OS.swift; sourceTree = "<group>"; };
+		4F77C0BF25DE85C400D2E1CC /* RestorePurchasesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestorePurchasesController.swift; sourceTree = "<group>"; };
+		4F77C0C025DE85C400D2E1CC /* PaymentQueueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentQueueController.swift; sourceTree = "<group>"; };
+		4F77C0C125DE85C400D2E1CC /* InAppReceiptVerificator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppReceiptVerificator.swift; sourceTree = "<group>"; };
+		4F77C0C225DE85C400D2E1CC /* SKProductDiscount+LocalizedPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProductDiscount+LocalizedPrice.swift"; sourceTree = "<group>"; };
+		4F77C0C325DE85C400D2E1CC /* AppleReceiptValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleReceiptValidator.swift; sourceTree = "<group>"; };
 		4F8E9F0D25D9702100859A2F /* Loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading.gif; sourceTree = "<group>"; };
 		4FCD53ED25DCE9E20086FEA3 /* Yellow-Bubble.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Yellow-Bubble.gif"; sourceTree = "<group>"; };
 		4FCD53F325DD36D00086FEA3 /* FloatyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyWindow.swift; sourceTree = "<group>"; };
@@ -501,6 +543,28 @@
 			path = Licenses;
 			sourceTree = "<group>";
 		};
+		4F77C0B425DE85C400D2E1CC /* SwiftyStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				4F77C0B525DE85C400D2E1CC /* SKProduct+LocalizedPrice.swift */,
+				4F77C0B625DE85C400D2E1CC /* InAppProductQueryRequest.swift */,
+				4F77C0B725DE85C400D2E1CC /* InAppReceiptRefreshRequest.swift */,
+				4F77C0B825DE85C400D2E1CC /* SwiftyStoreKit+Types.swift */,
+				4F77C0B925DE85C400D2E1CC /* InAppReceipt.swift */,
+				4F77C0BA25DE85C400D2E1CC /* SwiftyStoreKit.swift */,
+				4F77C0BB25DE85C400D2E1CC /* ProductsInfoController.swift */,
+				4F77C0BC25DE85C400D2E1CC /* CompleteTransactionsController.swift */,
+				4F77C0BD25DE85C400D2E1CC /* PaymentsController.swift */,
+				4F77C0BE25DE85C400D2E1CC /* OS.swift */,
+				4F77C0BF25DE85C400D2E1CC /* RestorePurchasesController.swift */,
+				4F77C0C025DE85C400D2E1CC /* PaymentQueueController.swift */,
+				4F77C0C125DE85C400D2E1CC /* InAppReceiptVerificator.swift */,
+				4F77C0C225DE85C400D2E1CC /* SKProductDiscount+LocalizedPrice.swift */,
+				4F77C0C325DE85C400D2E1CC /* AppleReceiptValidator.swift */,
+			);
+			path = SwiftyStoreKit;
+			sourceTree = "<group>";
+		};
 		4FCD53F225DD36A80086FEA3 /* Floaty */ = {
 			isa = PBXGroup;
 			children = (
@@ -517,6 +581,12 @@
 		4FCD540225DD50BB0086FEA3 /* Payment */ = {
 			isa = PBXGroup;
 			children = (
+				4F77C0AD25DE83DB00D2E1CC /* CustomLiceneModelController.swift */,
+				4F77C0AE25DE83DB00D2E1CC /* CustomLiceneModelController.xib */,
+				4F77C0A625DE83D200D2E1CC /* PaymentCostController.swift */,
+				4F77C0A725DE83D200D2E1CC /* PaymentCostController.xib */,
+				4F77C0A025DE83C800D2E1CC /* SubscriptionDetailsController.swift */,
+				4F77C09F25DE83C800D2E1CC /* SubscriptionDetailsController.xib */,
 				4FCD540325DD50CB0086FEA3 /* PaymentDetailViewController.swift */,
 				4FCD540425DD50CB0086FEA3 /* PaymentDetailViewController.xib */,
 			);
@@ -862,6 +932,7 @@
 		70FF09352496450E002861AE /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				4F77C0B425DE85C400D2E1CC /* SwiftyStoreKit */,
 				4FCD53F225DD36A80086FEA3 /* Floaty */,
 				4F8E9F0D25D9702100859A2F /* Loading.gif */,
 				4F1DAE8325D82AB5000852D6 /* GoogleMobileAdsSdkiOS-7.69.0 */,
@@ -1048,8 +1119,10 @@
 				4F1DAE9325D82AB5000852D6 /* OpenMeasurement-LICENSE in Resources */,
 				70EC9B3924C719C7009F8B8E /* Grater_Question.mp3 in Resources */,
 				70EC9B1424C7158F009F8B8E /* Wheelbarrow_Question.mp3 in Resources */,
+				4F77C0B025DE83DB00D2E1CC /* CustomLiceneModelController.xib in Resources */,
 				70EC9B8F24C72086009F8B8E /* Bed_Question.mp3 in Resources */,
 				4FCD53EE25DCE9E20086FEA3 /* Yellow-Bubble.gif in Resources */,
+				4F77C0A925DE83D200D2E1CC /* PaymentCostController.xib in Resources */,
 				70E5E8C024BDE358002B2032 /* Rolling Pin.mp3 in Resources */,
 				70631FF42497F11B00DAE930 /* PictureCollectionCell.xib in Resources */,
 				7017AA2C24BB928200C46A97 /* Electric Bell.mp3 in Resources */,
@@ -1116,6 +1189,7 @@
 				70EC9B9C24C75231009F8B8E /* Door Mat_Question.mp3 in Resources */,
 				70EC9B5A24C71C01009F8B8E /* Playground_Question.mp3 in Resources */,
 				70EC9B5924C71C01009F8B8E /* School Bag_Question.mp3 in Resources */,
+				4F77C0A125DE83C800D2E1CC /* SubscriptionDetailsController.xib in Resources */,
 				70E3B43224C456380053B679 /* Garden Gloves.mp3 in Resources */,
 				70E5E8C124BDE358002B2032 /* Strainer.mp3 in Resources */,
 				70E3B42424C4536F0053B679 /* Hand Fork.mp3 in Resources */,
@@ -1195,15 +1269,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F77C0C425DE85C400D2E1CC /* SKProduct+LocalizedPrice.swift in Sources */,
+				4F77C0C525DE85C400D2E1CC /* InAppProductQueryRequest.swift in Sources */,
+				4F77C0CC25DE85C400D2E1CC /* PaymentsController.swift in Sources */,
 				707ECA22249CB3E10024D06C /* UIViewExtension.swift in Sources */,
 				70FF093724965879002861AE /* GIFSwift.swift in Sources */,
 				70FF093C24966856002861AE /* UIImageviewExtension.swift in Sources */,
 				70FF090A24962D9B002861AE /* HomeViewController.swift in Sources */,
+				4F77C0AF25DE83DB00D2E1CC /* CustomLiceneModelController.swift in Sources */,
 				4FCD53F925DD36D00086FEA3 /* FloatyWindow.swift in Sources */,
+				4F77C0A225DE83C800D2E1CC /* SubscriptionDetailsController.swift in Sources */,
+				4F77C0C625DE85C400D2E1CC /* InAppReceiptRefreshRequest.swift in Sources */,
+				4F77C0C925DE85C400D2E1CC /* SwiftyStoreKit.swift in Sources */,
+				4F77C0CF25DE85C400D2E1CC /* PaymentQueueController.swift in Sources */,
 				70FF090624962D9B002861AE /* AppDelegate.swift in Sources */,
+				4F77C0D125DE85C400D2E1CC /* SKProductDiscount+LocalizedPrice.swift in Sources */,
+				4F77C0C825DE85C400D2E1CC /* InAppReceipt.swift in Sources */,
 				4FCD53FC25DD36D00086FEA3 /* Floaty.swift in Sources */,
 				4FCD540525DD50CB0086FEA3 /* PaymentDetailViewController.swift in Sources */,
+				4F77C0CB25DE85C400D2E1CC /* CompleteTransactionsController.swift in Sources */,
+				4F77C0CE25DE85C400D2E1CC /* RestorePurchasesController.swift in Sources */,
+				4F77C0D025DE85C400D2E1CC /* InAppReceiptVerificator.swift in Sources */,
 				70631FED2497AA3000DAE930 /* UIButtonExtension.swift in Sources */,
+				4F77C0D225DE85C400D2E1CC /* AppleReceiptValidator.swift in Sources */,
 				7068EFCF24AB4C6900B448C3 /* AppConstant.swift in Sources */,
 				70E468A524A8D0E2008C8FFB /* TestSolveViewController.swift in Sources */,
 				709D3379249B712B002B1114 /* UiCollectionViewExtension.swift in Sources */,
@@ -1215,9 +1303,13 @@
 				70270FDB24A369A900EB8DAB /* TestViewController.swift in Sources */,
 				7068EFD424AB5DCE00B448C3 /* TestSolveCollectionCell.swift in Sources */,
 				70FF090824962D9B002861AE /* SceneDelegate.swift in Sources */,
+				4F77C0CD25DE85C400D2E1CC /* OS.swift in Sources */,
 				70277DD224A4B59100072D57 /* UILabelExtension.swift in Sources */,
+				4F77C0A825DE83D200D2E1CC /* PaymentCostController.swift in Sources */,
 				4FCD53FA25DD36D00086FEA3 /* FloatyItem.swift in Sources */,
+				4F77C0C725DE85C400D2E1CC /* SwiftyStoreKit+Types.swift in Sources */,
 				4FCD53FD25DD36D00086FEA3 /* FloatyViewController.swift in Sources */,
+				4F77C0CA25DE85C400D2E1CC /* ProductsInfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

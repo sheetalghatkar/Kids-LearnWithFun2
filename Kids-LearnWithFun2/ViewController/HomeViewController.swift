@@ -334,14 +334,14 @@ extension HomeViewController : PayementForParentProtocol {
     //Delegate method implementation
     func showPaymentCostScreen() {
         paymentDetailVC?.view.removeFromSuperview()
-//        let paymentCostVC = PaymentCostController(nibName: "PaymentCostController", bundle: nil)
-//        self.navigationController?.pushViewController(paymentCostVC, animated: true)
+        let paymentCostVC = PaymentCostController(nibName: "PaymentCostController", bundle: nil)
+        self.navigationController?.pushViewController(paymentCostVC, animated: true)
     }
     
     func showSubscriptionDetailScreen() {
         paymentDetailVC?.view.removeFromSuperview()
-//        let paymenSubscriptionVC = SubscriptionDetailsController(nibName: "SubscriptionDetailsController", bundle: nil)
-//        self.navigationController?.pushViewController(paymenSubscriptionVC, animated: true)
+        let paymenSubscriptionVC = SubscriptionDetailsController(nibName: "SubscriptionDetailsController", bundle: nil)
+        self.navigationController?.pushViewController(paymenSubscriptionVC, animated: true)
     }
 
     func showPaymentScreen(){

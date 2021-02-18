@@ -108,6 +108,11 @@ class CommanArray {
     
     static var imgCancelSubscription = UIImage(named: "PaymentDetail.png")!
     static var imgCancelSubscription1 = UIImage(named: "PaymentDetail-1.png")!
+    static var imgSoundOn = UIImage(named: "Sound-On_home.png")!
+    static var imgSoundOff = UIImage(named: "Sound-Off_home.png")!
+    static var imageRadioCheck = UIImage(named: "radio_check.png")
+    static var imageRadioUncheck = UIImage(named: "radio_uncheck.png")
+
 
     //------------------------------------------------------------------------
     //Related to review and rating
@@ -116,7 +121,9 @@ class CommanArray {
     
     //Colors
     static var settingBgColor = UIColor(red: (255/255), green: (103/255), blue: (0/255), alpha: 1.0)
-    
+    static var paymentModeBgColor = UIColor(red: (255/255), green: (116/255), blue: (2/255), alpha: 1.0)
+    static var paymentBtnTextColor = UIColor(red: (255/255), green: (116/255), blue: (2/255), alpha: 1.0)
+
     //Related to Ads Production
 //    static var Banner_AdUnitId = "ca-app-pub-7546454767986772/2971046998"
 //    static var Interstitial_AdUnitId = "ca-app-pub-7546454767986772/7578066918"
@@ -128,6 +135,16 @@ class CommanArray {
      static var Banner_AdUnitId = "ca-app-pub-3940256099942544/2934735716"
      static var Interstitial_AdUnitId = "ca-app-pub-3940256099942544/4411468910"
      static var Ad_App_ID = "ca-app-pub-3940256099942544~1458002511"
+    
+    //Related to InAppPurchase
+    static var environment = AppleReceiptValidator.VerifyReceiptURLType.production
+    static var secretKey = "b080c7b91bbe48c4aed2b29eb89c9f7c"
+    
+    static var productId_Year_Auto_Recurring = "com.mobiapps360.LearnHouseObjects.YearlyAutoRecurring"
+    static var productId_Year_Non_Recurring = "com.mobiapps360.LearnHouseObjects.YearlyNonRecurring"
+    static var productId_Month_Auto_Recurring = "com.mobiapps360.LearnHouseObjects.MonthlyAutoRecurring"
+    static var productId_Month_Non_Recurring = "com.mobiapps360.LearnHouseObjects.MonthlyNonRecurring"
+
 
 }
 /**
