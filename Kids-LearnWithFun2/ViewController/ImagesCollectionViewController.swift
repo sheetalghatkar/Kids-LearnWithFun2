@@ -98,7 +98,9 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
             bannerView.rootViewController = self
             bannerView.delegate = self
             if Reachability.isConnectedToNetwork() {
-                bannerView.load(GADRequest())
+                DispatchQueue.main.async {
+                    self.bannerView.load(GADRequest())
+                }
             } else {
                 let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
@@ -133,7 +135,9 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
                 if bannerView != nil {
                     if timer == nil {
                         if Reachability.isConnectedToNetwork() {
-                            bannerView.load(GADRequest())
+                            DispatchQueue.main.async {
+                                self.bannerView.load(GADRequest())
+                            }
                         } else {
                             let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
                             alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
@@ -153,7 +157,9 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
         if Reachability.isConnectedToNetwork() {
             if bannerView != nil {
                 print("Inside Load bannerView")
-                bannerView.load(GADRequest())
+                DispatchQueue.main.async {
+                    self.bannerView.load(GADRequest())
+                }
             }
         }
     }
@@ -230,7 +236,7 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
 
     
     @IBAction func funcGoToHome(_ sender: Any) {
-        stopTimer()
+       stopTimer()
         fromHomeClick = true
         if defaults.bool(forKey:"IsPrimeUser") {
             navigationController?.popViewController(animated: true)
@@ -238,7 +244,9 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
             self.viewTransperent.isHidden = false
             self.imgViewLoader.isHidden = false
             if Reachability.isConnectedToNetwork() {
-                interstitial = createAndLoadInterstitial()
+                DispatchQueue.main.async {
+                    self.interstitial = self.createAndLoadInterstitial()
+                }
                 DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
                     if !self.viewTransperent.isHidden {
                         self.viewTransperent.isHidden = true
@@ -266,7 +274,9 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
         self.viewTransperent.isHidden = false
         self.imgViewLoader.isHidden = false
         if Reachability.isConnectedToNetwork() {
-            interstitial = createAndLoadInterstitial()
+            DispatchQueue.main.async {
+                self.interstitial = self.createAndLoadInterstitial()
+            }
             DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
                 if !self.viewTransperent.isHidden {
                     self.viewTransperent.isHidden = true

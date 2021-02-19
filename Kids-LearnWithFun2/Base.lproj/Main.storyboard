@@ -673,11 +673,11 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="TEST-I" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Uz-4o-Evg" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="46.5" y="135" width="110" height="43.5"/>
+                                        <rect key="frame" x="46.5" y="135" width="110" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="110" id="7J4-e8-4XU"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -701,11 +701,11 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST-II" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gj8-yH-CX6" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="222.5" y="135" width="120" height="43.5"/>
+                                        <rect key="frame" x="222.5" y="135" width="120" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="120" id="AEw-KI-0SF"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -713,7 +713,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GradeningIcon_Test" translatesAutoresizingMaskIntoConstraints="NO" id="aWX-21-wnP" userLabel="ImgViewBird" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="41.5" y="213.5" width="120" height="120"/>
+                                        <rect key="frame" x="41.5" y="205" width="120" height="120"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="aWX-21-wnP" secondAttribute="height" multiplier="1:1" id="eCf-jI-vbe"/>
@@ -728,7 +728,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stationery_Test" translatesAutoresizingMaskIntoConstraints="NO" id="Y7v-yi-LeU" userLabel="ImgViewFlower" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="222.5" y="201" width="145" height="145"/>
+                                        <rect key="frame" x="222.5" y="192.5" width="145" height="145"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Y7v-yi-LeU" secondAttribute="height" multiplier="1:1" id="bTr-Z2-6fM"/>
@@ -743,11 +743,11 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST-III" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMr-CA-DSf" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="38.5" y="338.5" width="126" height="30"/>
+                                        <rect key="frame" x="51" y="330" width="101" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="4wK-6L-6qh"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -756,11 +756,11 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST-IV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhw-oN-r24" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="236" y="338.5" width="118" height="30"/>
+                                        <rect key="frame" x="248" y="330" width="94.5" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="TiC-tA-x13"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -799,7 +799,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="GN6-Xa-xpL" userLabel="Lock4" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="312.5" y="298.5" width="55" height="55"/>
+                                        <rect key="frame" x="312.5" y="290" width="55" height="55"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="YES"/>
@@ -812,7 +812,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="yfi-Wi-vFg" userLabel="Lock3" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="121.5" y="298.5" width="55" height="55"/>
+                                        <rect key="frame" x="121.5" y="290" width="55" height="55"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="YES"/>
@@ -914,7 +914,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nWf-Dz-gLu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2267" y="145"/>
+            <point key="canvasLocation" x="1896" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kVH-LI-G2g">
@@ -1151,6 +1151,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bottomConstraintBottomBg" destination="2dx-5q-pQd" id="Ju7-gb-jZA"/>
                         <outlet property="btnBackward" destination="Rh1-Rl-aSR" id="jgz-Ei-geV"/>
                         <outlet property="btnForward" destination="SPt-oj-wje" id="DrN-Hj-Z18"/>
                         <outlet property="btnNoAds" destination="OHS-KB-ddr" id="Sfa-CB-R4q"/>
@@ -1171,7 +1172,7 @@
     </scenes>
     <designables>
         <designable name="0Uz-4o-Evg">
-            <size key="intrinsicContentSize" width="98" height="43.5"/>
+            <size key="intrinsicContentSize" width="78.5" height="35"/>
         </designable>
         <designable name="8jq-2D-84O">
             <size key="intrinsicContentSize" width="57.5" height="43.5"/>
@@ -1189,7 +1190,7 @@
             <size key="intrinsicContentSize" width="50" height="50"/>
         </designable>
         <designable name="KMr-CA-DSf">
-            <size key="intrinsicContentSize" width="126" height="43.5"/>
+            <size key="intrinsicContentSize" width="101" height="35"/>
         </designable>
         <designable name="Rh1-Rl-aSR">
             <size key="intrinsicContentSize" width="512" height="512"/>
@@ -1213,10 +1214,10 @@
             <size key="intrinsicContentSize" width="500" height="500"/>
         </designable>
         <designable name="gj8-yH-CX6">
-            <size key="intrinsicContentSize" width="112" height="43.5"/>
+            <size key="intrinsicContentSize" width="89.5" height="35"/>
         </designable>
         <designable name="hhw-oN-r24">
-            <size key="intrinsicContentSize" width="118" height="43.5"/>
+            <size key="intrinsicContentSize" width="94.5" height="35"/>
         </designable>
         <designable name="pdb-61-ofa">
             <size key="intrinsicContentSize" width="102.5" height="43.5"/>

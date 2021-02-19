@@ -58,7 +58,9 @@ class TestViewController: UIViewController,PayementForParentProtocol {
             bannerView.rootViewController = self
             bannerView.delegate = self
             if Reachability.isConnectedToNetwork() {
-                bannerView.load(GADRequest())
+                DispatchQueue.main.async {
+                    self.bannerView.load(GADRequest())
+                }
             } else {
                 let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
@@ -85,7 +87,9 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                 if bannerView != nil {
                     if timer == nil {
                         if Reachability.isConnectedToNetwork() {
-                            bannerView.load(GADRequest())
+                            DispatchQueue.main.async {
+                                self.bannerView.load(GADRequest())
+                            }
                         } else {
                             let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
                             alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
@@ -630,7 +634,9 @@ class TestViewController: UIViewController,PayementForParentProtocol {
          if Reachability.isConnectedToNetwork() {
              if bannerView != nil {
                  print("Inside Load bannerView")
-                 bannerView.load(GADRequest())
+                DispatchQueue.main.async {
+                    self.bannerView.load(GADRequest())
+                }
              }
          }
      }

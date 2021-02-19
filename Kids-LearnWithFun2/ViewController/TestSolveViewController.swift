@@ -23,6 +23,7 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
     @IBOutlet weak var btnPlayAgain: UIButton!
     @IBOutlet weak var trailingConstraintTitle: NSLayoutConstraint!
     @IBOutlet weak var widthConstraintHome: NSLayoutConstraint!
+    @IBOutlet weak var bottomConstraintBottomBg: NSLayoutConstraint!
 
     var bannerView: GADBannerView!
     var interstitial: GADInterstitial?
@@ -76,7 +77,9 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
             bannerView.rootViewController = self
             bannerView.delegate = self
             if Reachability.isConnectedToNetwork() {
-                bannerView.load(GADRequest())
+                DispatchQueue.main.async {
+                    self.bannerView.load(GADRequest())
+                }
             } else {
                 let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
@@ -94,6 +97,10 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
         btnPlayAgain.layer.cornerRadius = (widthConstraintHome.constant + 6)/2
         btnPlayAgain.layer.borderColor = CommanArray.paymentBtnTextColor.cgColor
         btnPlayAgain.layer.borderWidth = 2.5
+        
+        if UIScreen.main.bounds.size.height < 740.0 {
+            bottomConstraintBottomBg.constant = -70
+        }
     }
     override func viewWillDisappear(_ animated: Bool) {
         stopTimer()
@@ -106,7 +113,9 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
                 if bannerView != nil {
                     if timer == nil {
                         if Reachability.isConnectedToNetwork() {
-                            bannerView.load(GADRequest())
+                            DispatchQueue.main.async {
+                                self.bannerView.load(GADRequest())
+                            }
                         } else {
                             let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
                             alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
@@ -141,7 +150,9 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
         if Reachability.isConnectedToNetwork() {
             if bannerView != nil {
                 print("Inside Load bannerView")
-                bannerView.load(GADRequest())
+                DispatchQueue.main.async {
+                    self.bannerView.load(GADRequest())
+                }
             }
         }
     }
@@ -199,7 +210,9 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
             self.viewTransperent.isHidden = false
             self.imgViewLoader.isHidden = false
             if Reachability.isConnectedToNetwork() {
-                interstitial = createAndLoadInterstitial()
+                DispatchQueue.main.async {
+                    self.interstitial = self.createAndLoadInterstitial()
+                }
                 DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
                     if !self.viewTransperent.isHidden {
                         self.viewTransperent.isHidden = true
@@ -390,7 +403,7 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         let visibleIndex = Int(targetContentOffset.pointee.x / scrollView.frame.width)
 
-        print("Inside scrollViewDidEndDragging")
+//        print("Inside scrollViewDidEndDragging")
         if !(defaults.bool(forKey:"IsPrimeUser")) {
             if checkCurrentindex != visibleIndex {
                 clickCount = clickCount + 1
@@ -450,7 +463,9 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
         self.viewTransperent.isHidden = false
         self.imgViewLoader.isHidden = false
         if Reachability.isConnectedToNetwork() {
-            interstitial = createAndLoadInterstitial()
+            DispatchQueue.main.async {
+                self.interstitial = self.createAndLoadInterstitial()
+            }
             DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
                 if !self.viewTransperent.isHidden {
                     self.viewTransperent.isHidden = true
