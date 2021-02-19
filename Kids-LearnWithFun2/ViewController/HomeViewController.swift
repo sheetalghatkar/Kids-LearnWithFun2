@@ -103,15 +103,6 @@ class HomeViewController: UIViewController {
         
         let tapGestureRecognTest = UITapGestureRecognizer(target: self, action: #selector(testImageTapped(tapGestureRecognizer:)))
         imgVwTest.addGestureRecognizer(tapGestureRecognTest)
-
-        
-      /*  bannerView = GADBannerView(adSize: kGADAdSizeFullBanner)
-        addBannerViewToView(bannerView)
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        bannerView.rootViewController = self*/
-       // bannerView.load(GADRequest())
-//        Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: #selector(self.alarmAlertActivate), userInfo: nil, repeats: true)
-        
         if defaults.bool(forKey:"PauseHomeSound") {
             btnSound.setBackgroundImage(UIImage(named: "Sound-Off_home.png"), for: .normal)
         } else {

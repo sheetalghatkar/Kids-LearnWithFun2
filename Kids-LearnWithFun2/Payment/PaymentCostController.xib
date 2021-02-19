@@ -397,12 +397,20 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="calibratedRGB"/>
                 </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottomBg" translatesAutoresizingMaskIntoConstraints="NO" id="AzO-ly-vGP">
+                    <rect key="frame" x="0.0" y="666" width="414" height="230"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="vDn-Ap-qZO"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="Ls3-sf-2xR" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="2Xr-4M-uVY"/>
                 <constraint firstItem="csJ-KQ-BIT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3tN-lI-f1K"/>
+                <constraint firstAttribute="trailing" secondItem="AzO-ly-vGP" secondAttribute="trailing" id="4ml-sc-eCS"/>
                 <constraint firstAttribute="bottom" secondItem="Ls3-sf-2xR" secondAttribute="bottom" id="6Kx-65-SeN"/>
                 <constraint firstItem="kVY-mD-cqk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6nC-Dy-oUO"/>
                 <constraint firstAttribute="trailing" secondItem="Ls3-sf-2xR" secondAttribute="trailing" id="9Tv-lo-cQe"/>
@@ -422,11 +430,13 @@
                 <constraint firstItem="H4V-dd-9sK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="d5P-EQ-NU6"/>
                 <constraint firstItem="csJ-KQ-BIT" firstAttribute="top" secondItem="H4V-dd-9sK" secondAttribute="bottom" constant="20" id="eSe-YE-I16"/>
                 <constraint firstItem="H4V-dd-9sK" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="ecv-dU-3wW"/>
+                <constraint firstAttribute="bottom" secondItem="AzO-ly-vGP" secondAttribute="bottom" id="f4f-jL-q2O"/>
                 <constraint firstItem="Ls3-sf-2xR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gB0-lz-FMu"/>
                 <constraint firstAttribute="bottom" secondItem="Ls3-sf-2xR" secondAttribute="bottom" id="hjP-2L-KTp"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tr8-xj-Cri" secondAttribute="trailing" constant="15" id="igo-HJ-Niy"/>
                 <constraint firstItem="2hb-Ww-MI3" firstAttribute="centerY" secondItem="tr8-xj-Cri" secondAttribute="centerY" id="ljO-Yq-hkm"/>
                 <constraint firstItem="XAh-ma-3Tf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mce-C8-YEx"/>
+                <constraint firstItem="AzO-ly-vGP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="plZ-EQ-SeX"/>
                 <constraint firstItem="zBx-wy-ygg" firstAttribute="top" secondItem="XAh-ma-3Tf" secondAttribute="bottom" constant="50" id="uSa-cq-VTL"/>
                 <constraint firstItem="XAh-ma-3Tf" firstAttribute="top" secondItem="kVY-mD-cqk" secondAttribute="bottom" constant="15" id="uTn-Wx-AJ9"/>
                 <constraint firstItem="Ls3-sf-2xR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="urr-Na-xTP"/>
@@ -445,6 +455,7 @@
     <resources>
         <image name="Test-Home" width="225" height="225"/>
         <image name="WallpaperOrange" width="854" height="680"/>
+        <image name="bottomBg" width="1190" height="414"/>
         <image name="radio_check" width="512" height="512"/>
         <image name="radio_uncheck" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">

@@ -423,6 +423,7 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
         self.imgViewLoader.isHidden = true
     }
     func callInterstitialOn10Tap(){
+        player.stop()
         self.viewTransperent.isHidden = false
         self.imgViewLoader.isHidden = false
         if Reachability.isConnectedToNetwork() {

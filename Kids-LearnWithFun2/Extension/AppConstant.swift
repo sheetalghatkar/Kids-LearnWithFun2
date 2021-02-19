@@ -11,7 +11,7 @@ import UIKit
 
 class CommanArray {
     static var houseHoldThingsImageArray: [UIImage] = [
-        UIImage(named: "Room.png")!,
+        UIImage(named: "Living Room.png")!,
         UIImage(named: "Door.png")!,
         UIImage(named: "Gate.png")!,
         UIImage(named: "Kitchen.png")!,
@@ -37,7 +37,7 @@ class CommanArray {
         UIImage(named: "Dustbin.png")!,
         UIImage(named: "Telephone.png")!
     ]
-    static var houseHoldThingsNameArray: [String] = ["Room","Door","Gate","Kitchen","Bathroom","Staircase","Corridor","Window","Bed","Sofa","Curtain","Table","Stool","Chair","Wardrobe","Swing","Air Cooler","Fan","Air Conditioner","Door Mat","Ladder","Mirror","Broom","Dustbin","Telephone"]
+    static var houseHoldThingsNameArray: [String] = ["Living Room","Door","Gate","Kitchen","Bathroom","Staircase","Corridor","Window","Bed","Sofa","Curtain","Table","Stool","Chair","Wardrobe","Swing","Air Cooler","Fan","Air Conditioner","Door Mat","Ladder","Mirror","Broom","Dustbin","Telephone"]
     //------------------------------------------------------------------------
     static var kitchenUtensilsImageArray: [UIImage] = [
         UIImage(named: "Pan.png")!,
@@ -49,7 +49,7 @@ class CommanArray {
         UIImage(named: "Lid.png")!,
         UIImage(named: "Cup.png")!,
         UIImage(named: "Saucer.png")!,
-       // UIImage(named: "Teapot.png")!,
+        UIImage(named: "Teapot.png")!,
         UIImage(named: "Spoon.png")!,
         UIImage(named: "Fork.png")!,
         UIImage(named: "Sieve.png")!,
@@ -63,7 +63,7 @@ class CommanArray {
     ]
     //"Teapot"
     static var kitchenUtensilsNameArray: [String] = ["Pan","Pitcher",
-                                                     "Pressure Cooker","Plate","Glass","Cauldron","Lid","Cup","Saucer","Spoon","Fork","Sieve","Strainer","Rolling Pad","Rolling Pin","Skimmer","Ladle","Grater","Bowl"]
+                                                     "Pressure Cooker","Plate","Glass","Cauldron","Lid","Cup","Saucer","Teapot","Spoon","Fork","Sieve","Strainer","Rolling Pad","Rolling Pin","Skimmer","Ladle","Grater","Bowl"]
     //------------------------------------------------------------------------
     static var gardeningImageArray: [UIImage] = [
         UIImage(named: "Axe.png")!,
@@ -84,22 +84,28 @@ class CommanArray {
         "Cultivator","Garden Gloves","Hand Fork","Hedge Shears","Hose","Prunning Saw","Shovel","Spade","Trowel","Wheelbarrow","Watering Can","Gardening Boots"]
     //------------------------------------------------------------------------
     static var schoolImageArray: [UIImage] = [
-        UIImage(named: "Classroom.png")!,
-        UIImage(named: "Library.png")!,
-        UIImage(named: "Playground.png")!,
-        UIImage(named: "White Board.png")!,
-        UIImage(named: "Bench.png")!,
-        UIImage(named: "Electric Bell.png")!,
-        UIImage(named: "School Bag.png")!,
-        UIImage(named: "School Uniform.png")!,
         UIImage(named: "Book.png")!,
         UIImage(named: "Notebook.png")!,
-        UIImage(named: "Computer.png")!,
-        UIImage(named: "Map.png")!,
         UIImage(named: "Pen.png")!,
-        UIImage(named: "Pencil.png")!
+        UIImage(named: "Pencil.png")!,
+        UIImage(named: "Eraser.png")!,
+        UIImage(named: "Sharpner.png")!,
+        UIImage(named: "Ruler.png")!,
+        UIImage(named: "Protractor.png")!,
+        UIImage(named: "Geometry Compass.png")!,
+        UIImage(named: "Set Square.png")!,
+        UIImage(named: "Measuring Divider.png")!,
+        UIImage(named: "Writing Pad.png")!,
+        UIImage(named: "White Board.png")!,
+        UIImage(named: "School Bag.png")!,
+        UIImage(named: "Stapler.png")!,
+        UIImage(named: "Paper Punching Machine.png")!,
+        UIImage(named: "Map.png")!,
+        UIImage(named: "Computer.png")!,
+        UIImage(named: "Printer.png")!,
+        UIImage(named: "Pen Drive.png")!
     ]
-    static var schoolNameArray: [String] = ["Classroom","Library","Playground","White Board","Bench","Electric Bell","School Bag","School Uniform","Book","Notebook", "Computer","Map","Pen","Pencil"]
+    static var schoolNameArray: [String] = ["Book","Notebook","Pen","Pencil","Eraser","Sharpner","Ruler","Protractor","Geometry Compass","Set Square","Measuring Divider","Writing Pad","White Board","School Bag","Stapler","Paper Punching Machine","Map","Computer","Printer","Pen Drive"]
     //------------------------------------------------------------------------
     static var status_Sign_Array = [
         UIImage(named: "Wrong-Sign.png")!,
