@@ -63,13 +63,44 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                 let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
                     if self.timer == nil {
-                        self.timer = Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
+                        self.timer = Timer.scheduledTimer(timeInterval: CommanArray.timerForAds, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
                     }
                 }))
                 self.present(alert, animated: true, completion: nil)
             }
         }
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        stopTimer()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if !defaults.bool(forKey:"IsPrimeUser") {
+            if let _ = btnNoAds, let _ = imgViewLock2, let _ = imgViewLock3, let _ = imgViewLock4 {
+                self.btnNoAds.isHidden = false
+                self.imgViewLock2.isHidden = false
+                self.imgViewLock3.isHidden = false
+                self.imgViewLock4.isHidden = false
+                if bannerView != nil {
+                    if timer == nil {
+                        if Reachability.isConnectedToNetwork() {
+                            bannerView.load(GADRequest())
+                        } else {
+                            let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
+                            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
+                                if self.timer == nil {
+                                    self.timer = Timer.scheduledTimer(timeInterval: CommanArray.timerForAds, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
+                                }
+                            }))
+                            self.present(alert, animated: true, completion: nil)
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     override func viewWillAppear(_ animated: Bool) {
         if defaults.bool(forKey:"IsPrimeUser") {
             if let _ = btnNoAds, let _ = imgViewLock2, let _ = imgViewLock3, let _ = imgViewLock4 {
@@ -80,13 +111,6 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                 if bannerView != nil {
                     bannerView.removeFromSuperview()
                 }
-            }
-        } else {
-            if let _ = btnNoAds, let _ = imgViewLock2, let _ = imgViewLock3, let _ = imgViewLock4 {
-                self.btnNoAds.isHidden = false
-                self.imgViewLock2.isHidden = false
-                self.imgViewLock3.isHidden = false
-                self.imgViewLock4.isHidden = false
             }
         }
     }
@@ -260,7 +284,7 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                 [
                      CommanArray.kitchenUtensilsNameArray[3]+"-"+"0",
                      CommanArray.kitchenUtensilsNameArray[1]+"-"+"1",
-                     CommanArray.kitchenUtensilsNameArray[20]+"-"+"0",
+                     CommanArray.kitchenUtensilsNameArray[6]+"-"+"0",
                      CommanArray.kitchenUtensilsNameArray[16]+"-"+"0"
                 ],
                 [
@@ -325,7 +349,7 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                  ],
                  [
                      CommanArray.kitchenUtensilsNameArray[1]+"-"+"0",
-                     CommanArray.kitchenUtensilsNameArray[20]+"-"+"0",
+                     CommanArray.kitchenUtensilsNameArray[0]+"-"+"0",
                      CommanArray.kitchenUtensilsNameArray[12]+"-"+"1",
                      CommanArray.kitchenUtensilsNameArray[19]+"-"+"0"
                  ],
@@ -343,7 +367,7 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                  ],
                  [
                      CommanArray.kitchenUtensilsNameArray[0]+"-"+"0",
-                     CommanArray.kitchenUtensilsNameArray[20]+"-"+"0",
+                     CommanArray.kitchenUtensilsNameArray[19]+"-"+"0",
                      CommanArray.kitchenUtensilsNameArray[15]+"-"+"1",
                      CommanArray.kitchenUtensilsNameArray[9]+"-"+"0"
                  ],
@@ -479,7 +503,7 @@ class TestViewController: UIViewController,PayementForParentProtocol {
             [
                  CommanArray.schoolNameArray[3]+"-"+"0",
                  CommanArray.schoolNameArray[1]+"-"+"1",
-                 CommanArray.schoolNameArray[20]+"-"+"0",
+                 CommanArray.schoolNameArray[19]+"-"+"0",
                  CommanArray.schoolNameArray[16]+"-"+"0"
             ],
             [
@@ -544,7 +568,7 @@ class TestViewController: UIViewController,PayementForParentProtocol {
              ],
              [
                  CommanArray.schoolNameArray[1]+"-"+"0",
-                 CommanArray.schoolNameArray[20]+"-"+"0",
+                 CommanArray.schoolNameArray[0]+"-"+"0",
                  CommanArray.schoolNameArray[12]+"-"+"1",
                  CommanArray.schoolNameArray[19]+"-"+"0"
              ],
@@ -562,7 +586,7 @@ class TestViewController: UIViewController,PayementForParentProtocol {
              ],
              [
                  CommanArray.schoolNameArray[0]+"-"+"0",
-                 CommanArray.schoolNameArray[20]+"-"+"0",
+                 CommanArray.schoolNameArray[11]+"-"+"0",
                  CommanArray.schoolNameArray[15]+"-"+"1",
                  CommanArray.schoolNameArray[9]+"-"+"0"
              ],
@@ -704,7 +728,7 @@ extension TestViewController: GADBannerViewDelegate {
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
       print("adViewDidReceiveAd")
         if timer == nil {
-            timer = Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: CommanArray.timerForAds, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
         }
 
     }

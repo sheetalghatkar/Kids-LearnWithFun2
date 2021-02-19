@@ -81,7 +81,7 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
                 let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
                     if self.timer == nil {
-                        self.timer = Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
+                        self.timer = Timer.scheduledTimer(timeInterval: CommanArray.timerForAds, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
                     }
                 }))
                 self.present(alert, animated: true, completion: nil)
@@ -95,22 +95,45 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
         btnPlayAgain.layer.borderColor = CommanArray.paymentBtnTextColor.cgColor
         btnPlayAgain.layer.borderWidth = 2.5
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        if defaults.bool(forKey:"IsPrimeUser") {
-            if let _ = btnNoAds{
-                self.trailingConstraintTitle.constant = -60
-                self.btnNoAds.isHidden = true
-                if self.bannerView != nil {
-                    self.bannerView.removeFromSuperview()
-                }
-            }
-        } else {
-            if let _ = btnNoAds{
+    override func viewWillDisappear(_ animated: Bool) {
+        stopTimer()
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        //Start Timer
+        if !defaults.bool(forKey:"IsPrimeUser") {
+            if let _ = btnNoAds {
                 self.btnNoAds.isHidden = false
+                if bannerView != nil {
+                    if timer == nil {
+                        if Reachability.isConnectedToNetwork() {
+                            bannerView.load(GADRequest())
+                        } else {
+                            let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
+                            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
+                                if self.timer == nil {
+                                    self.timer = Timer.scheduledTimer(timeInterval: CommanArray.timerForAds, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
+                                }
+                            }))
+                            self.present(alert, animated: true, completion: nil)
+                        }
+                    }
+                }
             }
         }
     }
+
+    override func viewWillAppear(_ animated: Bool) {
+        if defaults.bool(forKey:"IsPrimeUser") {
+            if let _ = btnNoAds {
+                self.btnNoAds.isHidden = true
+                self.trailingConstraintTitle.constant = -60
+                if bannerView != nil {
+                    bannerView.removeFromSuperview()
+                }
+            }
+        }
+    }
+
 
     // MARK: - User defined Functions
     @objc func alarmToLoadBannerAds(){
@@ -498,7 +521,7 @@ extension TestSolveViewController: GADBannerViewDelegate {
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
       print("adViewDidReceiveAd")
         if timer == nil {
-            timer = Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: CommanArray.timerForAds, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
         }
 
     }

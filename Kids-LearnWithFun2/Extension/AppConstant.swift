@@ -143,7 +143,7 @@ class CommanArray {
      static var Ad_App_ID = "ca-app-pub-3940256099942544~1458002511"
     
     //Related to InAppPurchase
-    static var environment = AppleReceiptValidator.VerifyReceiptURLType.production
+    static var environment = AppleReceiptValidator.VerifyReceiptURLType.sandbox
     static var secretKey = "b080c7b91bbe48c4aed2b29eb89c9f7c"
     
     static var productId_Year_Auto_Recurring = "com.mobiapps360.LearnHouseObjects.YearlyAutoRecurring"
@@ -151,6 +151,8 @@ class CommanArray {
     static var productId_Month_Auto_Recurring = "com.mobiapps360.LearnHouseObjects.MonthlyAutoRecurring"
     static var productId_Month_Non_Recurring = "com.mobiapps360.LearnHouseObjects.MonthlyNonRecurring"
 
+    
+    static var timerForAds = 15.0
 
 }
 /**

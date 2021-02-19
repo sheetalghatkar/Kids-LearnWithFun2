@@ -65,7 +65,7 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
         
         viewCollectionContainer.layer.borderWidth = 1.5
         viewCollectionContainer.layer.cornerRadius = 10.0
-        viewCollectionContainer.layer.borderColor = UIColor.red.cgColor
+        viewCollectionContainer.layer.borderColor = CommanArray.paymentBtnTextColor.cgColor
         collectionViewCard.register(UINib(nibName: "PictureCollectionCell", bundle: nil), forCellWithReuseIdentifier: "PictureCollectionCell")
         
         let layout = UICollectionViewFlowLayout()
@@ -103,13 +103,18 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
                 let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
                     if self.timer == nil {
-                        self.timer = Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
+                        self.timer = Timer.scheduledTimer(timeInterval: CommanArray.timerForAds, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
                     }
                 }))
                 self.present(alert, animated: true, completion: nil)
             }
         }
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        stopTimer()
+    }
+
     override func viewWillAppear(_ animated: Bool) {
         if defaults.bool(forKey:"IsPrimeUser") {
             if let _ = btnNoAds {
@@ -118,9 +123,28 @@ class ImagesCollectionViewController: UIViewController, UICollectionViewDelegate
                     bannerView.removeFromSuperview()
                 }
             }
-        } else {
+        }
+    }
+        
+    override func viewDidAppear(_ animated: Bool) {
+        if !defaults.bool(forKey:"IsPrimeUser") {
             if let _ = btnNoAds {
                 self.btnNoAds.isHidden = false
+                if bannerView != nil {
+                    if timer == nil {
+                        if Reachability.isConnectedToNetwork() {
+                            bannerView.load(GADRequest())
+                        } else {
+                            let alert = UIAlertController(title: "", message: "No Internet Connection.", preferredStyle: UIAlertController.Style.alert)
+                            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {_ in
+                                if self.timer == nil {
+                                    self.timer = Timer.scheduledTimer(timeInterval: CommanArray.timerForAds, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
+                                }
+                            }))
+                            self.present(alert, animated: true, completion: nil)
+                        }
+                    }
+                }
             }
         }
     }
@@ -444,7 +468,7 @@ extension ImagesCollectionViewController: GADBannerViewDelegate {
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
       print("adViewDidReceiveAd")
         if timer == nil {
-            timer = Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: CommanArray.timerForAds, target: self, selector: #selector(self.alarmToLoadBannerAds), userInfo: nil, repeats: true)
         }
 
     }

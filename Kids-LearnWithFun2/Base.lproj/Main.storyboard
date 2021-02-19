@@ -75,22 +75,13 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HexagonOrange" translatesAutoresizingMaskIntoConstraints="NO" id="TQK-Bq-ACD" userLabel="bgHouseObject">
                                         <rect key="frame" x="24" y="-7.5" width="145" height="145"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HouseholdHomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gjN-n9-wRV" userLabel="ImgViewWildAnimal" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HouseholdHomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gjN-n9-wRV" userLabel="ImgViewWildAnimal">
                                         <rect key="frame" x="41.5" y="10" width="110" height="110"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="110" id="20w-dX-l4A"/>
                                             <constraint firstAttribute="width" secondItem="gjN-n9-wRV" secondAttribute="height" multiplier="1:1" id="qhW-mf-hDJ"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8O-IM-5ND" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="21.5" y="125" width="150" height="43.5"/>
@@ -108,21 +99,12 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HexagonOrange" translatesAutoresizingMaskIntoConstraints="NO" id="kJd-fU-TRL" userLabel="bgKitchenObject">
                                         <rect key="frame" x="215" y="-7.5" width="145" height="145"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KitchenHomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Hd0-Vu-A4f" userLabel="ImgViewPetAnimal" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KitchenHomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Hd0-Vu-A4f" userLabel="ImgViewPetAnimal">
                                         <rect key="frame" x="232.5" y="10" width="110" height="110"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Hd0-Vu-A4f" secondAttribute="height" multiplier="1:1" id="DNB-ah-wL0"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdb-61-ofa" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="227.5" y="125" width="120" height="43.5"/>
@@ -140,40 +122,22 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HexagonOrange" translatesAutoresizingMaskIntoConstraints="NO" id="Gtw-bH-LdZ" userLabel="bgGardeningObject">
                                         <rect key="frame" x="24" y="186" width="145" height="145"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImplementHomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="cJK-ds-x0V" userLabel="ImgViewBird" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImplementHomeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="cJK-ds-x0V" userLabel="ImgViewBird">
                                         <rect key="frame" x="41.5" y="203.5" width="110" height="110"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="cJK-ds-x0V" secondAttribute="height" multiplier="1:1" id="wcE-zZ-CgK"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HexagonOrange" translatesAutoresizingMaskIntoConstraints="NO" id="Jji-Dh-yLN" userLabel="bgStationeryObject">
                                         <rect key="frame" x="210" y="186" width="145" height="145"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StationeryObjects" translatesAutoresizingMaskIntoConstraints="NO" id="reh-wu-V8d" userLabel="ImgViewStationery" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StationeryObjects" translatesAutoresizingMaskIntoConstraints="NO" id="reh-wu-V8d" userLabel="ImgViewStationery">
                                         <rect key="frame" x="232.5" y="208.5" width="100" height="100"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="reh-wu-V8d" secondAttribute="height" multiplier="1:1" id="a2b-93-lqF"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gardening Tools" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="An0-re-XTy" userLabel="Birds" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="11.5" y="318.5" width="170" height="85"/>
@@ -200,18 +164,12 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isShowShadow" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </label>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Test" translatesAutoresizingMaskIntoConstraints="NO" id="E2H-lW-8J3" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Test" translatesAutoresizingMaskIntoConstraints="NO" id="E2H-lW-8J3">
                                         <rect key="frame" x="122" y="423.5" width="140" height="140"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="E2H-lW-8J3" secondAttribute="height" multiplier="1:1" id="OkR-B2-rfU"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" systemColor="systemPinkColor"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jq-2D-84O" userLabel="Test" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="163.5" y="568.5" width="57.5" height="30"/>
@@ -287,14 +245,9 @@
                                     <constraint firstAttribute="width" secondItem="jyJ-5M-ZgW" secondAttribute="height" multiplier="1:1" id="CRE-Vv-CBd"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="No-Ads"/>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUb-p1-B9I">
-                                <rect key="frame" x="15" y="52.5" width="42" height="42"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="JUb-p1-B9I" secondAttribute="height" id="r2c-Mz-kbt"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="Setting"/>
+                                <connections>
+                                    <action selector="funcNoAds:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8nt-Yq-pze"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNm-SW-GvI">
                                 <rect key="frame" x="358" y="53" width="41" height="41"/>
@@ -303,6 +256,9 @@
                                     <constraint firstAttribute="width" secondItem="rNm-SW-GvI" secondAttribute="height" multiplier="1:1" id="ubQ-0y-dha"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="Sound-On_home"/>
+                                <connections>
+                                    <action selector="funcSound_ON_OFF:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KPz-Rx-QLO"/>
+                                </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5FL-8C-I0a" userLabel="transperentView">
                                 <rect key="frame" x="0.0" y="0.0" width="230" height="630"/>
@@ -325,6 +281,14 @@
                                     <constraint firstAttribute="width" secondItem="889-MW-Neb" secondAttribute="height" id="oxc-jh-ZVr"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUb-p1-B9I">
+                                <rect key="frame" x="15" y="52.5" width="42" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JUb-p1-B9I" secondAttribute="height" id="r2c-Mz-kbt"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="Setting"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -430,7 +394,6 @@
                                 </constraints>
                                 <state key="normal" backgroundImage="No-Ads"/>
                                 <connections>
-                                    <action selector="funcNoAds:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y57-9Q-r3h"/>
                                     <action selector="funcNoAds:" destination="1hM-HW-ZOh" eventType="touchUpInside" id="d68-4e-Uez"/>
                                 </connections>
                             </button>
@@ -443,7 +406,6 @@
                                 <state key="normal" backgroundImage="Sound-On_home"/>
                                 <connections>
                                     <action selector="funcSound_ON_OFF:" destination="1hM-HW-ZOh" eventType="touchUpInside" id="Y4G-TJ-iW4"/>
-                                    <action selector="funcSound_ON_OFF:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dxi-LV-LcQ"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oy1-3L-C6Q" userLabel="viewCollectionContainer">
@@ -522,18 +484,6 @@
                                     <constraint firstItem="wlH-pm-T5X" firstAttribute="bottom" secondItem="b3s-cv-tM9" secondAttribute="bottom" id="qhl-YU-n0t"/>
                                     <constraint firstItem="FDn-3d-xbu" firstAttribute="leading" secondItem="Oy1-3L-C6Q" secondAttribute="leading" constant="10" id="sQE-ZG-puU"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="round" value="NO"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" systemColor="systemRedColor"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1.5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EKu-rh-rDz" userLabel="viewGif">
                                 <rect key="frame" x="0.0" y="568" width="414" height="328"/>
@@ -777,8 +727,8 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SchoolIcon_Test" translatesAutoresizingMaskIntoConstraints="NO" id="Y7v-yi-LeU" userLabel="ImgViewFlower" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="222.5" y="213.5" width="120" height="120"/>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stationery_Test" translatesAutoresizingMaskIntoConstraints="NO" id="Y7v-yi-LeU" userLabel="ImgViewFlower" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
+                                        <rect key="frame" x="222.5" y="201" width="145" height="145"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Y7v-yi-LeU" secondAttribute="height" multiplier="1:1" id="bTr-Z2-6fM"/>
@@ -806,7 +756,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST-IV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhw-oN-r24" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="223.5" y="338.5" width="118" height="30"/>
+                                        <rect key="frame" x="236" y="338.5" width="118" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="TiC-tA-x13"/>
                                         </constraints>
@@ -877,7 +827,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="Y7v-yi-LeU" firstAttribute="width" secondItem="aEn-Uq-No3" secondAttribute="width" id="0Tn-92-fnc"/>
+                                    <constraint firstItem="Y7v-yi-LeU" firstAttribute="width" secondItem="aEn-Uq-No3" secondAttribute="width" constant="25" id="0Tn-92-fnc"/>
                                     <constraint firstItem="sOs-RQ-CeD" firstAttribute="leading" secondItem="gNh-Yt-CGX" secondAttribute="trailing" constant="-40" id="2nn-iP-3KK"/>
                                     <constraint firstItem="qZo-4f-SIQ" firstAttribute="width" secondItem="sOs-RQ-CeD" secondAttribute="width" multiplier="1:1" id="3hi-7L-0OR"/>
                                     <constraint firstItem="Y7v-yi-LeU" firstAttribute="leading" secondItem="aEn-Uq-No3" secondAttribute="leading" id="5Ns-4y-rRz"/>
@@ -994,6 +944,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WallpaperOrange" translatesAutoresizingMaskIntoConstraints="NO" id="qBx-hV-vCt">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottomBg" translatesAutoresizingMaskIntoConstraints="NO" id="RXe-lB-wBk">
+                                <rect key="frame" x="0.0" y="666" width="414" height="230"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="AE1-A0-1lz"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rl5-15-3d8" userLabel="BtnHome">
                                 <rect key="frame" x="15" y="54" width="42" height="42"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1007,7 +964,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xvH-RP-11f">
-                                <rect key="frame" x="67" y="75" width="220" height="0.0"/>
+                                <rect key="frame" x="67" y="71" width="220" height="0.0"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
                                 <color key="textColor" red="1" green="0.4549019608" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1155,19 +1112,22 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="txb-wE-Ani" firstAttribute="top" secondItem="8hf-Ab-EfA" secondAttribute="top" id="00w-mV-5Mm"/>
+                            <constraint firstAttribute="bottom" secondItem="RXe-lB-wBk" secondAttribute="bottom" id="2dx-5q-pQd"/>
                             <constraint firstItem="gBG-eo-zeb" firstAttribute="centerY" secondItem="8hf-Ab-EfA" secondAttribute="centerY" id="3iB-wY-ZvM"/>
                             <constraint firstItem="SPt-oj-wje" firstAttribute="height" secondItem="Rh1-Rl-aSR" secondAttribute="height" id="3nU-ov-Duf"/>
                             <constraint firstItem="OHS-KB-ddr" firstAttribute="top" secondItem="8qt-LO-D8c" secondAttribute="top" id="6jV-Vj-9Dt"/>
                             <constraint firstItem="txb-wE-Ani" firstAttribute="trailing" secondItem="ehr-wd-Ohb" secondAttribute="trailing" id="8JD-Oa-SJs"/>
                             <constraint firstItem="ehr-wd-Ohb" firstAttribute="trailing" secondItem="8qt-LO-D8c" secondAttribute="trailing" constant="15" id="8TA-sQ-Qfa"/>
                             <constraint firstItem="Rh1-Rl-aSR" firstAttribute="width" secondItem="Rl5-15-3d8" secondAttribute="width" constant="18" id="8br-vk-Mlp"/>
+                            <constraint firstAttribute="trailing" secondItem="RXe-lB-wBk" secondAttribute="trailing" id="CsU-SY-Gm6"/>
+                            <constraint firstItem="RXe-lB-wBk" firstAttribute="leading" secondItem="8hf-Ab-EfA" secondAttribute="leading" id="DWM-2j-mpH"/>
                             <constraint firstItem="Rl5-15-3d8" firstAttribute="top" secondItem="8qt-LO-D8c" secondAttribute="top" id="Da1-Km-dgT"/>
                             <constraint firstItem="5TE-1w-QWb" firstAttribute="top" secondItem="Rl5-15-3d8" secondAttribute="bottom" constant="20" id="FSK-PR-6NI"/>
                             <constraint firstItem="OHS-KB-ddr" firstAttribute="width" secondItem="OHS-KB-ddr" secondAttribute="height" multiplier="1:1" id="Hg1-uO-rFS"/>
                             <constraint firstItem="Rh1-Rl-aSR" firstAttribute="leading" secondItem="ehr-wd-Ohb" secondAttribute="leading" constant="20" id="JQf-Bf-6Yc"/>
                             <constraint firstItem="txb-wE-Ani" firstAttribute="leading" secondItem="ehr-wd-Ohb" secondAttribute="leading" id="MAO-uW-k81"/>
                             <constraint firstItem="jS2-J4-Ex3" firstAttribute="centerX" secondItem="8hf-Ab-EfA" secondAttribute="centerX" id="MGf-OQ-JjR"/>
-                            <constraint firstItem="xvH-RP-11f" firstAttribute="centerY" secondItem="Rl5-15-3d8" secondAttribute="centerY" id="Muq-bn-2se"/>
+                            <constraint firstItem="xvH-RP-11f" firstAttribute="centerY" secondItem="Rl5-15-3d8" secondAttribute="centerY" constant="-4" id="Muq-bn-2se"/>
                             <constraint firstItem="ehr-wd-Ohb" firstAttribute="trailing" secondItem="qBx-hV-vCt" secondAttribute="trailing" id="NeQ-ZF-vUW"/>
                             <constraint firstItem="jS2-J4-Ex3" firstAttribute="width" secondItem="Rl5-15-3d8" secondAttribute="width" constant="6" id="RFt-Ls-gOp"/>
                             <constraint firstItem="8qt-LO-D8c" firstAttribute="leading" secondItem="OHS-KB-ddr" secondAttribute="trailing" constant="20" id="TN1-6k-7lz"/>
@@ -1219,9 +1179,6 @@
         <designable name="An0-re-XTy">
             <size key="intrinsicContentSize" width="222" height="43.5"/>
         </designable>
-        <designable name="E2H-lW-8J3">
-            <size key="intrinsicContentSize" width="232" height="269"/>
-        </designable>
         <designable name="E8O-IM-5ND">
             <size key="intrinsicContentSize" width="83" height="43.5"/>
         </designable>
@@ -1230,9 +1187,6 @@
         </designable>
         <designable name="GN6-Xa-xpL">
             <size key="intrinsicContentSize" width="50" height="50"/>
-        </designable>
-        <designable name="Hd0-Vu-A4f">
-            <size key="intrinsicContentSize" width="350" height="350"/>
         </designable>
         <designable name="KMr-CA-DSf">
             <size key="intrinsicContentSize" width="126" height="43.5"/>
@@ -1244,7 +1198,7 @@
             <size key="intrinsicContentSize" width="512" height="512"/>
         </designable>
         <designable name="Y7v-yi-LeU">
-            <size key="intrinsicContentSize" width="220" height="260"/>
+            <size key="intrinsicContentSize" width="607" height="411"/>
         </designable>
         <designable name="aEn-Uq-No3">
             <size key="intrinsicContentSize" width="2765" height="2720"/>
@@ -1255,17 +1209,11 @@
         <designable name="b3s-cv-tM9">
             <size key="intrinsicContentSize" width="512" height="512"/>
         </designable>
-        <designable name="cJK-ds-x0V">
-            <size key="intrinsicContentSize" width="443" height="563"/>
-        </designable>
         <designable name="gNh-Yt-CGX">
             <size key="intrinsicContentSize" width="500" height="500"/>
         </designable>
         <designable name="gj8-yH-CX6">
             <size key="intrinsicContentSize" width="112" height="43.5"/>
-        </designable>
-        <designable name="gjN-n9-wRV">
-            <size key="intrinsicContentSize" width="290" height="200"/>
         </designable>
         <designable name="hhw-oN-r24">
             <size key="intrinsicContentSize" width="118" height="43.5"/>
@@ -1275,9 +1223,6 @@
         </designable>
         <designable name="qZo-4f-SIQ">
             <size key="intrinsicContentSize" width="50" height="50"/>
-        </designable>
-        <designable name="reh-wu-V8d">
-            <size key="intrinsicContentSize" width="1102" height="1116"/>
         </designable>
         <designable name="sOs-RQ-CeD">
             <size key="intrinsicContentSize" width="50" height="50"/>
@@ -1305,20 +1250,17 @@
         <image name="PaymentDetail" width="564" height="442"/>
         <image name="PlayAgain" width="2255" height="2255"/>
         <image name="Question" width="157" height="170.66667175292969"/>
-        <image name="SchoolIcon_Test" width="220" height="260"/>
         <image name="Setting" width="2295" height="2295"/>
         <image name="Sound-On" width="50" height="50"/>
         <image name="Sound-On_home" width="113" height="113"/>
         <image name="StationeryObjects" width="1102" height="1116"/>
+        <image name="Stationery_Test" width="607" height="411"/>
         <image name="Test" width="232" height="269"/>
         <image name="Test-Home" width="225" height="225"/>
         <image name="WallpaperOrange" width="854" height="680"/>
         <image name="bottomBg" width="1190" height="414"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
