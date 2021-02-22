@@ -354,7 +354,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="471.01449275362324" y="105.80357142857143"/>
+            <point key="canvasLocation" x="254" y="119"/>
         </scene>
         <!--Images Collection View Controller-->
         <scene sceneID="U2n-Yq-PfX">

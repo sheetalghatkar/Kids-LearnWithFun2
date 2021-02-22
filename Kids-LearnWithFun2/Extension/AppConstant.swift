@@ -132,19 +132,19 @@ class CommanArray {
     static var paymentBtnTextColor = UIColor(red: (255/255), green: (116/255), blue: (2/255), alpha: 1.0)
 
     //Related to Ads Production
-//    static var Banner_AdUnitId = "ca-app-pub-7546454767986772/2971046998"
-//    static var Interstitial_AdUnitId = "ca-app-pub-7546454767986772/7578066918"
-//    static var Ad_App_ID = "ca-app-pub-7546454767986772~6951380954"
+    static var Banner_AdUnitId = "ca-app-pub-7546454767986772/2971046998"
+    static var Interstitial_AdUnitId = "ca-app-pub-7546454767986772/7578066918"
+    static var Ad_App_ID = "ca-app-pub-7546454767986772~6951380954"
     
     
     
     //Related to Ads Sandbox/Test
-     static var Banner_AdUnitId = "ca-app-pub-3940256099942544/2934735716"
+    /* static var Banner_AdUnitId = "ca-app-pub-3940256099942544/2934735716"
      static var Interstitial_AdUnitId = "ca-app-pub-3940256099942544/4411468910"
-     static var Ad_App_ID = "ca-app-pub-3940256099942544~1458002511"
+     static var Ad_App_ID = "ca-app-pub-3940256099942544~1458002511"*/
     
     //Related to InAppPurchase
-    static var environment = AppleReceiptValidator.VerifyReceiptURLType.sandbox
+    static var environment = AppleReceiptValidator.VerifyReceiptURLType.production
     static var secretKey = "b080c7b91bbe48c4aed2b29eb89c9f7c"
     
     static var productId_Year_Auto_Recurring = "com.mobiapps360.LearnHouseObjects.YearlyAutoRecurring"
