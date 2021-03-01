@@ -65,7 +65,7 @@ class PaymentCostController: UIViewController ,SKProductsRequestDelegate, SKPaym
         super.viewDidLoad()
         SKPaymentQueue.default().add(self)
         lblAlredyPurchased.text = "Already Purchased?"
-        lblCostTitle.text = "Unlock Premium Features"
+        lblCostTitle.text = "Remove Ads"
         btnRestore.setTitle("Restore", for: .normal)
 
         /*var textBuyOneTime = NSMutableAttributedString(string:"One-time Payment" + "    " + "$15")
@@ -104,6 +104,10 @@ class PaymentCostController: UIViewController ,SKProductsRequestDelegate, SKPaym
         if !(UIDevice.current.hasNotch) {
             widthHome.constant = 40
         }
+        
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            widthHome.constant = 65
+        }
         viewTrasperentDisabled.isHidden = false
         licenseAgreementVC = CustomLiceneModelController(nibName: "CustomLiceneModelController", bundle: nil)
         licenseAgreementVC?.delegateCustomLicene = self
@@ -112,6 +116,10 @@ class PaymentCostController: UIViewController ,SKProductsRequestDelegate, SKPaym
         let tap = UITapGestureRecognizer(target: self, action: #selector(self.privacyLinkClicked(sender:)))
         lblPrivacyPolicy.isUserInteractionEnabled = true
         lblPrivacyPolicy.addGestureRecognizer(tap)
+        
+        lblCostTitle.textColor = CommanArray.paymentBtnTextColor
+        lblAlredyPurchased.textColor = CommanArray.paymentBtnTextColor
+
     }
     
     func removeViewFromApp() {

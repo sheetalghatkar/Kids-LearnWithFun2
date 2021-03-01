@@ -51,10 +51,23 @@ class CustomLiceneModelController: UIViewController {
         let textNonRenewable = NSMutableAttributedString(string:"Non-renewable Subscriptions")
         texViewAttrString.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: 18, weight: .semibold),range: NSRange(location: 582, length:textNonRenewable.length))
         
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            texViewAttrString.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: 27, weight: .regular),range: NSRange(location: 0, length:texViewAttrString.length))
+            texViewAttrString.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: 32, weight: .semibold),range: NSRange(location: 0, length:textAutoRenewable.length))
+            texViewAttrString.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: 32, weight: .semibold),range: NSRange(location: 582, length:textNonRenewable.length))
+        }
+
+        
         txtViewLicenseInfo.attributedText = texViewAttrString
         txtViewLicenseInfo.isScrollEnabled = false
         txtViewLicenseInfo.isEditable = false
         txtViewLicenseInfo.isUserInteractionEnabled = false
+        
+        lblLicenseTitle.layer.shadowColor = UIColor.black.cgColor
+        lblLicenseTitle.layer.shadowRadius = 3.0
+        lblLicenseTitle.layer.shadowOpacity = 1.0
+        lblLicenseTitle.layer.shadowOffset = CGSize(width: 4, height: 4)
+        lblLicenseTitle.layer.masksToBounds = false
     }
     
     @IBAction func funcOK(_ sender: UIButton) {

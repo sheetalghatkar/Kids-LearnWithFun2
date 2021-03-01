@@ -43,16 +43,24 @@
                                 <rect key="frame" x="-10" y="696" width="200" height="250"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="qWk-MD-bAR"/>
-                                    <constraint firstAttribute="height" constant="250" id="ucy-X1-84e"/>
+                                    <constraint firstAttribute="width" constant="200" id="qWk-MD-bAR">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="250"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="250" id="ucy-X1-84e">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                    </constraint>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xSV-2o-1oe" userLabel="Img View Bottom Gif2">
                                 <rect key="frame" x="229" y="646" width="200" height="250"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="0x3-qz-urG"/>
-                                    <constraint firstAttribute="height" constant="250" id="tpT-RQ-VCJ"/>
+                                    <constraint firstAttribute="width" constant="200" id="0x3-qz-urG">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="250"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="250" id="tpT-RQ-VCJ">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                    </constraint>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebZ-X7-GUd" userLabel="containerView">
@@ -84,10 +92,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8O-IM-5ND" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="21.5" y="125" width="150" height="43.5"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="BSj-Ya-mMF"/>
-                                        </constraints>
+                                        <rect key="frame" x="55" y="125" width="83" height="43.5"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -107,10 +112,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdb-61-ofa" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="227.5" y="125" width="120" height="43.5"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="LZ6-tp-hYs"/>
-                                        </constraints>
+                                        <rect key="frame" x="236.5" y="125" width="102.5" height="43.5"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -141,9 +143,14 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gardening Tools" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="An0-re-XTy" userLabel="Birds" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="11.5" y="318.5" width="170" height="85"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="85" id="9qe-Zo-sek"/>
-                                            <constraint firstAttribute="width" constant="170" id="XFU-Dl-Fnd"/>
+                                            <constraint firstAttribute="height" constant="85" id="9qe-Zo-sek">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="110"/>
+                                            </constraint>
+                                            <constraint firstAttribute="width" constant="170" id="XFU-Dl-Fnd">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                                            </constraint>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -172,10 +179,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jq-2D-84O" userLabel="Test" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="163.5" y="568.5" width="57.5" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="pzl-Ib-W7W"/>
-                                        </constraints>
+                                        <rect key="frame" x="163.5" y="578.5" width="57.5" height="43.5"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -189,13 +193,19 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="5um-oP-SBe" secondAttribute="trailing" id="0Rr-hs-5Jy"/>
                                     <constraint firstItem="GKu-8t-8yf" firstAttribute="top" secondItem="An0-re-XTy" secondAttribute="top" id="1fs-gE-G3l"/>
-                                    <constraint firstItem="cJK-ds-x0V" firstAttribute="top" secondItem="E8O-IM-5ND" secondAttribute="bottom" constant="35" id="3E5-94-0ox"/>
+                                    <constraint firstItem="cJK-ds-x0V" firstAttribute="top" secondItem="E8O-IM-5ND" secondAttribute="bottom" constant="35" id="3E5-94-0ox">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="45"/>
+                                    </constraint>
                                     <constraint firstItem="E2H-lW-8J3" firstAttribute="centerX" secondItem="ebZ-X7-GUd" secondAttribute="centerX" id="5CF-7D-i2M"/>
                                     <constraint firstItem="reh-wu-V8d" firstAttribute="width" secondItem="Hd0-Vu-A4f" secondAttribute="width" constant="-10" id="6je-8i-mTX"/>
                                     <constraint firstItem="E2H-lW-8J3" firstAttribute="centerX" secondItem="ebZ-X7-GUd" secondAttribute="centerX" id="B6W-Wy-Gcp"/>
-                                    <constraint firstItem="GKu-8t-8yf" firstAttribute="width" secondItem="An0-re-XTy" secondAttribute="width" constant="-11" id="BHs-t9-ck3"/>
+                                    <constraint firstItem="GKu-8t-8yf" firstAttribute="width" secondItem="An0-re-XTy" secondAttribute="width" constant="-11" id="BHs-t9-ck3">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
+                                    </constraint>
                                     <constraint firstItem="Gtw-bH-LdZ" firstAttribute="centerY" secondItem="cJK-ds-x0V" secondAttribute="centerY" id="Cfs-wo-lxJ"/>
-                                    <constraint firstItem="23o-JY-VKe" firstAttribute="leading" secondItem="gjN-n9-wRV" secondAttribute="trailing" constant="40" id="Ckc-mQ-8fw"/>
+                                    <constraint firstItem="23o-JY-VKe" firstAttribute="leading" secondItem="gjN-n9-wRV" secondAttribute="trailing" constant="40" id="Ckc-mQ-8fw">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="55"/>
+                                    </constraint>
                                     <constraint firstItem="cJK-ds-x0V" firstAttribute="width" secondItem="gjN-n9-wRV" secondAttribute="width" multiplier="1:1" id="DaM-j2-O1h"/>
                                     <constraint firstItem="Gtw-bH-LdZ" firstAttribute="width" secondItem="TQK-Bq-ACD" secondAttribute="width" id="DtX-X5-71p"/>
                                     <constraint firstItem="An0-re-XTy" firstAttribute="centerX" secondItem="cJK-ds-x0V" secondAttribute="centerX" id="EUB-RT-iWd"/>
@@ -204,7 +214,9 @@
                                     <constraint firstItem="23o-JY-VKe" firstAttribute="centerX" secondItem="ebZ-X7-GUd" secondAttribute="centerX" id="G6M-qA-uvE"/>
                                     <constraint firstItem="Jji-Dh-yLN" firstAttribute="width" secondItem="TQK-Bq-ACD" secondAttribute="width" id="Giw-D2-a29"/>
                                     <constraint firstItem="E8O-IM-5ND" firstAttribute="top" secondItem="gjN-n9-wRV" secondAttribute="bottom" constant="5" id="HCf-72-cUB"/>
-                                    <constraint firstItem="Hd0-Vu-A4f" firstAttribute="leading" secondItem="23o-JY-VKe" secondAttribute="trailing" constant="40" id="HEe-k5-cXv"/>
+                                    <constraint firstItem="Hd0-Vu-A4f" firstAttribute="leading" secondItem="23o-JY-VKe" secondAttribute="trailing" constant="40" id="HEe-k5-cXv">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="55"/>
+                                    </constraint>
                                     <constraint firstItem="E2H-lW-8J3" firstAttribute="width" secondItem="gjN-n9-wRV" secondAttribute="width" multiplier="1:1" constant="30" id="Iad-aX-Qnf"/>
                                     <constraint firstItem="8jq-2D-84O" firstAttribute="centerX" secondItem="ebZ-X7-GUd" secondAttribute="centerX" id="Lae-Qg-96I"/>
                                     <constraint firstItem="5um-oP-SBe" firstAttribute="centerY" secondItem="ebZ-X7-GUd" secondAttribute="centerY" id="MRE-LZ-E6M"/>
@@ -213,7 +225,7 @@
                                     <constraint firstItem="Jji-Dh-yLN" firstAttribute="height" secondItem="TQK-Bq-ACD" secondAttribute="height" id="TrN-SY-5uQ"/>
                                     <constraint firstItem="Jji-Dh-yLN" firstAttribute="centerX" secondItem="reh-wu-V8d" secondAttribute="centerX" id="WVv-kR-G1o"/>
                                     <constraint firstItem="reh-wu-V8d" firstAttribute="leading" secondItem="Hd0-Vu-A4f" secondAttribute="leading" id="Wyv-QK-p3R"/>
-                                    <constraint firstItem="8jq-2D-84O" firstAttribute="top" secondItem="E2H-lW-8J3" secondAttribute="bottom" constant="5" id="XrJ-OA-2xl"/>
+                                    <constraint firstItem="8jq-2D-84O" firstAttribute="top" secondItem="E2H-lW-8J3" secondAttribute="bottom" constant="15" id="XrJ-OA-2xl"/>
                                     <constraint firstItem="pdb-61-ofa" firstAttribute="centerX" secondItem="Hd0-Vu-A4f" secondAttribute="centerX" id="Y4b-lL-aDe"/>
                                     <constraint firstItem="5um-oP-SBe" firstAttribute="leading" secondItem="ebZ-X7-GUd" secondAttribute="leading" id="ahm-xE-lad"/>
                                     <constraint firstItem="E8O-IM-5ND" firstAttribute="centerX" secondItem="gjN-n9-wRV" secondAttribute="centerX" id="arv-Gg-I9h"/>
@@ -307,15 +319,21 @@
                             <constraint firstItem="ebZ-X7-GUd" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:1.25" id="cMY-YL-saR"/>
                             <constraint firstItem="YcB-YF-fuH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:1" id="ccQ-qU-sN4"/>
                             <constraint firstItem="jyJ-5M-ZgW" firstAttribute="width" secondItem="rNm-SW-GvI" secondAttribute="width" constant="2" id="cik-ff-3G3"/>
-                            <constraint firstItem="ebZ-X7-GUd" firstAttribute="top" secondItem="rNm-SW-GvI" secondAttribute="bottom" constant="20" id="ejd-fV-aw6"/>
-                            <constraint firstItem="kEP-jf-bcy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-10" id="g8R-2O-CHw"/>
+                            <constraint firstItem="ebZ-X7-GUd" firstAttribute="top" secondItem="rNm-SW-GvI" secondAttribute="bottom" constant="20" id="ejd-fV-aw6">
+                                <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="kEP-jf-bcy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-10" id="g8R-2O-CHw">
+                                <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                            </constraint>
                             <constraint firstItem="S8V-9M-by3" firstAttribute="centerY" secondItem="rNm-SW-GvI" secondAttribute="centerY" constant="-2" id="hM2-e1-r2D"/>
                             <constraint firstItem="tbI-JC-8m4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hSy-co-r57"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rNm-SW-GvI" secondAttribute="trailing" constant="15" id="lQg-D2-s8u"/>
                             <constraint firstAttribute="bottom" secondItem="xSV-2o-1oe" secondAttribute="bottom" id="pRr-3M-2w2"/>
                             <constraint firstItem="JUb-p1-B9I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="pzN-NK-jLo"/>
                             <constraint firstItem="JUb-p1-B9I" firstAttribute="centerY" secondItem="rNm-SW-GvI" secondAttribute="centerY" id="qc7-Yt-rSM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xSV-2o-1oe" secondAttribute="trailing" constant="-15" id="rHb-tZ-MoF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xSV-2o-1oe" secondAttribute="trailing" constant="-15" id="rHb-tZ-MoF">
+                                <variation key="heightClass=regular-widthClass=regular" constant="35"/>
+                            </constraint>
                             <constraint firstItem="5FL-8C-I0a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="si1-hD-PjE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ebZ-X7-GUd" secondAttribute="trailing" constant="15" id="tvr-rt-c75"/>
                             <constraint firstItem="S8V-9M-by3" firstAttribute="trailing" secondItem="jyJ-5M-ZgW" secondAttribute="trailing" id="u1v-Jd-1HQ"/>
@@ -327,6 +345,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="CR3-kV-sGc"/>
                     <connections>
+                        <outlet property="WidthLblGardenImg" destination="XFU-Dl-Fnd" id="QnA-9S-m0f"/>
                         <outlet property="WidthSound" destination="tHL-QM-V1J" id="gyD-li-Dfg"/>
                         <outlet property="bgScreen" destination="tbI-JC-8m4" id="o0Y-dj-nuh"/>
                         <outlet property="btnCancelSubscription" destination="S8V-9M-by3" id="Y94-06-AsX"/>
@@ -334,6 +353,7 @@
                         <outlet property="btnSetting" destination="JUb-p1-B9I" id="P4h-WD-0i2"/>
                         <outlet property="btnSound" destination="rNm-SW-GvI" id="atq-lz-yIA"/>
                         <outlet property="floaty" destination="889-MW-Neb" id="v3Q-Fa-kZm"/>
+                        <outlet property="heightLblGardenImg" destination="9qe-Zo-sek" id="OQc-yU-q6Q"/>
                         <outlet property="imgViewBg" destination="YcB-YF-fuH" id="WMr-ZZ-Diq"/>
                         <outlet property="imgViewBottomGif1" destination="kEP-jf-bcy" id="1ob-Ag-GYF"/>
                         <outlet property="imgViewBottomGif2" destination="xSV-2o-1oe" id="pAE-rv-YOc"/>
@@ -379,10 +399,12 @@
                                 <rect key="frame" x="15" y="43.5" width="50" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="0Nq-yH-bIr"/>
+                                    <constraint firstAttribute="height" constant="50" id="0Nq-yH-bIr">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="55"/>
+                                    </constraint>
                                     <constraint firstAttribute="width" secondItem="Zqp-zN-RSE" secondAttribute="height" multiplier="1:1" id="eo7-Cz-Xus"/>
                                 </constraints>
-                                <state key="normal" image="Test-Home"/>
+                                <state key="normal" backgroundImage="Test-Home"/>
                                 <connections>
                                     <action selector="funcGoToHome:" destination="1hM-HW-ZOh" eventType="touchUpInside" id="UB3-cE-wUt"/>
                                 </connections>
@@ -400,7 +422,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asx-A6-why">
                                 <rect key="frame" x="358" y="48" width="41" height="41"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="41" id="RAr-ms-SUW"/>
+                                    <constraint firstAttribute="width" constant="41" id="RAr-ms-SUW">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="52"/>
+                                    </constraint>
                                     <constraint firstAttribute="width" secondItem="asx-A6-why" secondAttribute="height" multiplier="1:1" id="Usc-iD-ccT"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="Sound-On_home"/>
@@ -468,6 +492,9 @@
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
                                         <color key="textColor" red="1" green="0.4549019608" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="42"/>
+                                        </variation>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -536,7 +563,9 @@
                         <viewLayoutGuide key="safeArea" id="InH-GA-ivG"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                         <constraints>
-                            <constraint firstItem="InH-GA-ivG" firstAttribute="trailing" secondItem="Oy1-3L-C6Q" secondAttribute="trailing" constant="10" id="2yJ-Xi-nS5"/>
+                            <constraint firstItem="InH-GA-ivG" firstAttribute="trailing" secondItem="Oy1-3L-C6Q" secondAttribute="trailing" constant="10" id="2yJ-Xi-nS5">
+                                <variation key="heightClass=regular-widthClass=regular" constant="45"/>
+                            </constraint>
                             <constraint firstItem="2TG-au-5Js" firstAttribute="height" secondItem="jqW-V0-aWO" secondAttribute="height" multiplier="0.2" id="3ml-Ni-Kaz"/>
                             <constraint firstItem="asx-A6-why" firstAttribute="leading" secondItem="5cp-9A-f71" secondAttribute="trailing" constant="25" id="6xm-Nx-PdE"/>
                             <constraint firstItem="2TG-au-5Js" firstAttribute="centerY" secondItem="EKu-rh-rDz" secondAttribute="centerY" id="8Sb-m3-MFb"/>
@@ -545,7 +574,9 @@
                             <constraint firstItem="SNq-as-9P0" firstAttribute="centerY" secondItem="EKu-rh-rDz" secondAttribute="centerY" id="GDz-u2-CO2"/>
                             <constraint firstItem="SNq-as-9P0" firstAttribute="height" secondItem="jqW-V0-aWO" secondAttribute="height" multiplier="0.2" id="HKm-t1-DSK"/>
                             <constraint firstItem="I0g-TV-0df" firstAttribute="centerX" secondItem="jqW-V0-aWO" secondAttribute="centerX" id="IIU-gh-cLp"/>
-                            <constraint firstItem="Oy1-3L-C6Q" firstAttribute="leading" secondItem="InH-GA-ivG" secondAttribute="leading" constant="10" id="J35-hh-ZlT"/>
+                            <constraint firstItem="Oy1-3L-C6Q" firstAttribute="leading" secondItem="InH-GA-ivG" secondAttribute="leading" constant="10" id="J35-hh-ZlT">
+                                <variation key="heightClass=regular-widthClass=regular" constant="45"/>
+                            </constraint>
                             <constraint firstAttribute="bottom" secondItem="EKu-rh-rDz" secondAttribute="bottom" id="KRJ-IW-ig6"/>
                             <constraint firstItem="EKu-rh-rDz" firstAttribute="top" secondItem="Oy1-3L-C6Q" secondAttribute="bottom" id="LMv-OB-0YD"/>
                             <constraint firstItem="5cp-9A-f71" firstAttribute="centerY" secondItem="asx-A6-why" secondAttribute="centerY" id="MIs-tO-bcR"/>
@@ -555,7 +586,9 @@
                             <constraint firstItem="xuo-Vu-ZmM" firstAttribute="leading" secondItem="InH-GA-ivG" secondAttribute="leading" id="QqH-3x-g5o"/>
                             <constraint firstItem="Zqp-zN-RSE" firstAttribute="centerY" secondItem="asx-A6-why" secondAttribute="centerY" id="SBs-o4-Gzf"/>
                             <constraint firstItem="xuo-Vu-ZmM" firstAttribute="top" secondItem="jqW-V0-aWO" secondAttribute="top" constant="-10" id="Uxd-S6-UPc"/>
-                            <constraint firstItem="Oy1-3L-C6Q" firstAttribute="top" secondItem="InH-GA-ivG" secondAttribute="top" constant="70" id="WQ8-cj-LMf"/>
+                            <constraint firstItem="Oy1-3L-C6Q" firstAttribute="top" secondItem="InH-GA-ivG" secondAttribute="top" constant="70" id="WQ8-cj-LMf">
+                                <variation key="heightClass=regular-widthClass=regular" constant="85"/>
+                            </constraint>
                             <constraint firstItem="InH-GA-ivG" firstAttribute="trailing" secondItem="EKu-rh-rDz" secondAttribute="trailing" id="WjN-72-oYF"/>
                             <constraint firstItem="5cp-9A-f71" firstAttribute="width" secondItem="asx-A6-why" secondAttribute="width" constant="2" id="XQV-Qj-ln5"/>
                             <constraint firstAttribute="bottom" secondItem="xuo-Vu-ZmM" secondAttribute="bottom" id="ZIF-Bl-meF"/>
@@ -571,7 +604,9 @@
                             <constraint firstItem="SNq-as-9P0" firstAttribute="centerX" secondItem="jqW-V0-aWO" secondAttribute="centerX" id="sTq-gX-TuF"/>
                             <constraint firstItem="N98-PA-UN0" firstAttribute="trailing" secondItem="InH-GA-ivG" secondAttribute="trailing" id="tM0-Yj-c9c"/>
                             <constraint firstItem="s7c-uz-mNA" firstAttribute="bottom" secondItem="2TG-au-5Js" secondAttribute="bottom" id="tqk-l4-FO0"/>
-                            <constraint firstItem="Oy1-3L-C6Q" firstAttribute="top" secondItem="asx-A6-why" secondAttribute="bottom" constant="25" id="ve1-uD-xw2"/>
+                            <constraint firstItem="Oy1-3L-C6Q" firstAttribute="top" secondItem="asx-A6-why" secondAttribute="bottom" constant="25" id="ve1-uD-xw2">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstAttribute="bottom" secondItem="N98-PA-UN0" secondAttribute="bottom" id="vi5-9D-Xdg"/>
                             <constraint firstItem="2TG-au-5Js" firstAttribute="trailing" secondItem="InH-GA-ivG" secondAttribute="trailing" id="yGg-D4-EwB"/>
                             <constraint firstItem="Zqp-zN-RSE" firstAttribute="leading" secondItem="InH-GA-ivG" secondAttribute="leading" constant="15" id="ybk-NQ-ZIx"/>
@@ -619,7 +654,9 @@
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLu-I2-aRM" userLabel="BtnAds">
                                 <rect key="frame" x="358" y="53.5" width="41" height="41"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="41" id="fNk-Fr-SFR"/>
+                                    <constraint firstAttribute="width" constant="41" id="fNk-Fr-SFR">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="52"/>
+                                    </constraint>
                                     <constraint firstAttribute="width" secondItem="XLu-I2-aRM" secondAttribute="height" multiplier="1:1" id="jOL-AE-s4L"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="No-Ads"/>
@@ -632,7 +669,9 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="XgC-Ur-G0M" secondAttribute="height" multiplier="1:1" id="Mcd-cd-HJo"/>
-                                    <constraint firstAttribute="height" constant="50" id="OIw-8e-lFi"/>
+                                    <constraint firstAttribute="height" constant="50" id="OIw-8e-lFi">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="58"/>
+                                    </constraint>
                                 </constraints>
                                 <state key="normal" image="Test-Home"/>
                                 <connections>
@@ -661,7 +700,9 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="gNh-Yt-CGX" secondAttribute="height" multiplier="1:1" id="6Kh-n5-5lt"/>
-                                            <constraint firstAttribute="width" constant="120" id="9Lt-J6-rAI"/>
+                                            <constraint firstAttribute="width" constant="120" id="9Lt-J6-rAI">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="180"/>
+                                            </constraint>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -673,10 +714,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="TEST-I" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Uz-4o-Evg" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="46.5" y="135" width="110" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="110" id="7J4-e8-4XU"/>
-                                        </constraints>
+                                        <rect key="frame" x="62.5" y="135" width="78.5" height="35"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -684,6 +722,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isShowShadow" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        </variation>
                                     </label>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kitchen_Test" translatesAutoresizingMaskIntoConstraints="NO" id="aEn-Uq-No3" userLabel="ImgViewPetAnimal" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="222.5" y="10" width="120" height="120"/>
@@ -701,16 +742,16 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST-II" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gj8-yH-CX6" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="222.5" y="135" width="120" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="AEw-KI-0SF"/>
-                                        </constraints>
+                                        <rect key="frame" x="238" y="135" width="89.5" height="35"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isShowShadow" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        </variation>
                                     </label>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GradeningIcon_Test" translatesAutoresizingMaskIntoConstraints="NO" id="aWX-21-wnP" userLabel="ImgViewBird" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="41.5" y="205" width="120" height="120"/>
@@ -743,10 +784,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST-III" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMr-CA-DSf" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="51" y="330" width="101" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="4wK-6L-6qh"/>
-                                        </constraints>
+                                        <rect key="frame" x="51" y="330" width="101" height="35"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -754,12 +792,12 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isShowShadow" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST-IV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhw-oN-r24" customClass="UILabelExtension" customModule="Learn_House_Objects" customModuleProvider="target">
-                                        <rect key="frame" x="248" y="330" width="94.5" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="TiC-tA-x13"/>
-                                        </constraints>
+                                        <rect key="frame" x="248" y="330" width="94.5" height="35"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -767,6 +805,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isShowShadow" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        </variation>
                                     </label>
                                     <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="sOs-RQ-CeD" userLabel="Lock1" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="121.5" y="100" width="55" height="55"/>
@@ -785,7 +826,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="qZo-4f-SIQ" userLabel="Lock2" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="qZo-4f-SIQ" userLabel="Lock2" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="312.5" y="100" width="55" height="55"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -798,7 +839,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="GN6-Xa-xpL" userLabel="Lock4" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="GN6-Xa-xpL" userLabel="Lock4" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="312.5" y="290" width="55" height="55"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -811,7 +852,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="yfi-Wi-vFg" userLabel="Lock3" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="yfi-Wi-vFg" userLabel="Lock3" customClass="RoundImageView" customModule="Learn_House_Objects" customModuleProvider="target">
                                         <rect key="frame" x="121.5" y="290" width="55" height="55"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -843,7 +884,9 @@
                                     <constraint firstItem="OQR-q5-ez1" firstAttribute="centerX" secondItem="FYC-3g-7wf" secondAttribute="centerX" id="Ghb-4f-tNM"/>
                                     <constraint firstItem="KMr-CA-DSf" firstAttribute="centerX" secondItem="aWX-21-wnP" secondAttribute="centerX" id="Gu4-MO-nqd"/>
                                     <constraint firstItem="0Uz-4o-Evg" firstAttribute="centerX" secondItem="gNh-Yt-CGX" secondAttribute="centerX" id="Iym-Ev-NdI"/>
-                                    <constraint firstItem="aEn-Uq-No3" firstAttribute="leading" secondItem="msK-ba-gNv" secondAttribute="trailing" constant="30" id="Ohl-VO-IHQ"/>
+                                    <constraint firstItem="aEn-Uq-No3" firstAttribute="leading" secondItem="msK-ba-gNv" secondAttribute="trailing" constant="30" id="Ohl-VO-IHQ">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                                    </constraint>
                                     <constraint firstItem="aEn-Uq-No3" firstAttribute="top" secondItem="gNh-Yt-CGX" secondAttribute="top" id="PIw-NA-sfb"/>
                                     <constraint firstItem="qZo-4f-SIQ" firstAttribute="top" secondItem="sOs-RQ-CeD" secondAttribute="top" id="Q5h-J3-EN5"/>
                                     <constraint firstAttribute="trailing" secondItem="OQR-q5-ez1" secondAttribute="trailing" id="SIO-1I-Y7k"/>
@@ -862,7 +905,9 @@
                                     <constraint firstItem="gj8-yH-CX6" firstAttribute="centerX" secondItem="aEn-Uq-No3" secondAttribute="centerX" id="kkg-gO-gJX"/>
                                     <constraint firstItem="hhw-oN-r24" firstAttribute="centerX" secondItem="Y7v-yi-LeU" secondAttribute="centerX" id="mkJ-gn-MdQ"/>
                                     <constraint firstItem="yfi-Wi-vFg" firstAttribute="top" secondItem="aWX-21-wnP" secondAttribute="bottom" constant="-35" id="nR0-NR-IPE"/>
-                                    <constraint firstItem="msK-ba-gNv" firstAttribute="leading" secondItem="gNh-Yt-CGX" secondAttribute="trailing" constant="30" id="r9c-hn-bJY"/>
+                                    <constraint firstItem="msK-ba-gNv" firstAttribute="leading" secondItem="gNh-Yt-CGX" secondAttribute="trailing" constant="30" id="r9c-hn-bJY">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                                    </constraint>
                                     <constraint firstItem="msK-ba-gNv" firstAttribute="height" secondItem="FYC-3g-7wf" secondAttribute="height" id="rLu-TC-B7A"/>
                                     <constraint firstItem="aWX-21-wnP" firstAttribute="top" secondItem="0Uz-4o-Evg" secondAttribute="bottom" constant="35" id="s7x-QF-aQT"/>
                                     <constraint firstItem="sOs-RQ-CeD" firstAttribute="top" secondItem="gNh-Yt-CGX" secondAttribute="bottom" constant="-30" id="z63-cd-LAh"/>
@@ -881,19 +926,27 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="9u3-ia-cKw" secondAttribute="bottom" id="8v6-5p-MY1"/>
                             <constraint firstAttribute="bottom" secondItem="9Oo-C3-RVs" secondAttribute="bottom" id="EWU-eG-51X"/>
-                            <constraint firstItem="XgC-Ur-G0M" firstAttribute="top" secondItem="ic0-qx-RYR" secondAttribute="top" constant="5" id="EfJ-hD-1tl"/>
+                            <constraint firstItem="XgC-Ur-G0M" firstAttribute="top" secondItem="ic0-qx-RYR" secondAttribute="top" constant="5" id="EfJ-hD-1tl">
+                                <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                            </constraint>
                             <constraint firstItem="9Oo-C3-RVs" firstAttribute="width" secondItem="XzN-Ds-EMF" secondAttribute="width" id="LKf-Fx-sOq"/>
                             <constraint firstItem="FYC-3g-7wf" firstAttribute="height" secondItem="XzN-Ds-EMF" secondAttribute="height" multiplier="0.45" id="Uk4-cg-uuI"/>
-                            <constraint firstItem="7nx-4Q-AWa" firstAttribute="top" secondItem="FYC-3g-7wf" secondAttribute="bottom" constant="30" id="Vy1-d8-tzE"/>
+                            <constraint firstItem="7nx-4Q-AWa" firstAttribute="top" secondItem="FYC-3g-7wf" secondAttribute="bottom" constant="30" id="Vy1-d8-tzE">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
                             <constraint firstItem="XLu-I2-aRM" firstAttribute="centerY" secondItem="XgC-Ur-G0M" secondAttribute="centerY" id="XT3-iR-mgP"/>
                             <constraint firstItem="9u3-ia-cKw" firstAttribute="leading" secondItem="ic0-qx-RYR" secondAttribute="leading" id="Zqf-nb-G0l"/>
                             <constraint firstItem="ic0-qx-RYR" firstAttribute="trailing" secondItem="FYC-3g-7wf" secondAttribute="trailing" constant="15" id="aQr-gK-V1H"/>
                             <constraint firstItem="7nx-4Q-AWa" firstAttribute="leading" secondItem="ic0-qx-RYR" secondAttribute="leading" constant="10" id="agY-rO-I9l"/>
                             <constraint firstItem="9Oo-C3-RVs" firstAttribute="centerX" secondItem="XzN-Ds-EMF" secondAttribute="centerX" id="bFn-ok-dtI"/>
-                            <constraint firstAttribute="trailing" secondItem="XLu-I2-aRM" secondAttribute="trailing" constant="15" id="byv-i5-COC"/>
+                            <constraint firstAttribute="trailing" secondItem="XLu-I2-aRM" secondAttribute="trailing" constant="15" id="byv-i5-COC">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstItem="FYC-3g-7wf" firstAttribute="top" secondItem="ic0-qx-RYR" secondAttribute="top" constant="50" id="cJw-dS-eff"/>
                             <constraint firstItem="9u3-ia-cKw" firstAttribute="top" secondItem="XzN-Ds-EMF" secondAttribute="top" id="dNc-K1-ZWU"/>
-                            <constraint firstItem="XgC-Ur-G0M" firstAttribute="leading" secondItem="ic0-qx-RYR" secondAttribute="leading" constant="10" id="h6f-o8-j3U"/>
+                            <constraint firstItem="XgC-Ur-G0M" firstAttribute="leading" secondItem="ic0-qx-RYR" secondAttribute="leading" constant="10" id="h6f-o8-j3U">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstItem="FYC-3g-7wf" firstAttribute="leading" secondItem="ic0-qx-RYR" secondAttribute="leading" constant="15" id="kDR-kx-l8Q"/>
                             <constraint firstItem="ic0-qx-RYR" firstAttribute="trailing" secondItem="7nx-4Q-AWa" secondAttribute="trailing" constant="10" id="lQw-xU-4uI"/>
                             <constraint firstItem="ic0-qx-RYR" firstAttribute="trailing" secondItem="9u3-ia-cKw" secondAttribute="trailing" id="xoS-4e-BY6"/>
@@ -910,6 +963,10 @@
                         <outlet property="imgVwTest2" destination="aEn-Uq-No3" id="Nkh-U4-cRa"/>
                         <outlet property="imgVwTest3" destination="aWX-21-wnP" id="CUT-2e-dET"/>
                         <outlet property="imgVwTest4" destination="Y7v-yi-LeU" id="zLg-bw-GdO"/>
+                        <outlet property="lblTestI" destination="0Uz-4o-Evg" id="iel-Wl-Sqt"/>
+                        <outlet property="lblTestII" destination="gj8-yH-CX6" id="7b8-1V-0eq"/>
+                        <outlet property="lblTestIII" destination="KMr-CA-DSf" id="toi-0l-o5a"/>
+                        <outlet property="lblTestIV" destination="hhw-oN-r24" id="pvB-cq-FqY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nWf-Dz-gLu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -956,7 +1013,9 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Rl5-15-3d8" secondAttribute="height" multiplier="1:1" id="Hki-5B-b86"/>
-                                    <constraint firstAttribute="width" constant="42" id="ldK-fH-Vuf"/>
+                                    <constraint firstAttribute="width" constant="42" id="ldK-fH-Vuf">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="52"/>
+                                    </constraint>
                                 </constraints>
                                 <state key="normal" backgroundImage="BackButton"/>
                                 <connections>
@@ -968,6 +1027,9 @@
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
                                 <color key="textColor" red="1" green="0.4549019608" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="43"/>
+                                </variation>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHS-KB-ddr" userLabel="BtnAds">
                                 <rect key="frame" x="297" y="54" width="40" height="40"/>
@@ -989,7 +1051,7 @@
                                     <action selector="funcSound_ON_OFF:" destination="Ij2-iy-pmT" eventType="touchUpInside" id="2gb-bZ-86V"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5TE-1w-QWb">
+                            <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5TE-1w-QWb">
                                 <rect key="frame" x="0.0" y="116" width="414" height="414"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" pagingEnabled="YES" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4UZ-TE-fgU">
@@ -1122,7 +1184,9 @@
                             <constraint firstAttribute="trailing" secondItem="RXe-lB-wBk" secondAttribute="trailing" id="CsU-SY-Gm6"/>
                             <constraint firstItem="RXe-lB-wBk" firstAttribute="leading" secondItem="8hf-Ab-EfA" secondAttribute="leading" id="DWM-2j-mpH"/>
                             <constraint firstItem="Rl5-15-3d8" firstAttribute="top" secondItem="8qt-LO-D8c" secondAttribute="top" id="Da1-Km-dgT"/>
-                            <constraint firstItem="5TE-1w-QWb" firstAttribute="top" secondItem="Rl5-15-3d8" secondAttribute="bottom" constant="20" id="FSK-PR-6NI"/>
+                            <constraint firstItem="5TE-1w-QWb" firstAttribute="top" secondItem="Rl5-15-3d8" secondAttribute="bottom" constant="20" id="FSK-PR-6NI">
+                                <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                            </constraint>
                             <constraint firstItem="OHS-KB-ddr" firstAttribute="width" secondItem="OHS-KB-ddr" secondAttribute="height" multiplier="1:1" id="Hg1-uO-rFS"/>
                             <constraint firstItem="Rh1-Rl-aSR" firstAttribute="leading" secondItem="ehr-wd-Ohb" secondAttribute="leading" constant="20" id="JQf-Bf-6Yc"/>
                             <constraint firstItem="txb-wE-Ani" firstAttribute="leading" secondItem="ehr-wd-Ohb" secondAttribute="leading" id="MAO-uW-k81"/>
@@ -1146,7 +1210,9 @@
                             <constraint firstItem="qBx-hV-vCt" firstAttribute="leading" secondItem="ehr-wd-Ohb" secondAttribute="leading" id="vXA-We-9vK"/>
                             <constraint firstItem="ehr-wd-Ohb" firstAttribute="trailing" secondItem="SPt-oj-wje" secondAttribute="trailing" constant="20" id="vxA-cQ-A5Q"/>
                             <constraint firstAttribute="bottom" secondItem="txb-wE-Ani" secondAttribute="bottom" id="w7q-ed-xAi"/>
-                            <constraint firstItem="8qt-LO-D8c" firstAttribute="top" secondItem="ehr-wd-Ohb" secondAttribute="top" constant="10" id="xjg-Gf-B7J"/>
+                            <constraint firstItem="8qt-LO-D8c" firstAttribute="top" secondItem="ehr-wd-Ohb" secondAttribute="top" constant="10" id="xjg-Gf-B7J">
+                                <variation key="heightClass=regular-widthClass=regular" constant="15"/>
+                            </constraint>
                             <constraint firstAttribute="bottom" secondItem="qBx-hV-vCt" secondAttribute="bottom" id="yM0-CL-0hQ"/>
                         </constraints>
                     </view>
@@ -1159,6 +1225,7 @@
                         <outlet property="btnSound" destination="8qt-LO-D8c" id="5T2-Fa-sH7"/>
                         <outlet property="collectionViewCard" destination="4UZ-TE-fgU" id="1eX-hT-fcL"/>
                         <outlet property="imgViewLoader" destination="gBG-eo-zeb" id="aIf-SN-dhh"/>
+                        <outlet property="imgViewbottomBg" destination="RXe-lB-wBk" id="Dux-qh-Z2q"/>
                         <outlet property="lblQuestion" destination="xvH-RP-11f" id="FVQ-eY-COH"/>
                         <outlet property="trailingConstraintTitle" destination="Tij-DY-8aY" id="V2i-4n-nhs"/>
                         <outlet property="viewTransperent" destination="txb-wE-Ani" id="h6u-73-R5H"/>

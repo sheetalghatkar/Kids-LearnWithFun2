@@ -37,6 +37,9 @@ class HomeViewController: UIViewController {
 //    @IBOutlet weak var widthHouseImg: NSLayoutConstraint!
     @IBOutlet weak var  WidthSound: NSLayoutConstraint!
     @IBOutlet weak var widthHouseImg: NSLayoutConstraint!
+    @IBOutlet weak var WidthLblGardenImg: NSLayoutConstraint!
+    @IBOutlet weak var heightLblGardenImg: NSLayoutConstraint!
+
     var fromShareApp = false
 
 
@@ -70,7 +73,6 @@ class HomeViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         player.stop()
     }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -150,17 +152,7 @@ class HomeViewController: UIViewController {
         if !(UIDevice.current.hasNotch) {
             self.WidthSound.constant = 36
             widthHouseImg.constant = 100
-            imgVwWildAnimal.layer.cornerRadius = (widthHouseImg.constant)/2
-            imgVwPetAnimal.layer.cornerRadius = (widthHouseImg.constant)/2
-            imgVwBird.layer.cornerRadius = (widthHouseImg.constant)/2
-            imgVwFlower.layer.cornerRadius = (widthHouseImg.constant)/2
-            imgVwTest.layer.cornerRadius = (widthHouseImg.constant)/2
         }
-        lblHouse.font = fontImageTitleLbl
-        lblKitchen.font = fontImageTitleLbl
-        lblGardeningTools.font = fontImageTitleLbl
-        lblStationeryItems.font = fontImageTitleLbl
-        lblTest.font = fontImageTitleLbl
         
         let loaderGif1 = UIImage.gifImageWithName("animated-clipart-house")
         let loaderGif2 = UIImage.gifImageWithName("animated-clipart-house")
@@ -168,8 +160,33 @@ class HomeViewController: UIViewController {
         imgViewBottomGif1.image = loaderGif1
         imgViewBottomGif2.image = loaderGif2
 //        imgViewBottomGif3.image = loaderGif
+        
+        if (UIDevice.current.userInterfaceIdiom == .pad) {
+            self.WidthSound.constant = 45
+            self.floaty.isHidden = true
+            self.btnSetting.isHidden = true
+            widthHouseImg.constant = 150
+            if UIScreen.main.bounds.height > 1100 {
+                self.WidthSound.constant = 52
+                widthHouseImg.constant = 200
+                WidthLblGardenImg.constant = 300
+                heightLblGardenImg.constant = 160
+                fontImageTitleLbl = UIFont(name: "ChalkboardSE-Bold", size: 42)
+            }
+        }
+        imgVwWildAnimal.layer.cornerRadius = (widthHouseImg.constant)/2
+        imgVwPetAnimal.layer.cornerRadius = (widthHouseImg.constant)/2
+        imgVwBird.layer.cornerRadius = (widthHouseImg.constant)/2
+        imgVwFlower.layer.cornerRadius = (widthHouseImg.constant)/2
+        imgVwTest.layer.cornerRadius = (widthHouseImg.constant)/2
 
         
+        lblHouse.font = fontImageTitleLbl
+        lblKitchen.font = fontImageTitleLbl
+        lblGardeningTools.font = fontImageTitleLbl
+        lblStationeryItems.font = fontImageTitleLbl
+        lblTest.font = fontImageTitleLbl
+
     }
     func daysRemainingOnSubscription(getExpireDate: Date) -> Int {
 

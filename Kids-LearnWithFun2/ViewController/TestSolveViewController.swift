@@ -24,7 +24,9 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
     @IBOutlet weak var trailingConstraintTitle: NSLayoutConstraint!
     @IBOutlet weak var widthConstraintHome: NSLayoutConstraint!
     @IBOutlet weak var bottomConstraintBottomBg: NSLayoutConstraint!
+    @IBOutlet weak var imgViewbottomBg: UIImageView!
 
+    
     var bannerView: GADBannerView!
     var interstitial: GADInterstitial?
     let defaults = UserDefaults.standard
@@ -92,12 +94,17 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
         }
         if !(UIDevice.current.hasNotch) {
             widthConstraintHome.constant = 38
-            lblQuestion.font = fontImageTitleLbl
+        }
+        if (UIDevice.current.userInterfaceIdiom == .pad) {
+            fontImageTitleLbl = UIFont(name: "ChalkboardSE-Bold", size: 42)
+            widthConstraintHome.constant = 52
+            self.imgViewbottomBg.isHidden = true
         }
         btnPlayAgain.layer.cornerRadius = (widthConstraintHome.constant + 6)/2
         btnPlayAgain.layer.borderColor = CommanArray.paymentBtnTextColor.cgColor
         btnPlayAgain.layer.borderWidth = 2.5
-        
+        lblQuestion.font = fontImageTitleLbl
+
         if UIScreen.main.bounds.size.height < 740.0 {
             bottomConstraintBottomBg.constant = -70
         }
@@ -108,8 +115,6 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
     override func viewDidAppear(_ animated: Bool) {
         //Start Timer
         if !defaults.bool(forKey:"IsPrimeUser") {
-            if let _ = btnNoAds {
-                self.btnNoAds.isHidden = false
                 if bannerView != nil {
                     if timer == nil {
                         if Reachability.isConnectedToNetwork() {
@@ -127,7 +132,6 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
                         }
                     }
                 }
-            }
         }
     }
 
@@ -139,6 +143,10 @@ class TestSolveViewController: UIViewController, UICollectionViewDelegate, UICol
                 if bannerView != nil {
                     bannerView.removeFromSuperview()
                 }
+            }
+        } else {
+            if let _ = btnNoAds {
+                self.btnNoAds.isHidden = false
             }
         }
     }

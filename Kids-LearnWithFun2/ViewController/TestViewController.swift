@@ -20,6 +20,11 @@ class TestViewController: UIViewController,PayementForParentProtocol {
     @IBOutlet weak var imgViewLock2: UIImageView!
     @IBOutlet weak var imgViewLock3: UIImageView!
     @IBOutlet weak var imgViewLock4: UIImageView!
+    @IBOutlet weak var lblTestI: UILabel!
+    @IBOutlet weak var lblTestII: UILabel!
+    @IBOutlet weak var lblTestIII: UILabel!
+    @IBOutlet weak var lblTestIV: UILabel!
+
 
     var appDelegate = UIApplication.shared.delegate as! AppDelegate
     var paymentDetailVC : PaymentDetailViewController?
@@ -71,6 +76,17 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                 self.present(alert, animated: true, completion: nil)
             }
         }
+        if (UIDevice.current.userInterfaceIdiom == .pad) {
+            if UIScreen.main.bounds.height > 1100 {
+                let fontImageTitleLbl = UIFont(name: "ChalkboardSE-Bold", size: 42)
+                lblTestI.font = fontImageTitleLbl
+                lblTestII.font = fontImageTitleLbl
+                lblTestIII.font = fontImageTitleLbl
+                lblTestIV.font = fontImageTitleLbl
+            }
+        }
+        
+
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -79,11 +95,6 @@ class TestViewController: UIViewController,PayementForParentProtocol {
     
     override func viewDidAppear(_ animated: Bool) {
         if !defaults.bool(forKey:"IsPrimeUser") {
-            if let _ = btnNoAds, let _ = imgViewLock2, let _ = imgViewLock3, let _ = imgViewLock4 {
-                self.btnNoAds.isHidden = false
-                self.imgViewLock2.isHidden = false
-                self.imgViewLock3.isHidden = false
-                self.imgViewLock4.isHidden = false
                 if bannerView != nil {
                     if timer == nil {
                         if Reachability.isConnectedToNetwork() {
@@ -101,20 +112,20 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                         }
                     }
                 }
-            }
         }
     }
 
     override func viewWillAppear(_ animated: Bool) {
         if defaults.bool(forKey:"IsPrimeUser") {
-            if let _ = btnNoAds, let _ = imgViewLock2, let _ = imgViewLock3, let _ = imgViewLock4 {
+            if let _ = btnNoAds {
                 self.btnNoAds.isHidden = true
-                self.imgViewLock2.isHidden = true
-                self.imgViewLock3.isHidden = true
-                self.imgViewLock4.isHidden = true
                 if bannerView != nil {
                     bannerView.removeFromSuperview()
                 }
+            }
+        } else {
+            if let _ = btnNoAds {
+                self.btnNoAds.isHidden = false
             }
         }
     }
@@ -278,7 +289,6 @@ class TestViewController: UIViewController,PayementForParentProtocol {
             self.navigationController?.pushViewController(setTestSolveVC, animated: true)
         }
         else if tapGestureRecognizer.view?.tag == 2 {
-            if defaults.bool(forKey:"IsPrimeUser") {
                 let solveTestArray = [[
                     CommanArray.kitchenUtensilsNameArray[16]+"-"+"0",
                     CommanArray.kitchenUtensilsNameArray[10]+"-"+"0",
@@ -403,12 +413,8 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                 setTestSolveVC.showOptionsArray = solveTestArray
                 setTestSolveVC.getImageNameArray = CommanArray.kitchenUtensilsNameArray
                 self.navigationController?.pushViewController(setTestSolveVC, animated: true)
-            } else {
-                showPaymentScreen()
-            }
         }
         else if tapGestureRecognizer.view?.tag == 3 {
-            if defaults.bool(forKey:"IsPrimeUser") {
                 let solveTestArray = [
                     [
                        CommanArray.gardeningNameArray[2]+"-"+"0",
@@ -492,12 +498,8 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                 setTestSolveVC.showOptionsArray = solveTestArray
                 setTestSolveVC.getImageNameArray = CommanArray.gardeningNameArray
                 self.navigationController?.pushViewController(setTestSolveVC, animated: true)
-            } else {
-                showPaymentScreen()
-            }
         }
         else if tapGestureRecognizer.view?.tag == 4 {
-            if defaults.bool(forKey:"IsPrimeUser") {
             let solveTestArray = [[
                 CommanArray.schoolNameArray[16]+"-"+"0",
                 CommanArray.schoolNameArray[10]+"-"+"0",
@@ -618,13 +620,10 @@ class TestViewController: UIViewController,PayementForParentProtocol {
                   CommanArray.schoolNameArray[11]+"-"+"0",
                   CommanArray.schoolNameArray[0]+"-"+"0"
               ]
-      ]
+           ]
                 setTestSolveVC.showOptionsArray = solveTestArray
                 setTestSolveVC.getImageNameArray = CommanArray.schoolNameArray
                 self.navigationController?.pushViewController(setTestSolveVC, animated: true)
-            } else {
-                showPaymentScreen()
-            }
         }
     }
     // MARK: - User defined Functions

@@ -31,6 +31,7 @@
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ParentGateBg" translatesAutoresizingMaskIntoConstraints="NO" id="YM6-7S-nib">
                             <rect key="frame" x="0.0" y="0.0" width="384" height="780"/>
+                            <color key="backgroundColor" red="0.50980392156862742" green="0.73725490196078436" blue="0.20784313725490194" alpha="1" colorSpace="calibratedRGB"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                     <integer key="value" value="20"/>
@@ -46,6 +47,9 @@
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                            </variation>
                         </label>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SPL-GL-vlI">
                             <rect key="frame" x="10" y="67" width="364" height="673"/>
@@ -59,7 +63,9 @@
                     <constraints>
                         <constraint firstItem="qkm-vV-Tme" firstAttribute="top" secondItem="MtS-Yh-G5w" secondAttribute="top" constant="17" id="1BY-A4-Aj9"/>
                         <constraint firstAttribute="trailing" secondItem="YM6-7S-nib" secondAttribute="trailing" id="7vo-Aj-KMI"/>
-                        <constraint firstAttribute="trailing" secondItem="SPL-GL-vlI" secondAttribute="trailing" constant="10" id="EkQ-Nk-Mzi"/>
+                        <constraint firstAttribute="trailing" secondItem="SPL-GL-vlI" secondAttribute="trailing" constant="10" id="EkQ-Nk-Mzi">
+                            <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                        </constraint>
                         <constraint firstItem="YM6-7S-nib" firstAttribute="leading" secondItem="MtS-Yh-G5w" secondAttribute="leading" id="ExP-HY-aWD"/>
                         <constraint firstAttribute="bottom" secondItem="YM6-7S-nib" secondAttribute="bottom" id="Ptu-Mu-8e8"/>
                         <constraint firstAttribute="trailing" secondItem="qkm-vV-Tme" secondAttribute="trailing" constant="10" id="XzC-me-vF6"/>
@@ -67,7 +73,9 @@
                         <constraint firstItem="YM6-7S-nib" firstAttribute="top" secondItem="MtS-Yh-G5w" secondAttribute="top" id="rlu-r9-9hV"/>
                         <constraint firstAttribute="height" constant="780" id="wJo-Ov-2bH"/>
                         <constraint firstItem="SPL-GL-vlI" firstAttribute="leading" secondItem="MtS-Yh-G5w" secondAttribute="leading" constant="10" id="wzP-dq-MSv"/>
-                        <constraint firstItem="qkm-vV-Tme" firstAttribute="leading" secondItem="MtS-Yh-G5w" secondAttribute="leading" constant="10" id="yEi-QF-mAK"/>
+                        <constraint firstItem="qkm-vV-Tme" firstAttribute="leading" secondItem="MtS-Yh-G5w" secondAttribute="leading" constant="10" id="yEi-QF-mAK">
+                            <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                        </constraint>
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -85,8 +93,12 @@
                     <rect key="frame" x="157" y="778" width="100" height="40"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="100" id="4C0-9O-gCN"/>
-                        <constraint firstAttribute="height" constant="40" id="4nC-UL-wlk"/>
+                        <constraint firstAttribute="width" constant="100" id="4C0-9O-gCN">
+                            <variation key="heightClass=regular-widthClass=regular" constant="110"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="40" id="4nC-UL-wlk">
+                            <variation key="heightClass=regular-widthClass=regular" constant="55"/>
+                        </constraint>
                     </constraints>
                     <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
                     <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="3"/>
@@ -95,7 +107,7 @@
                     </state>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                            <color key="value" red="0.1450980392" green="0.62745098040000002" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="value" red="0.28627450980000002" green="0.42352941179999998" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                             <real key="value" value="10"/>
@@ -116,6 +128,9 @@
                             <color key="value" red="0.1450980392" green="0.62745098040000002" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                    </variation>
                     <connections>
                         <action selector="funcOK:" destination="-1" eventType="touchUpInside" id="iYs-no-aWb"/>
                     </connections>
