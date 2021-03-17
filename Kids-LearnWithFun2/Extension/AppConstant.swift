@@ -153,7 +153,7 @@ class CommanArray {
     static var productId_Month_Non_Recurring = "com.mobiapps360.LearnHouseObjects.MonthlyNonRecurring"
 
     
-    static var timerForAds = 15.0
+    static var timerForAds = 30.0
 
 }
 /**

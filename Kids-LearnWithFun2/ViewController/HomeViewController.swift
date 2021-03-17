@@ -186,7 +186,6 @@ class HomeViewController: UIViewController {
         lblGardeningTools.font = fontImageTitleLbl
         lblStationeryItems.font = fontImageTitleLbl
         lblTest.font = fontImageTitleLbl
-
     }
     func daysRemainingOnSubscription(getExpireDate: Date) -> Int {
 
