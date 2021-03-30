@@ -18,6 +18,10 @@
 		4F1DAE9625D82AB5000852D6 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8C25D82AB5000852D6 /* UserMessagingPlatform.xcframework */; };
 		4F1DAE9725D82AB5000852D6 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8D25D82AB5000852D6 /* GoogleMobileAds.xcframework */; };
 		4F1DAE9825D82AB5000852D6 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DAE8E25D82AB5000852D6 /* GoogleUtilities.xcframework */; };
+		4F2BB92526132B3B00E0EFF2 /* OtherAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BB92326132B3B00E0EFF2 /* OtherAppsViewController.swift */; };
+		4F2BB92626132B3B00E0EFF2 /* OtherAppsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F2BB92426132B3B00E0EFF2 /* OtherAppsViewController.xib */; };
+		4F2BB92C2613322100E0EFF2 /* OtherAppsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BB92A2613322100E0EFF2 /* OtherAppsTableViewCell.swift */; };
+		4F2BB92D2613322100E0EFF2 /* OtherAppsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F2BB92B2613322100E0EFF2 /* OtherAppsTableViewCell.xib */; };
 		4F77C0A125DE83C800D2E1CC /* SubscriptionDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F77C09F25DE83C800D2E1CC /* SubscriptionDetailsController.xib */; };
 		4F77C0A225DE83C800D2E1CC /* SubscriptionDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0A025DE83C800D2E1CC /* SubscriptionDetailsController.swift */; };
 		4F77C0A825DE83D200D2E1CC /* PaymentCostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77C0A625DE83D200D2E1CC /* PaymentCostController.swift */; };
@@ -275,6 +279,10 @@
 		4F1DAE8C25D82AB5000852D6 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		4F1DAE8D25D82AB5000852D6 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		4F1DAE8E25D82AB5000852D6 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		4F2BB92326132B3B00E0EFF2 /* OtherAppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherAppsViewController.swift; sourceTree = "<group>"; };
+		4F2BB92426132B3B00E0EFF2 /* OtherAppsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherAppsViewController.xib; sourceTree = "<group>"; };
+		4F2BB92A2613322100E0EFF2 /* OtherAppsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherAppsTableViewCell.swift; sourceTree = "<group>"; };
+		4F2BB92B2613322100E0EFF2 /* OtherAppsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherAppsTableViewCell.xib; sourceTree = "<group>"; };
 		4F77C09F25DE83C800D2E1CC /* SubscriptionDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubscriptionDetailsController.xib; sourceTree = "<group>"; };
 		4F77C0A025DE83C800D2E1CC /* SubscriptionDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionDetailsController.swift; sourceTree = "<group>"; };
 		4F77C0A625DE83D200D2E1CC /* PaymentCostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentCostController.swift; path = "../../../../Game 1/Kids-LearnWithFun1/Kids-LearnWithFun1/PaymentDetail/PaymentCostController.swift"; sourceTree = "<group>"; };
@@ -780,6 +788,8 @@
 				70631FEA249776AB00DAE930 /* ImagesCollectionViewController.swift */,
 				70270FDA24A369A900EB8DAB /* TestViewController.swift */,
 				70E468A424A8D0E2008C8FFB /* TestSolveViewController.swift */,
+				4F2BB92326132B3B00E0EFF2 /* OtherAppsViewController.swift */,
+				4F2BB92426132B3B00E0EFF2 /* OtherAppsViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -791,6 +801,8 @@
 				70631FF22497F11B00DAE930 /* PictureCollectionCell.xib */,
 				7068EFD224AB5DCE00B448C3 /* TestSolveCollectionCell.swift */,
 				7068EFD324AB5DCE00B448C3 /* TestSolveCollectionCell.xib */,
+				4F2BB92A2613322100E0EFF2 /* OtherAppsTableViewCell.swift */,
+				4F2BB92B2613322100E0EFF2 /* OtherAppsTableViewCell.xib */,
 			);
 			path = CollectionCell;
 			sourceTree = "<group>";
@@ -1109,6 +1121,7 @@
 				4FAE21AA25DF8AFF00DC29DE /* Stapler_Question.mp3 in Resources */,
 				70EC9BA224C758E5009F8B8E /* Watering Can_Question.mp3 in Resources */,
 				70E3B42824C453CE0053B679 /* Spade.mp3 in Resources */,
+				4F2BB92D2613322100E0EFF2 /* OtherAppsTableViewCell.xib in Resources */,
 				70EC9B8024C72086009F8B8E /* Wardrobe_Question.mp3 in Resources */,
 				70E3B42D24C4556A0053B679 /* Hedge Shears.mp3 in Resources */,
 				70EC9B3B24C719C7009F8B8E /* Ladle_Question.mp3 in Resources */,
@@ -1221,6 +1234,7 @@
 				7017AA1224BB410100C46A97 /* Window.mp3 in Resources */,
 				70EC9B4624C719C7009F8B8E /* Pitcher_Question.mp3 in Resources */,
 				4FAE21B425DF8AFF00DC29DE /* Map_Question.mp3 in Resources */,
+				4F2BB92626132B3B00E0EFF2 /* OtherAppsViewController.xib in Resources */,
 				70E5E8C224BDE358002B2032 /* Pan.mp3 in Resources */,
 				4FAE21A525DF8AFF00DC29DE /* Sharpner_Question.mp3 in Resources */,
 				4FAE21A725DF8AFF00DC29DE /* Pencil_Question.mp3 in Resources */,
@@ -1318,8 +1332,10 @@
 				4F77C0CC25DE85C400D2E1CC /* PaymentsController.swift in Sources */,
 				707ECA22249CB3E10024D06C /* UIViewExtension.swift in Sources */,
 				70FF093724965879002861AE /* GIFSwift.swift in Sources */,
+				4F2BB92C2613322100E0EFF2 /* OtherAppsTableViewCell.swift in Sources */,
 				70FF093C24966856002861AE /* UIImageviewExtension.swift in Sources */,
 				70FF090A24962D9B002861AE /* HomeViewController.swift in Sources */,
+				4F2BB92526132B3B00E0EFF2 /* OtherAppsViewController.swift in Sources */,
 				4F77C0AF25DE83DB00D2E1CC /* CustomLiceneModelController.swift in Sources */,
 				4FCD53F925DD36D00086FEA3 /* FloatyWindow.swift in Sources */,
 				4F77C0A225DE83C800D2E1CC /* SubscriptionDetailsController.swift in Sources */,
@@ -1541,7 +1557,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.5;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobiapps360.LearnHouseObjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1570,7 +1586,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.5;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobiapps360.LearnHouseObjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";

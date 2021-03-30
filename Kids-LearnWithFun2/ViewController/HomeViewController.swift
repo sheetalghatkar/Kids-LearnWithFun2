@@ -41,7 +41,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var heightLblGardenImg: NSLayoutConstraint!
 
     var fromShareApp = false
-
+    var isUpdateAvaible = false
 
     @IBOutlet weak var floaty : Floaty!
         {
@@ -54,6 +54,8 @@ class HomeViewController: UIViewController {
     var fontImageTitleLbl = UIFont(name: "ChalkboardSE-Bold", size: 24)
     let rateUsImg = UIImage(named: "RateUs.png")
     let shareAppImg = UIImage(named: "ShareApp.png")
+    let otherAppsImg = UIImage(named: "OtherApps.png")
+    let updateAppImg = UIImage(named: "UpdateApp.png")
 
     var player = AVAudioPlayer()
     var appDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -112,16 +114,38 @@ class HomeViewController: UIViewController {
         self.floaty.floatingActionButtonDelegate = self
         self.floaty.addItem(icon: rateUsImg, handler: { [self]_ in
             self.floaty.close()
-            self.paymentDetailVC = PaymentDetailViewController(nibName: "PaymentDetailViewController", bundle: nil)
+            self.appstoreRateAndReview()
+           /* self.paymentDetailVC = PaymentDetailViewController(nibName: "PaymentDetailViewController", bundle: nil)
             self.paymentDetailVC?.showHomeScreenRateReview = true
-            self.showPaymentScreen()
+            self.showPaymentScreen()*/
         })
         self.floaty.addItem(icon: shareAppImg, handler: {_ in
-            self.paymentDetailVC = PaymentDetailViewController(nibName: "PaymentDetailViewController", bundle: nil)
+            self.floaty.close()
+            self.shareApp()
+           /* self.paymentDetailVC = PaymentDetailViewController(nibName: "PaymentDetailViewController", bundle: nil)
             self.paymentDetailVC?.showHomeScreenShareApp = true
             self.showPaymentScreen()
-            self.floaty.close()
+            self.floaty.close()*/
         })
+        self.floaty.addItem(icon: otherAppsImg, handler: { [self]_ in
+            self.floaty.close()
+            let otherAppsVC = OtherAppsViewController(nibName: "OtherAppsViewController", bundle: nil)
+            self.navigationController?.pushViewController(otherAppsVC, animated: true)
+        })
+        floaty.items[0].title = "Rate & Review"
+        floaty.items[1].title = "Share App"
+        floaty.items[2].title = "Our Other Apps"
+        
+        isUpdateAvaible = checkForAppUpdate()
+
+        if isUpdateAvaible {
+            self.floaty.addItem(icon: updateAppImg, handler: {_ in
+                self.floaty.close()
+                self.redirectToAppStoreForUpdate()
+            })
+            floaty.items[3].title = "Update App"
+        }
+
 //        self.floaty.addItem(icon: contactUsImg, handler: { [self]_ in
 //            let mailComposeViewController = configureMailComposer()
 //              if MFMailComposeViewController.canSendMail(){
@@ -139,8 +163,7 @@ class HomeViewController: UIViewController {
 //              }
 //            self.floaty.close()
 //        })
-        floaty.items[0].title = "Rate & Review"
-        floaty.items[1].title = "Share App"
+
 //        floaty.items[2].title = "Contact Us"
         
         addWaveBackground(to :viewtransperent)
@@ -186,7 +209,43 @@ class HomeViewController: UIViewController {
         lblGardeningTools.font = fontImageTitleLbl
         lblStationeryItems.font = fontImageTitleLbl
         lblTest.font = fontImageTitleLbl
+        
     }
+    func redirectToAppStoreForUpdate() {
+        let components = URLComponents(url: CommanArray.app_AppStoreLink!, resolvingAgainstBaseURL: false)
+        
+        guard let writeReviewURL = components?.url else {
+          return
+        }
+        UIApplication.shared.open(writeReviewURL)
+    }
+    func checkForAppUpdate() -> Bool {
+        if Reachability.isConnectedToNetwork() {
+            let infoDictionary = Bundle.main.infoDictionary
+            let appID = infoDictionary!["CFBundleIdentifier"] as! String
+            guard let url = URL(string: "http://itunes.apple.com/lookup?bundleId=\(appID)") else { return false }
+            guard let data = try? Data(contentsOf: url) else {
+              print("There is an error!")
+              return false;
+            }
+            let lookup = (try? JSONSerialization.jsonObject(with: data , options: [])) as? [String: Any]
+            if let resultCount = lookup!["resultCount"] as? Int, resultCount == 1 {
+                if let results = lookup!["results"] as? [[String:Any]] {
+                    if let appStoreVersion = results[0]["version"] as? String{
+                        let currentVersion = infoDictionary!["CFBundleShortVersionString"] as? String
+                        if !(appStoreVersion == currentVersion) {
+                            print("Need to update [\(appStoreVersion) != \(currentVersion)]")
+                            return true
+                        }
+                    }
+                }
+            }
+            return false
+        } else {
+            return false
+        }
+    }
+    
     func daysRemainingOnSubscription(getExpireDate: Date) -> Int {
 
         return Calendar.current.dateComponents([.day], from: Date(), to: getExpireDate).day!
@@ -357,15 +416,34 @@ class HomeViewController: UIViewController {
         showHideAdsButton()
     }
     func addWaveBackground(to view: UIView){
-          let multipler = CGFloat(0.07)  //0.13
-        
-          let leftDrop:CGFloat = 0.4 + multipler
-          let leftInflexionX: CGFloat = 0.4 + multipler
-          let leftInflexionY: CGFloat = 0.47 + multipler
+        let multipler = CGFloat(0.1)  //0.13
+        var leftDrop : CGFloat = 0.0
+        var leftInflexionX : CGFloat = 0.0
+        var leftInflexionY : CGFloat = 0.0
 
-          let rightDrop: CGFloat = 0.3 +  multipler
-          let rightInflexionX: CGFloat = 0.6  +  multipler
-          let rightInflexionY: CGFloat = 0.22 + multipler
+        if isUpdateAvaible {
+            leftDrop = 0.5 + multipler
+            leftInflexionX = 0.5 + multipler
+            leftInflexionY = 0.57 + multipler
+        } else {
+            leftDrop = 0.45 + multipler
+            leftInflexionX = 0.45 + multipler
+            leftInflexionY = 0.52 + multipler
+        }
+        var rightDrop : CGFloat = 0.0
+        var rightInflexionX : CGFloat = 0.0
+        var rightInflexionY : CGFloat = 0.0
+
+        if isUpdateAvaible {
+           rightDrop  = 0.4 +  multipler
+           rightInflexionX = 0.7  +  multipler
+           rightInflexionY = 0.25 + multipler
+        } else {
+            rightDrop = 0.37 +  multipler
+            rightInflexionX = 0.65  +  multipler
+            rightInflexionY = 0.20 + multipler
+        }
+
 
           let backView = UIView(frame: view.frame)
           backView.backgroundColor = .clear
@@ -374,10 +452,12 @@ class HomeViewController: UIViewController {
           let path = UIBezierPath()
           path.move(to: CGPoint(x: 0, y: 0))
           path.addLine(to: CGPoint(x:0, y: view.frame.height * leftDrop))
-          path.addCurve(to: CGPoint(x:225, y: view.frame.height * rightDrop),
+          path.addCurve(to: CGPoint(x:250, y: view.frame.height * rightDrop),
                         controlPoint1: CGPoint(x: view.frame.width * leftInflexionX, y: view.frame.height * leftInflexionY),
                         controlPoint2: CGPoint(x: view.frame.width * rightInflexionX, y: view.frame.height * rightInflexionY+30))
-          path.addLine(to: CGPoint(x:225, y: 0))
+//          path.addLine(to: CGPoint(x:225, y: 0))
+        path.addLine(to: CGPoint(x:250, y: 0))
+
           path.close()
           backLayer.fillColor = CommanArray.settingBgColor.cgColor //UIColor.blue.cgColor
           backLayer.path = path.cgPath
@@ -507,7 +587,7 @@ extension HomeViewController : PayementForParentProtocol {
     }
     
     func appstoreRateAndReview() {
-        paymentDetailVC?.view.removeFromSuperview()
+        //paymentDetailVC?.view.removeFromSuperview()
         var components = URLComponents(url: CommanArray.app_AppStoreLink!, resolvingAgainstBaseURL: false)
         components?.queryItems = [
           URLQueryItem(name: "action", value: "write-review")
